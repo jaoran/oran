@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Refresh" content="10">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+
+        }
+        nav {
+            margin: 0;
+            width: 100vw;
+            height: 8vh;
+            justify-content: center;
+            background-color: darkslategray;
+        }
+        #content_left {
+            width: 40vw;
+            height: 90vh;
+            display: inline-grid;
+            background-color: cadetblue;
+        }
+
+        #content_right {
+            width: 40vw;
+            height: 90vh;
+            display: inline-grid;
+            background-color: aqua;
+        }
+        article {
+            width: 100vw;
+            height: 80vh;
+            border: 2px solid red;
+        }
+        h1 {
+
+            position: relative;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-delay: 2s;
+        }
+
+        @keyframes example {
+            0%   {left:0; top:0;}
+            25%  {left:700px; top:0px;}
+            50%  {left:700px; top:200px;}
+            75%  {left:0; top:200px;}
+            100% {left:0; top:0;}
+        }
+        .blob {
+            background: green;
+            border-radius: 50%;
+            margin: 10px;
+            height: 100px;
+            width: 100px;
+
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+            transform: skew(0deg);
+            animation: pulse 8s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: skew(0);
+                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+            }
+
+            50% {
+                transform: skew(90deg);
+                box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+            }
+
+            75% {
+                transform: skew(120deg);
+                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            }
+            100% {
+                background: red;
+            }
+        }
+    </style>
+</head>
+<body>
+<nav> <div> Home </div></nav>
+<aside></aside>
+<div id="content_left"> <h1> left </h1></div>
+<div id="content_space"></div>
+<div id="content_right">right</div>
+<article> <div class="blob"></div></article>
+<footer> </footer>
+</body>
+</html>
