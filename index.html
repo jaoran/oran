@@ -4,135 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <title>Title</title>
-    <style>
-        body {
-            margin: 0;
-
-        }
-        nav {
-            margin: 0;
-            width: 100vw;
-            height: 8vh;
-            justify-content: center;
-            background-color: darkslategray;
-        }
-        .name {
-            border: solid red 2px;
-            width: 150px;
-            height: 7vh;
-            align-content: center;
-            color: white;
-            font-size: 120%;
-            display: inline-block;
-            text-align: center;
-            font-family: "Times New Roman", Times, serif;
-        }
-        .second_name {
-            display: inline-block;
-            border: solid blue 3px;
-            height: 7vh;
-            float: right;
-            align-content: center;
-            text-align: center;
-            font-size: 120%;
-            width: 20vh;
-            color: white;
-            font-family: "Times New Roman", Times, serif;
-        }
-        #content_left {
-            width: 20vw;
-            height: 90vh;
-            display: inline-grid;
-            background-color: cadetblue;
-        }
-
-        #content_right {
-            width: 30vw;
-            height: 90vh;
-            display: inline-grid;
-            background-color: aqua;
-        }
-        article {
-            width: 100vw;
-            height: 80vh;
-            border: 2px solid red;
-        }
-        h1 {
-
-            position: relative;
-            animation-name: example;
-            animation-duration: 4s;
-            animation-delay: 2s;
-        }
-
-        @keyframes example {
-            0%   {left:0; top:0;}
-            25%  {left:300px; top:0px;}
-            50%  {left:300px; top:200px;}
-            75%  {left:0; top:200px;}
-            100% {left:0; top:0;}
-        }
-        .blob {
-            background: green;
-            border-radius: 50%;
-            margin: 10px;
-            height: 100px;
-            width: 100px;
-
-            box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-            transform: skew(0deg);
-            animation: pulse 8s infinite;
-        }
-
-        @keyframes pulse {
-            0% {
-                transform: skew(0);
-                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-            }
-
-            50% {
-                transform: skew(90deg);
-                box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-            }
-
-            75% {
-                transform: skew(120deg);
-                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-            }
-            100% {
-                background: red;
-            }
-        }
-         @media only screen and (max-width: 550px) {
-            body {
-                font-size: 10px;
-            }
-            nav {
-                height: 6vh;
-            }
-            .name{
-                width: 20vw;
-                height: 5vh;
-            }
-            .second_name {
-                width: 20vw;
-                height: 5vh;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-<nav>
+<nav id="navbar">
     <div class="name"> Home </div>
     <div class="second_name"> About </div>
     <div class="second_name"> Project Two </div>
     <div class="second_name"> Project One </div>
 </nav>
-<aside></aside>
-<div id="content_left"> <h1> left </h1></div>
-<div id="content_space"></div>
-<div id="content_right">right</div>
-<article> <div class="blob"></div></article>
+<nav id="second_bar">
+    <div id="center_nav">
+        <ul>
+            <li> Home </li>
+            <li> Project One </li>
+            <li> <a href="#container">Project Two </a></li>
+            <li> About </li>
+        </ul>
+    </div>
+</nav>
+<div class="main_container">
+    <h1> Focus </h1>
+    <div class="profile"></div>
+</div>
+<div id="container">
+    <div style="text-align: center; border: 2px solid red; border-radius: 10px; padding: 10px;">
+        <h2> center </h2>
+        <div id="container_content_two"></div>
+        <div id="container_content"> In life right sometime you meet people in this life that
+        brings a different propective in life that allow you to look into yourself to understand the
+        journey that you are embarked on, to realized that your approach is too passive and
+        you are getting lost in the possibility and the purpose of your journey. It is a unique
+        situation because you aware of who the person is but not aware of who the person really is
+        but the little that is present is powerful and impactful but unawareness of the fact
+        of who is is crazy but I guess it is present for who is able to get the privilege to be in
+        the space.</div>
+    </div>
+    <div style="border: 2px solid red; border-radius: 10px; padding: 10px;">
+        <h2> Hello </h2>
+        <p style="font-size: 18pt;"> I need to hide and show </p>
+        <p id="trick"> C++ </p>
+    </div>
+</div>
+<div id="content_left">
+    <div class="first_content" style="border: 2px solid black;"> A fleeting thread, a cosmic dance,<br/>
+        A fragile soul, a fleeting trance.<br/>
+        Life's tapestry, woven with care,<br/>
+        A masterpiece, beyond compare.<br/>
+
+        A canvas painted with every hue,<br/>
+        A symphony of joy and rue.<br/>
+        A garden blooming, wild and free,<br/>
+        A tempest raging, fierce and see.<br/>
+
+        A journey winding, through dark and light,<br/>
+        A star that twinkles, pure and bright.<br/>
+        A love that blossoms, deep and true,<br/>
+        A loss that lingers, sad and blue.<br/>
+
+        A moment captured, a memory kept,<br/>
+        A legacy left, when life has slept.<br/>
+        A tapestry woven, thread by thread,<br/>
+        A masterpiece of life, forever spread.<br/></div>
+    <div class="first_content" style="border: 2px solid green;"> A fleeting thread, a cosmic dance,<br/>
+        A fragile soul, a fleeting trance.<br/>
+        Life's tapestry, woven with care,<br/>
+        A masterpiece, beyond compare.<br/>
+
+        A canvas painted with every hue,<br/>
+        A symphony of joy and rue.<br/>
+        A garden blooming, wild and free,<br/>
+        A tempest raging, fierce and see.<br/>
+
+        A journey winding, through dark and light,<br/>
+        A star that twinkles, pure and bright.<br/>
+        A love that blossoms, deep and true,<br/>
+        A loss that lingers, sad and blue.<br/>
+
+        A moment captured, a memory kept,<br/>
+        A legacy left, when life has slept.<br/>
+        A tapestry woven, thread by thread,<br/>
+        A masterpiece of life, forever spread.<br/></div>
+    <div class="first_content" style="border: 2px solid yellow;"> A fleeting thread, a cosmic dance,<br/>
+        A fragile soul, a fleeting trance.<br/>
+        Life's tapestry, woven with care,<br/>
+        A masterpiece, beyond compare.<br/>
+
+        A canvas painted with every hue,<br/>
+        A symphony of joy and rue.<br/>
+        A garden blooming, wild and free,<br/>
+        A tempest raging, fierce and see.<br/>
+
+        A journey winding, through dark and light,<br/>
+        A star that twinkles, pure and bright.<br/>
+        A love that blossoms, deep and true,<br/>
+        A loss that lingers, sad and blue.<br/>
+
+        A moment captured, a memory kept,<br/>
+        A legacy left, when life has slept.<br/>
+        A tapestry woven, thread by thread,<br/>
+        A masterpiece of life, forever spread.<br/></div>
+</div>
+<article> <div class="blob"></div>
+<hr/>
+
+</article>
 <footer> </footer>
 </body>
 </html>
