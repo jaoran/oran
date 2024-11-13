@@ -44,6 +44,16 @@ li {
     display: inline;
     padding-right: 10%;
 }
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    float: left;
+    line-height: 2;
+    font-weight: bold;
+    text-shadow: 4px 0px 3px rgba(78, 0, 163, 0.8);
+}
 a {
     text-decoration: none;
     color: #ffffff;
@@ -95,13 +105,10 @@ span {
 }
 
 .first_content {
-    padding:2%;
-    font-size: 180%;
-    line-height: 1.5;
-    width: 28vw;
+    padding:1%;
+    font-size: 90%;
     height: 80vh;
     display: inline-block;
-    overflow-x: hidden;
 }
 #content_left {
     background: aqua;
@@ -111,18 +118,17 @@ span {
 
 @keyframes example {
     0%   {left:0; top:0;}
-    25%  {left:300px; top:0px;}
-    50%  {left:300px; top:200px;color:gold;}
-    75%  {left:0; top:200px;color:green;}
+    25%  {left:100px; top:0px;}
+    50%  {left:100px; top:50px;color:gold;}
+    75%  {left:0; top:50px;color:green;}
     100% {left:0; top:0;}
 }
 .blob {
-    background: green;
+    background: white;
     border-radius: 50%;
     margin: 10px;
     height: 100px;
     width: 100px;
-
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
     transform: skew(0deg);
     animation: pulse 8s infinite;
@@ -134,36 +140,40 @@ span {
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
     }
 
-    50% {
-        transform: skew(90deg);
+    20% {
+        transform: skew(10deg);
+        background: yellow;
         box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
     }
 
-    75% {
-        transform: skew(120deg);
+    40% {
+        transform: skew(45deg);
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
-    100% {
-        background: red;
+    60% {
+        background: black;
+        transition: width 5s;
+        width: 200px;
+    }
+   80% {
+        background: gold;
     }
 }
 
 #container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 10px;
     background-filter: blur(10px);
-    background-color: lightgray;
+    background-color: #ffffff;
     height: 100vh;
-    overflow-y: scroll;
-    scroll-behavior: auto;
+
 }
 #container_content {
     margin: auto;
     width: 45vw;
-    height: 45vh;
+    height: 38vh;
     background-color: white;
-    opacity: 0.5;
     padding: 2%;
 }
 #container_content_two{
@@ -181,17 +191,36 @@ span {
     body {
         font-family: "times New Roman", Times, serif;
     }
+    .main_container {
+        height: 60vh;
+        background-size: cover;
+    }
     .name {
         color: red;
     }
-    svg {
-        width: 100px;
-        height: 80px;
+    #container_content {
+        font-size: 1.1em;
+        text-align: justify;
+
+    }
+    #container_content_two {
+        padding: 1% 0;
+
+    }
+    #navbar {
+        display: none;
+        display: none;
+    }
+    #second_bar {
+        align-items: center;
+    }
+    .first_content {
+        width: 45%;
     }
 }
 @media only screen and (max-width: 550px) {
     body {
-        font-size: 10px;
+        font-size: 14px;
         font-family: "Times New Roman", Times, serif;
     }
     nav {
@@ -206,10 +235,17 @@ span {
         width: 20vw;
         height: 5vh;
     }
+    #container_content {
+        padding: 10%;
+        color: red;
+        display: flex;
+    }
     .first_content {
         display: block;
         width: 95vw;
-        padding: 1%;
+        padding: 8%;
+        margin: auto;
+        font-size: 1.2em;
     }
     .profile {
         height: 30vh;
@@ -224,3 +260,5 @@ span {
         margin: auto;
     }
 }
+
+
