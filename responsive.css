@@ -255,6 +255,7 @@ span {
         padding-top: 15%;
         text-justify: inter-word;
         line-height: 1.6;
+        width: 100%;
     }
     #container {
         height: 140vh;
