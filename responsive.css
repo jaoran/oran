@@ -183,7 +183,7 @@ span {
     height: 45vh;
     background-color: white;
     padding: 2%;
-    background-image:url("streetbackground.jpeg");
+    background-image:url("img/streetbackground.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
