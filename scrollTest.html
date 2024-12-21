@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scroll</title>
+    <style>
+        body {height: 200vh; margin: 0; padding: 0;}
+        header {
+            height: 10vh;
+            width: 100%;
+            background: #696969;
+        }
+        .nav {
+            margin-left: 2%;
+            height: 9vh;
+            color: #ffffff;
+            font-size: 15pt;
+            display: inline-flex;
+            align-items: center;
+            position: relative;
+            left: 200px;
+        }
+        .b {
+            color: yellow;
+        }
+        #test {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .second_nav {
+            margin: 0 20px;
+            width: 150px;
+            line-height: 40px;
+            text-shadow: -1px 0 0 rgba(0,0,0,0.48);
+        }
+        .two {
+            text-align: center;
+        }
+        .three {
+            text-align: right;
+        }
+        #header {
+            padding: 5%;
+            text-align: center;
+            color: blue;
+            font-family: cursive;
+        }
+        #content {
+            background: rgb(0, 255, 255,0.2);
+            height: 750px;
+        }
+        @media only screen and (max-width: 640px){
+            body {height: 0;}
+            header{
+                background: #000000;
+                height: 6vh;
+            }
+            .nav {
+                font-size: 14px;
+                display: inline-flex;
+                flex: 1;
+                position: relative;
+                left: 90px;
+                align-items: center;
+                height: 6vh;
+            }
+            #header, #headers {
+                font-family: cursive;
+                font-weight: lighter;
+                font-size: 1.5em;
+                height: 1vh;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-shadow: 2px 2px 2px rgba(10,225,220,0.5);
+            }
+            #content {
+                height: 180px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 900;
+                text-shadow: 2px 2px 2px rgba(10,225,220,0.5);
+            }
+            #test {
+                background: bisque;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="nav a"> Home </div>
+    <div class="nav b"> Second page </div>
+    <div class="nav c"> Third Page </div>
+    <div class="nav d"> Four Page </div>
+</header>
+<h1 id="header"> Welcome to my madness </h1>
+<div id="content"></div>
+<article id="test">
+    <div class="second_nav one"> Home </div>
+    <div class="second_nav two"> Second Page </div>
+    <div class="second_nav three"> Third Page </div>
+</article>
+<h1 id="headers"> Welcome to my madness </h1>
+<aside>
+    <canvas>
+
+    </canvas>
+</aside>
+</body>
+<script>
+    let scrolltop = window.pageYOffset;
+    let windowHeight = window.innerHeight;
+    let scrollheight = document.body.scrollHeight;
+    document.querySelector("#content").innerHTML = "Result " + scrollheight + " " + windowHeight;
+</script>
+</html>
