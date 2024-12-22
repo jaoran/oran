@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@charset "UTF-8";
 /* CSS Document */
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
 * {
@@ -31,23 +32,33 @@ header {
 	height:80px;
 	opacity: 0.3;
 }
-header h1 {
+header h1 a {
 	padding: 5px;
 	font-size: 26px;
 	font-weight: bolder;
 	margin-right: 2%;
 	float: right;
 	position: relative;
+	color: #000;
 	top: 20px;
 	text-shadow: 4px 4px 7px rgba(50, 50, 50, 1);
 }
-header h2 {
+header h3 {
+	text-align: center;
 	padding: 5px;
 	position: relative;
 	top: 20px;
 	font-size: 26px;
 	color: #000;
+	text-shadow: 4px 4px 7px rgba(50, 50, 50, 1);
+}
+header h2 a {
+	position: relative;
+	top: -20px;
+	font-size: 26px;
+	color: #000;
 	margin-left: 2%;
+	display: inline-block;
 	text-shadow: 4px 4px 7px rgba(50, 50, 50, 1);
 }
 
@@ -90,10 +101,10 @@ header h2 {
 	position: relative;
 	margin: 0 auto;
 	width: 30vw;
-	height: 35vw;
+	height: 40vw;
 	transform-style: preserve-3d;
 	transition: all 5s;
-/*	 background-color: #F00;*/
+	/*	 background-color: #F00;*/
 }
 .side {/*all 6 dives and 6 p's*/
 	position: absolute;
@@ -102,7 +113,7 @@ header h2 {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-/*	background-color: #F00;*/
+	/*	background-color: #F00;*/
 }
 div.side {
 	box-shadow: inset 10px -20px 60px rgba(0,0,0,0.80);
@@ -181,7 +192,7 @@ footer {
 	left:0;
 	width:100vw;
 	padding: 1vw;
-	
+
 }
 footer p {
 	font-size: 18px;
@@ -192,49 +203,49 @@ footer p {
 
 /*************************************************************************************************************************/
 @media only screen and (max-width : 800px) {
-#myhex p {
-	font-size: 5vw;
-	padding: 0;
-}
-header {
-	height: 40px;
-	padding:3px
-}
-header h1 {
-	font-size: 12px;
-	padding:2px;
-	position: relative;
-	top: 9px;
-}
-header h2 {
-	font-size: 0;
-	padding:2px;
-	position: relative;
-	top: 5px;
+	#myhex p {
+		font-size: 5vw;
+		padding: 0;
+	}
+	header {
+		height: 40px;
+		padding:3px
+	}
+	header h1 {
+		font-size: 12px;
+		padding:2px;
+		position: relative;
+		top: 9px;
+	}
+	header h2 {
+		font-size: 0;
+		padding:2px;
+		position: relative;
+		top: 5px;
 
-}
+	}
 	#parent_of_myhex
 	{
-	perspective: 1800px;
-	position: relative;
-	top:150px;
-	transform:scale(0.8);
+		perspective: 1800px;
+		position: relative;
+		top:150px;
+		transform:scale(0.8);
 
-}
-#left_arrow, #right_arrow {
-	width: 20px;
-	height: 20px;/* top: 10px;*/
+	}
+	#left_arrow, #right_arrow {
+		width: 20px;
+		height: 20px;/* top: 10px;*/
 
-}
-#myhex p a {
-	width: 19vw;
-	height: 16vw;
-}
+	}
+	#myhex p a {
+		width: 19vw;
+		height: 16vw;
+	}
 
 	#myhex{
 		height: 70vw;
 	}
-footer p{
-	font-size: 10pt;
-}
+	footer p{
+		font-size: 10pt;
+	}
 }
