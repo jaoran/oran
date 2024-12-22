@@ -6,23 +6,26 @@
     <style>
         body {height: 200vh; margin: 0; padding: 0;}
         header {
-            height: 10vh;
+            height: 6vh;
             width: 100%;
-            background: #696969;
+            background: #000000;
         }
         .nav {
             margin-left: 2%;
-            height: 9vh;
+            height: 5vh;
             color: #ffffff;
-            font-size: 15pt;
             display: inline-flex;
-            align-items: center;
+            align-items: end;
             position: relative;
-            left: 200px;
+            left: 100px;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 100%;
+            padding: 0 3%;
         }
         .b {
             color: yellow;
         }
+        .d { color: rgba(207, 7, 7, 0.8);}
         #test {
             display: flex;
             flex-wrap: nowrap;
@@ -48,6 +51,19 @@
         #content {
             background: rgb(0, 255, 255,0.2);
             height: 750px;
+        }
+        #test {
+            background: bisque;
+        }
+        @media only screen and (max-width: 768px) {
+           #test {
+               display: grid;
+               grid-template-columns: auto auto auto;
+               gap: 10px;
+           }
+           .three {
+
+            }
         }
         @media only screen and (max-width: 640px){
             body {height: 0;}
@@ -92,7 +108,7 @@
 <body>
 <header>
     <div class="nav a"> Home </div>
-    <div class="nav b"> Second page </div>
+    <div class="nav b"> Second Page </div>
     <div class="nav c"> Third Page </div>
     <div class="nav d"> Four Page </div>
 </header>
