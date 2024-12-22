@@ -33,7 +33,8 @@
         }
         .second_nav {
             margin: 0 20px;
-            width: 150px;
+            width: 70%;
+            padding: 0 3%;
             line-height: 40px;
             text-shadow: -1px 0 0 rgba(0,0,0,0.48);
         }
@@ -57,17 +58,18 @@
             background: bisque;
         }
         @media only screen and (max-width: 768px) {
+            body{background: #635f5f}
            #test {
                display: grid;
                grid-template-columns: auto auto auto;
                gap: 8px;
            }
            .three {
-
+                padding-right: 15%;
             }
         }
         @media only screen and (max-width: 640px){
-            body {height: 0;}
+            body {height: 0; background: darkblue;}
             header{
                 background: #000000;
                 height: 6vh;
@@ -128,9 +130,9 @@
 </aside>
 </body>
 <script>
-    let scrolltop = window.pageYOffset;
+    let  w = window.innerWidth;
     let windowHeight = window.innerHeight;
     let scrollheight = document.body.scrollHeight;
-    document.querySelector("#content").innerHTML = "Result " + scrollheight + " " + windowHeight;
+    document.querySelector("#content").innerHTML = "Window " + w + " " + windowHeight;
 </script>
 </html>
