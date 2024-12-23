@@ -15,10 +15,9 @@
 
 a {
 	text-decoration: none;
-	color: #fff;
 }
 body {
-	background-color: #000;
+	background-color: #000000;
 	font-family: 'Poiret One', cursive;
 }
 #container {
@@ -28,38 +27,18 @@ body {
 }
 header {
 	background-color: #fff;
-	color: #000;
-	height:80px;
+	height: 5vh;
 	opacity: 0.3;
+	position: absolute;
+	display: flex;
 }
-header h1 a {
-	padding: 5px;
-	font-size: 26px;
-	font-weight: bolder;
-	margin-right: 2%;
-	float: right;
+ .nav {
+	font-size: 36px;
 	position: relative;
-	color: #000;
-	top: 20px;
+	color: #fff;
+	 width: 150px;
 	text-shadow: 4px 4px 7px rgba(50, 50, 50, 1);
-}
-header h3 {
-	text-align: center;
-	padding: 5px;
-	position: relative;
-	top: 20px;
-	font-size: 26px;
-	color: #000;
-	text-shadow: 4px 4px 7px rgba(50, 50, 50, 1);
-}
-header h2 a {
-	position: relative;
-	top: -20px;
-	font-size: 26px;
-	color: #000;
-	margin-left: 2%;
-	display: inline-block;
-	text-shadow: 4px 4px 7px rgba(50, 50, 50, 1);
+
 }
 
 #parent_of_myhex {
@@ -89,7 +68,7 @@ header h2 a {
 
 
 #left_arrow {
-	background-image: url(Images/left.png);
+	background-image: url(../Images/left.png);
 	left: 2vw;
 }
 #right_arrow {
@@ -208,22 +187,17 @@ footer p {
 		padding: 0;
 	}
 	header {
-		height: 40px;
-		padding:3px
+		display: flex;
+		width: 100%;
 	}
-	header h1 {
-		font-size: 12px;
+	.nav {
+		font-size: 15px;
 		padding:2px;
 		position: relative;
-		top: 9px;
+		align-items: end;
+		color: white;
 	}
-	header h2 {
-		font-size: 0;
-		padding:2px;
-		position: relative;
-		top: 5px;
 
-	}
 	#parent_of_myhex
 	{
 		perspective: 1800px;
