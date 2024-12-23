@@ -89,11 +89,11 @@ header h2 a {
 
 
 #left_arrow {
-	background-image: url(../ui_images/left.png);
+	background-image: url(Images/left.png);
 	left: 2vw;
 }
 #right_arrow {
-	background-image: url(../ui_images/right.png);
+	background-image: url(../Images/right.png);
 	right: 2vw;
 }
 
@@ -120,23 +120,23 @@ div.side {
 }
 #myhex .first {
 	transform:rotateY(0deg) translateZ(33vw);
-	background-image: url(../images/two.jpeg);
+	background-image: url(../Images/two.jpeg);
 }
 #myhex .second {
 	transform: rotateY(60deg) translateZ(33vw);
-	background-image: url(../images/five.jpeg);
+	background-image: url(../Images/five.jpeg);
 }
 #myhex .third {
 	transform: rotateY(120deg) translateZ(33vw);
-	background-image: url(../images/four.jpeg);
+	background-image: url(../Images/four.jpeg);
 }
 #myhex .fourth {
 	transform: rotateY(180deg) translateZ(33vw);
-	background-image: url(../images/eight.jpeg);
+	background-image: url(../Images/eight.jpeg);
 }
 #myhex .fifth {
 	transform: rotateY(240deg) translateZ(33vw);
-	background-image: url(../images/six.jpeg);
+	background-image: url(../Images/six.jpeg);
 }
 #myhex .sixth {
 	transform: rotateY(300deg) translateZ(33vw);
