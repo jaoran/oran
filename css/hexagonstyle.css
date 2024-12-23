@@ -33,7 +33,7 @@ header {
 	display: flex;
 }
  .nav {
-	font-size: 36px;
+	font-size: 100%;
 	position: relative;
 	color: #fff;
 	 width: 150px;
