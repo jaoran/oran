@@ -15,6 +15,8 @@
 
 a {
 	text-decoration: none;
+	color: red;
+	font-weight: 900;
 }
 body {
 	background-color: #000000;
@@ -38,7 +40,7 @@ header {
 	color: #fff;
 	 width: 150px;
 	text-shadow: 4px 4px 7px rgba(50, 50, 50, 1);
-
+	padding-left: 25px;
 }
 
 #parent_of_myhex {
@@ -181,7 +183,7 @@ footer p {
 }
 
 /*************************************************************************************************************************/
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 3200px) {
 	#myhex p {
 		font-size: 5vw;
 		padding: 0;
@@ -192,7 +194,7 @@ footer p {
 	}
 	.nav {
 		font-size: 15px;
-		padding:2px;
+		padding:15px;
 		position: relative;
 		align-items: end;
 		color: white;
