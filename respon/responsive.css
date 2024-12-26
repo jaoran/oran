@@ -6,7 +6,7 @@ body {
 .main_container {
     height: 100vh;
     background-color: #ffffff;
-    background-image: url("/oran/img/tech_background.jpg");
+    background-image: url("tech_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: 2px 2px 4px #000000;
@@ -20,16 +20,10 @@ body {
     position: relative;
     top: 100px;
 }
-#navbar {
-    margin: 0;
-    width: 100vw;
-    height: 8vh;
-    justify-content: center;
-    background-color: #F8AFA6;
-}
+
 #second_bar {
     width: 100vw;
-    height: 5vh;
+    height: 7vh;
     background-color: #363636;
     color: #ffffff;
 }
@@ -38,19 +32,21 @@ body {
     width: 60vw;
     margin: auto;
 }
-ul {
+ul  {
     text-align: center;
+    content: "🤷‍♀️";
 }
-li {
+.li{
     display: inline;
     padding-right: 10%;
+    content: "🤷‍♀️";
 }
 #logo {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    float: left;
+    float: Right;
     line-height: 2;
     font-weight: bold;
     text-shadow: 3px 3px 3px rgba(255, 0, 0, 0.8);
@@ -84,9 +80,40 @@ a {
     font-family: "Times New Roman", Times, serif;
 }
 article {
-    width: 100vw;
+    width: 30vw;
     height: 80vh;
 }
+#one {
+    animation: hide 2s;
+    position: relative;
+    animation-delay: 1s;
+}
+#two {
+    position: relative;
+    animation: hide 4s;
+}
+#three  {
+    position: relative;
+    animation: hide 5s;
+
+}
+#four {
+    position: relative;
+    animation: hide 6s;
+}
+#five {
+    position: relative;
+    animation: hide 7s;
+}
+
+@keyframes hide {
+    0% {
+        left: -300px;
+    }
+    100% {
+        left: 0px;
+    }
+    }
 h1 {
     margin: 0 10%;
     position: relative;
@@ -95,6 +122,23 @@ h1 {
     animation-delay: 2s;
     animation: example 5s infinite;
     z-index: 1;
+}
+h2 {
+    text-align: center;
+    font-family: cursive;
+}
+p {
+    text-align: justify;
+    font-family: fantasy;
+}
+
+#label {
+    font-family: "Doto", sans-serif;
+    font-size: 150%;
+}
+
+summary {
+    font-family: "Doto", sans-serif;
 }
 span {
     width: 30vw;
@@ -108,7 +152,7 @@ span {
 .first_content {
     padding:1%;
     font-size: 90%;
-    height: 80vh;
+    width: 30%;
     display: inline-block;
 }
 #content_left {
@@ -119,45 +163,31 @@ span {
 
 @keyframes example {
     0%   {left:0; top:0;}
-    25%  {left:100px; top:0px;}
-    50%  {left:100px; top:50px;color:gold;}
-    75%  {left:0; top:50px;color:green;}
+    25%  {left:800px; top:0px;}
+    50%  {left:800px; top:200px;color:gold;}
+    75%  {left:0; top:200px;color:green;}
     100% {left:0; top:0;}
 }
 .blob {
     background: white;
     border-radius: 50%;
     margin: 10px;
-    height: 100px;
-    width: 100px;
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-    transform: skew(0deg);
-    animation: pulse 8s infinite;
+    height: 50px;
+    width: 50px;
+    transform: rotate(0deg);
+    animation: pulse 10s infinite;
+    margin: 20% 20%;
+    font-size: 30pt;
+    border: solid blue 1px;
 }
 
 @keyframes pulse {
-    0% {
-        transform: skew(0);
-        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    25% {
+        transform: rotate(0deg);
     }
-
-    20% {
-        transform: skew(10deg);
-        background: yellow;
-        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-    }
-
-    40% {
-        transform: skew(45deg);
-        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-    60% {
-        background: black;
-        transition: width 5s;
-        width: 200px;
-    }
-   80% {
-        background: gold;
+    50% {
+        transform: rotate(360deg);
+        color: red;
     }
 }
 
@@ -176,6 +206,8 @@ span {
     height: 38vh;
     background-color: white;
     padding: 2%;
+    font-family: "Doto", sans-serif;
+    font-size: 120%;
 }
 #container_content_two{
     margin: auto;
@@ -183,7 +215,7 @@ span {
     height: 45vh;
     background-color: white;
     padding: 2%;
-    background-image:url("/oran/img/streetbackground.jpeg");
+    background-image:url("streetbackground.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -231,13 +263,20 @@ span {
         width: 80vw;
         float: right;
     }
+    ul {
+        display: flex;
+        position: relative;
+        top: -15px;
+        height: 7vh;
+        justify-content: center;
+        align-items: center;
+    }
     #logo {
         display: flex;
         position: absolute;
         top: 1px;
         left: 0.5%;
         bottom: 0%;
-        border: solid red 2px;
         height: 7vh;
         font-size: 1em;
         font-weight: normal;
@@ -253,26 +292,30 @@ span {
     }
     #container_content {
         padding-top: 15%;
-        text-justify: inter-word;
-        line-height: 1.6;
+        text-justify:none;
+        line-height: 1;
         width: 100%;
+        font-weight: bold;
     }
     #container {
-        height: 140vh;
+        height: 105vh;
         padding: 2%;
     }
     .first_content {
         display: block;
-        width: 70vw;
-        padding: 8%;
+        border-radius: 10px;
+        padding: 2%;
+        width: 80%;
         margin: auto;
-        font-size: 1.2em;
+        font-size: 1.1em;
         font-family: "Doto", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
+        font-weight: bold;
         color: #000;
         border: green dot-dash 2px;
         background-color: rgba( 255, 255, 255, 1);
+        text-align: center;
     }
     .profile {
         height: 30vh;
@@ -312,12 +355,13 @@ span {
     .blob {
         background: white;
         border-radius: 50%;
-        height: 50px;
-        width: 50px;
+        height: 30px;
+        width: 100px;
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
         transform: skew(0deg);
         animation: pulse 8s infinite;
         margin: auto;
+        font-size: 2em;
     }
 
     @keyframes pulse {
@@ -335,6 +379,7 @@ span {
         40% {
             transform: skew(25deg);
             box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            background: green;
         }
         60% {
             background: black;
