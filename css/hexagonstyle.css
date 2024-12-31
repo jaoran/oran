@@ -117,7 +117,7 @@ div.side {
 }
 #myhex .sixth {
 	transform: rotateY(300deg) translateZ(33vw);
-	background-image: url(../images/seven.jpeg);
+	background-image: url(../Images/seven.jpeg);
 }
 /*
 #myhex p {
@@ -171,7 +171,7 @@ footer {
 	padding: 1vw;
 
 }
-footer p {
+footer p a {
 	font-size: 18px;
 	text-align: center;
 	color: #ddd;
@@ -219,5 +219,8 @@ footer p {
 	}
 	footer p{
 		font-size: 11pt;
+	}
+	footer a {
+		color: #ddd;
 	}
 }
