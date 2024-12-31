@@ -4,8 +4,6 @@
 * {
 	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
-	-webkit-overflow-scrolling: touch;
 }
 
 .side {
@@ -14,48 +12,49 @@
 
 a {
 	text-decoration: none;
-	color: #87CEEB;
-	font-weight: 900;
 }
 body {
 	background-color: #000000;
 	font-family: 'Poiret One', cursive;
 }
 #container {
-	max-width: 200vw;
-	max-height: 200vh;
+	max-width: 100vw;
+	max-height: 100vh;
 	position: relative;
 }
 header {
+	background-color: #fff;
 	height: 5vh;
-	opacity: 0.3;
+	opacity: 0.7;
 	position: absolute;
 	display: flex;
+	justify-content: space-around;
+	align-items: end;
+	padding-bottom: 0.5%;
 	width: 100%;
 }
  .nav {
-	 font-size: 100%;
-	 position: relative;
-	 color: #fff;
-	 /*text-shadow: 4px 4px 7px rgba(255, 255, 255, 0); */
- }
+	font-size: 120%;
+	position: relative;
+	color: #fff;
+	text-shadow: 4px 4px 7px rgba(50, 50, 50, 1);
+	width: 150px;
+	 font-weight: 1000;
+
+
+}
+
 #parent_of_myhex {
 	perspective: 1800px;
 	perspective-origin: 50% 640px;
 	position: relative;
-	top: 120px;
-	transform:scale(0.6);
+	top: 170px;
+	transform:scale(0.7);
 	z-index: 9999;
-	border: solid 2px white;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-
 }
 #left_arrow, #right_arrow {
-	width: 50px;
-	height: 50px;
+	width: 20px;
+	height: 20px;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -78,8 +77,8 @@ header {
 #myhex {
 	position: relative;
 	margin: 0 auto;
-	width: 30vw;
-	height: 80vh;
+	width: 35vw;
+	height: 70vh;
 	transform-style: preserve-3d;
 	transition: all 5s;
 	/*	 background-color: #F00;*/
@@ -180,8 +179,7 @@ footer p {
 }
 
 /*************************************************************************************************************************/
-@media only screen and (max-width: 550px) {
-
+@media only screen and (max-width : 500px) {
 	#myhex p {
 		font-size: 5vw;
 		padding: 0;
@@ -192,10 +190,9 @@ footer p {
 	}
 	.nav {
 		font-size: 15px;
-		padding:15px;
+		padding:2px;
 		position: relative;
 		align-items: end;
-		color: white;
 	}
 
 	#parent_of_myhex
@@ -204,18 +201,22 @@ footer p {
 		position: relative;
 		top:150px;
 		transform:scale(1);
+
 	}
 	#left_arrow, #right_arrow {
 		width: 10px;
 		height: 10px;/* top: 10px;*/
 
 	}
-
 	#myhex p a {
-		width: 21vw;
+		width: 19vw;
 		height: 16vw;
 	}
 
+	#myhex{
+		height: 40vh;
+		width: 33vw;
+	}
 	footer p{
 		font-size: 11pt;
 	}
