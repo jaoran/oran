@@ -168,14 +168,15 @@ footer {
 	bottom:0;
 	left:0;
 	width:100vw;
-	padding: 1vw;
-
 }
-footer p a {
+footer p {
 	font-size: 18px;
 	text-align: center;
 	color: #ddd;
 	margin-bottom: 10px;
+}
+footer a {
+	color: #fff;
 }
 
 /*************************************************************************************************************************/
@@ -193,6 +194,10 @@ footer p a {
 		padding:2px;
 		position: relative;
 		align-items: end;
+	}
+
+	.a {
+		margin-left: 25px;
 	}
 
 	#parent_of_myhex
