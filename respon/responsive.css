@@ -98,7 +98,7 @@ article {
         left: -300px;
     }
     100% {
-        left: 0px;
+        left: 0;
     }
     }
 h1 {
@@ -255,7 +255,7 @@ footer{
         font-family: "Times New Roman", Times, serif;
     }
     #second_bar {
-        height: 4vh;
+        height: 6vh;
     }
     #center_nav{
     }
@@ -278,10 +278,11 @@ footer{
         height: 5vh;
     }
     #container_content {
-        padding-top: 15%;
+        padding: 10% 0;
         line-height: 1;
-        width: 100%;
+        width: 90%;
         font-weight: bold;
+        font-size: 100%;
     }
     #container {
         height: 70vh;
@@ -309,9 +310,9 @@ footer{
     }
     .main_container {
         background-image: url("../img/tech_background.jpg");
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        height: 31vh;
+        height: 40vh;
     }
     #container_content_two {
         width: 90%;
@@ -352,6 +353,11 @@ footer{
         animation: pulse 8s infinite;
         margin: auto;
         font-size: 2em;
+    }
+
+    #one, #two, #three, #four, #five{
+        font-size: 60%;
+        font-weight: 700;
     }
 
     @keyframes pulses {
