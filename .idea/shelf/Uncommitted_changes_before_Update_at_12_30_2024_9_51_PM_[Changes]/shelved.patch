@@ -1,0 +1,102 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1735005868336)
++++ b/.idea/vcs.xml	(date 1735005868336)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1735005868350)
++++ b/.idea/.gitignore	(date 1735005868350)
+@@ -0,0 +1,5 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: .idea/oran.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/oran.iml b/.idea/oran.iml
+new file mode 100644
+--- /dev/null	(date 1735005868357)
++++ b/.idea/oran.iml	(date 1735005868357)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
++      <excludeFolder url="file://$MODULE_DIR$/temp" />
++      <excludeFolder url="file://$MODULE_DIR$/tmp" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1735005868365)
++++ b/.idea/modules.xml	(date 1735005868365)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/oran.iml" filepath="$PROJECT_DIR$/.idea/oran.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: scrollTest.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Scroll</title>\r\n    <style>\r\n        body {height: 200vh; margin: 0; padding: 0;}\r\n        header {\r\n            height: 6vh;\r\n            width: 100%;\r\n            background: #000000;\r\n        }\r\n        .nav {\r\n            margin-left: 2%;\r\n            height: 5vh;\r\n            color: #ffffff;\r\n            display: inline-flex;\r\n            align-items: end;\r\n            position: relative;\r\n            left: 100px;\r\n            font-family: \"Times New Roman\", Times, serif;\r\n            font-size: 100%;\r\n            padding: 0 3%;\r\n        }\r\n        .b {\r\n            color: yellow;\r\n        }\r\n        .d { color: rgba(207, 7, 7, 0.8);}\r\n        #test {\r\n            display: flex;\r\n            flex-wrap: nowrap;\r\n        }\r\n        .second_nav {\r\n            margin: 0 20px;\r\n            width: 70%;\r\n            padding: 0 3%;\r\n            line-height: 40px;\r\n            text-shadow: -1px 0 0 rgba(0,0,0,0.48);\r\n        }\r\n        .two {\r\n            text-align: center;\r\n        }\r\n        .three {\r\n            text-align: right;\r\n        }\r\n        #header {\r\n            padding: 5%;\r\n            text-align: center;\r\n            color: blue;\r\n            font-family: cursive;\r\n        }\r\n        #content {\r\n            background: rgb(0, 255, 255,0.2);\r\n            height: 750px;\r\n        }\r\n        #test {\r\n            background: bisque;\r\n        }\r\n        @media only screen and (max-width: 768px) {\r\n            body{background: #635f5f}\r\n           #test {\r\n               display: grid;\r\n               grid-template-columns: auto auto auto;\r\n               gap: 8px;\r\n           }\r\n           .three {\r\n                padding-right: 15%;\r\n            }\r\n        }\r\n        @media only screen and (max-width: 640px){\r\n            body {height: 0; background: darkblue;}\r\n            header{\r\n                background: #000000;\r\n                height: 6vh;\r\n            }\r\n            .nav {\r\n                font-size: 14px;\r\n                display: inline-flex;\r\n                flex: 1;\r\n                position: relative;\r\n                left: 90px;\r\n                align-items: center;\r\n                height: 6vh;\r\n            }\r\n            #header, #headers {\r\n                font-family: cursive;\r\n                font-weight: lighter;\r\n                font-size: 1.5em;\r\n                height: 1vh;\r\n                padding: 0;\r\n                display: flex;\r\n                align-items: center;\r\n                justify-content: center;\r\n                text-shadow: 2px 2px 2px rgba(10,225,220,0.5);\r\n            }\r\n            #content {\r\n                height: 180px;\r\n                display: flex;\r\n                justify-content: center;\r\n                align-items: center;\r\n                font-weight: 900;\r\n                text-shadow: 2px 2px 2px rgba(10,225,220,0.5);\r\n            }\r\n            #test {\r\n                background: bisque;\r\n            }\r\n        }\r\n    </style>\r\n</head>\r\n<body>\r\n<header>\r\n    <div class=\"nav a\"> Home </div>\r\n    <div class=\"nav b\"> Second Page </div>\r\n    <div class=\"nav c\"> Third Page </div>\r\n    <div class=\"nav d\"> Four Page </div>\r\n</header>\r\n<h1 id=\"header\"> Welcome to my madness </h1>\r\n<div id=\"content\"></div>\r\n<article id=\"test\">\r\n    <div class=\"second_nav one\"> Home </div>\r\n    <div class=\"second_nav two\"> Second Page </div>\r\n    <div class=\"second_nav three\"> Third Page </div>\r\n</article>\r\n<h1 id=\"headers\"> Welcome to my madness </h1>\r\n<aside>\r\n    <canvas>\r\n\r\n    </canvas>\r\n</aside>\r\n</body>\r\n<script>\r\n    let  w = window.innerWidth;\r\n    let windowHeight = window.innerHeight;\r\n    let scrollheight = document.body.scrollHeight;\r\n    document.querySelector(\"#content\").innerHTML = \"Window \" + w + \" \" + windowHeight;\r\n</script>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scrollTest.html b/scrollTest.html
+--- a/scrollTest.html	(revision 7fc6e0c1d17cc2ecbafd90fc388da9dcd2ba17a3)
++++ b/scrollTest.html	(date 1735005868333)
+@@ -58,7 +58,7 @@
+             background: bisque;
+         }
+         @media only screen and (max-width: 768px) {
+-            body{background: #635f5f}
++
+            #test {
+                display: grid;
+                grid-template-columns: auto auto auto;
+@@ -69,7 +69,7 @@
+             }
+         }
+         @media only screen and (max-width: 640px){
+-            body {height: 0; background: darkblue;}
++            body {height: 0;}
+             header{
+                 background: #000000;
+                 height: 6vh;

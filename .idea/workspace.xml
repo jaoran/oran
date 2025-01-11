@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="update both html and css version one" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jaoran&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jaoran/oran.git&quot;,
+    &quot;accountId&quot;: &quot;2e23365f-058e-464d-a37d-20cbcd07f46b&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2qXvrI9OC9qoX8iBoC8bA9UbMIU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="" />
+      <created>1734821932064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734821932064</updated>
+      <workItem from="1734821933303" duration="98000" />
+      <workItem from="1734822049880" duration="21659000" />
+      <workItem from="1734920387945" duration="17822000" />
+      <workItem from="1735613749987" duration="46927000" />
+    </task>
+    <task id="LOCAL-00001" summary="adding a new html">
+      <option name="closed" value="true" />
+      <created>1734822256380</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734822256380</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Made changes to the second nav to grid">
+      <option name="closed" value="true" />
+      <created>1734870404346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734870404346</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Missing viewport for mobile ability">
+      <option name="closed" value="true" />
+      <created>1734873413589</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734873413589</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Missing viewport for mobile ability">
+      <option name="closed" value="true" />
+      <created>1734875661723</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734875661723</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changes by orandebrown">
+      <option name="closed" value="true" />
+      <created>1734905276112</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734905276112</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1734906866266</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734906866266</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <option name="closed" value="true" />
+      <created>1734912439297</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734912439297</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <option name="closed" value="true" />
+      <created>1734912617681</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734912617681</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Testing mobile">
+      <option name="closed" value="true" />
+      <created>1734921623858</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734921623858</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Testing mobile 340">
+      <option name="closed" value="true" />
+      <created>1734922073523</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734922073523</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Testing mobile 340">
+      <option name="closed" value="true" />
+      <created>1734922929392</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1734922929392</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update media query">
+      <option name="closed" value="true" />
+      <created>1735005783066</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735005783066</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Working on the mobile and desktop">
+      <option name="closed" value="true" />
+      <created>1735613295248</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735613295248</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Working on the mobile and desktop">
+      <option name="closed" value="true" />
+      <created>1735613486397</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1735613486397</updated>
+    </task>
+    <task id="LOCAL-00015" summary="merging doc">
+      <option name="closed" value="true" />
+      <created>1735615557273</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1735615557273</updated>
+    </task>
+    <task id="LOCAL-00016" summary="merging doc">
+      <option name="closed" value="true" />
+      <created>1735616225757</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1735616225757</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Error with image seven">
+      <option name="closed" value="true" />
+      <created>1735616753472</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1735616753472</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update both html and css">
+      <option name="closed" value="true" />
+      <created>1736595498263</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1736595498263</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update both html and css version one">
+      <option name="closed" value="true" />
+      <created>1736597436029</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1736597436029</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update both html and css version one">
+      <option name="closed" value="true" />
+      <created>1736597594082</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1736597594082</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding a new html" />
+    <MESSAGE value="Made changes to the second nav to grid" />
+    <MESSAGE value="Missing viewport for mobile ability" />
+    <MESSAGE value="Changes by orandebrown" />
+    <MESSAGE value="update" />
+    <MESSAGE value="Testing mobile" />
+    <MESSAGE value="Testing mobile 340" />
+    <MESSAGE value="update media query" />
+    <MESSAGE value="Working on the mobile and desktop" />
+    <MESSAGE value="merging doc" />
+    <MESSAGE value="Error with image seven" />
+    <MESSAGE value="update both html and css" />
+    <MESSAGE value="update both html and css version one" />
+    <option name="LAST_COMMIT_MESSAGE" value="update both html and css version one" />
+  </component>
+</project>
