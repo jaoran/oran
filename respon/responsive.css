@@ -379,7 +379,7 @@ footer{
         }
         60% {
             background: black;
-            transition: width 5s;
+            transition: width 6s;
             width: 20px;
         }
         80% {
