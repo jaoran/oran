@@ -1,8 +1,8 @@
  $(document).ready(function () {
  	////////////////////////////////
- 	var allContents = $(".panel");
+ 	let allContents = $(".panel");
  	//alert(allContents.length);
-	 var allTabs = $(".tab");
+	 let allTabs = $(".tab");
 
 	 $('#title1').addClass('currentTab');
 	 $('#content1').show();
@@ -20,7 +20,7 @@
 		let whoClicked = $(this).attr('data');
 		//alert(whoClicked);
  		//alert($("#"+whoClicked).css('display'));
- 		if ($('#' + whoClicked).css('display') == 'none') {
+ 		if ($('#' + whoClicked).css('display') === 'none') {
 			$(this).addClass("currentTab");
  			$("#" + whoClicked).slideDown(700);
  		} else {
