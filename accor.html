@@ -8,7 +8,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="acc.css">
+	<link rel="stylesheet" type="text/css" href="acc.css">
 	<title> Accordion </title>
 </head>
 <body>
@@ -23,11 +23,11 @@
 		 <img src="Images/thumb.png" alt="tri">
 		 Home
 	 </div>
-	 <div id="content" class="panel">
+	 <div id="content" class="panel test">
 		 <div class="container_nav">
-			 <div> <a href="hex.html"> Project One </a> </div>
-			 <div> <a href="accor.html"> Project two </a></div>
-			 <div> <a href="index.html"> About </a> </div>
+			 <div> <a class="b" href="hex.html"> Project One </a> </div>
+			 <div> <a class="b" href="accor.html"> Project Two </a></div>
+			 <div> <a class="b" href="index.html"> About </a> </div>
 		 </div>
 	 </div>
  <!--start 1-->
@@ -120,6 +120,17 @@
 <!--end accordion-->
 		
 	</div>
-<!--end container-->	
+<!--end container-->
+	<script>
+		function time() {
+			const d = new Date();
+			const y = d.getFullYear();
+			document.write(y);
+		}
+	</script>
+	<footer>
+		<p id = "footer"> Jaoran Studio <span class="glyphicon glyphicon-sunglasses" ></span><span id="footer_2"> &copy; <script> time();</script> </span> </p>
+		<p id = "footer_1"> Contact me @ 954-232-8857 <br/> Email: <a href="mailto:orande@me.com?subject=Reaching%20out" target="_top"> orande@me.com </a></p>
+	</footer>
 </body>
 </html>
