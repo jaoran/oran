@@ -4,8 +4,8 @@
  	//alert(allContents.length);
 	 let allTabs = $(".tab");
 
-	 $('#title1').addClass('currentTab');
-	 $('#content1').show();
+	 $('#title').addClass('currentTab');
+	 $('#content').show();
 	 
  	$(".tab").click(function () {
 
