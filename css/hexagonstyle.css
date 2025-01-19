@@ -48,7 +48,7 @@ header {
 	perspective: 1800px;
 	perspective-origin: 50% 640px;
 	position: relative;
-	top: 170px;
+	top: 260px;
 	transform:scale(0.7);
 	z-index: 9999;
 }
@@ -77,8 +77,8 @@ header {
 #myhex {
 	position: relative;
 	margin: 0 auto;
-	width: 35vw;
-	height: 70vh;
+	width: 32vw;
+	height: 60vh;
 	transform-style: preserve-3d;
 	transition: all 5s;
 	/*	 background-color: #F00;*/
