@@ -37,6 +37,9 @@ ul  {
     height: 3vh;
 
 }
+#hello {
+    margin: 5% 20%
+}
 #logo {
     position: absolute;
     top: 3%;
