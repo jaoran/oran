@@ -168,6 +168,7 @@ summary {
     animation: pulse 10s infinite;
     margin: 20% 20%;
     font-size: 30pt;
+    border: 1px solid blue;
 }
 
 @keyframes pulse {
