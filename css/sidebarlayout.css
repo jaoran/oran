@@ -94,11 +94,11 @@ transition: transform 0.5s ease-in-out;
 	transform-origin: 100% 50%;
 	transition: transform 0.5s ease-in-out;
 }
-.sb_hidden #mainnav {
+.sb_hidden #mainnavs {
 	transform: rotateY(0deg);
 
 }
-.sb_showing #mainnav {
+.sb_showing #mainnavs {
 	transform: rotateY(0deg);
 }
 #mainnav #nav_title {
