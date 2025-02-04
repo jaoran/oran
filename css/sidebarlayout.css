@@ -9,8 +9,8 @@ font-family: 'Poiret One', cursive;
 
 /*resets*/
 * {
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 	box-sizing: border-box;
 	-webkit-overflow-scrolling: touch;
 }
@@ -19,7 +19,7 @@ font-family: 'Poiret One', cursive;
 }
 body {
 	font-family: 'Cinzel', serif;
-	background-color: #555;
+	background-color: #919191;
 }
 #mega-wrapper {
 	position: fixed;
@@ -31,18 +31,14 @@ body {
 /*moving parts********************************************************************************/
 #sidebar {
 
-	width: 250px;
+	width: 300px;
 	height: 100%;
-	position: fixed;
-	top: 0px;
-	right: 0px;
-	background-color: #f00;
 	overflow-x: hidden;
-	overflow-y: scroll;
+	overflow-y: hidden;
 	z-index: 3;
-	perspective:600px;
+	perspective:100px;
 	transition: transform 1.5s ease-in-out;
-	transform: translateX(1000px);
+	transform: translateX(10px);
 }
 .sb_hidden #sidebar {
 	transform: translate3d(-300px, 0, 0);
@@ -53,13 +49,13 @@ body {
 #page {
 	width: 100vw;
 	position: fixed;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	overflow-x: hidden;
 	overflow-y: scroll;
 	background-color: #fff;
 	height: 100vh;
-	z-index: 4;
+	z-index: 3;
 transition: transform 0.5s ease-in-out;
 }
 .sb_hidden #page {
@@ -72,7 +68,7 @@ transition: transform 0.5s ease-in-out;
 #menu-trigger {
 	position: absolute;
 	top: 3px;
-	left: 0px;
+	left: 0;
 	width: 53px;
 	height: 50px;
 	cursor: pointer;
@@ -82,12 +78,12 @@ transition: transform 0.5s ease-in-out;
 	transition: right 1.5s ease-in-out, transform 1.5s ease-in-out;
 }
 .sb_hidden #menu-trigger {
-	right: 0px;
+	right: 0;
 	transform: rotate(180deg);
 }
 .sb_showing #menu-trigger {
 	right: 303px;
-	transform: rotate(0deg);
+	transform: rotate(-90deg);
 }
 /*NAV styles*/
 
@@ -98,12 +94,12 @@ transition: transform 0.5s ease-in-out;
 	transform-origin: 100% 50%;
 	transition: transform 0.5s ease-in-out;
 }
-.sb_hidden #mainnav {
+.sb_hidden #mainnavs {
 	transform: rotateY(0deg);
 
 }
-.sb_showing #mainnav {
-	transform: rotateY(-90deg);
+.sb_showing #mainnavs {
+	transform: rotateY(0deg);
 }
 #mainnav #nav_title {
 	height: 200px;
@@ -144,7 +140,7 @@ transition: transform 0.5s ease-in-out;
 }
 #mainnav ul li a:hover {
 	color: rgba(255,255,255,1.00);
-	background-color: #555;
+	background-color: #fff;
 	background-image: url(../sidebar_images/arrow.png);
 }
 #mainnav ul li a.myactive {
