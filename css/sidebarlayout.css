@@ -140,11 +140,11 @@ transition: transform 0.5s ease-in-out;
 }
 #mainnav ul li a:hover {
 	color: rgba(255,255,255,1.00);
-	background-color: #fff;
-	background-image: url(../sidebar_images/arrow.png);
+	backgrounds-color: #fff;
+	backgrounds-image: url(../sidebar_images/arrow.png);
 }
 #mainnav ul li a.myactive {
-	background-image: url(../sidebar_images/arrow_active.png);
+	backgrounds-image: url(../sidebar_images/arrow_active.png);
 	background-color: rgba(255,217,104,.7);
 	color: #222;
 }
