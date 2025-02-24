@@ -5,9 +5,6 @@ body {
     margin: 0;
     padding: 0;
 }
-h1 {
-    display: inline-block;
-}
 .main_container {
     background-image: url("../img/tech_background.jpg");
     height: 100vh;
@@ -73,11 +70,14 @@ article {
     width: 100vw;
     height: 80vh;
 }
+
+#disappear {
+    visibility: hidden;
+}
+
 #one {
     animation: hide 2s;
-    position: relative
-
-;
+    position: relative;
     animation-delay: 1s;
     border: solid red 2px;
 }
@@ -110,11 +110,14 @@ article {
 h1 {
     margin: 0 10%;
     position: relative;
+    left: 500px;
+    top: 600px;
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 2s;
-    animation: example 5s infinite;
+    animation: example 5s;
     z-index: 1;
+    display: inline-flex;
 }
 h2 {
     text-align: center;
@@ -156,61 +159,183 @@ summary {
     padding: 1%;
 }
 @keyframes example {
-    0%   {left:0; top:0;}
-    25%  {left:100px; top:0;}
-    50%  {left:100px; top:200px;color:gold;}
-    75%  {left:0; top:200px;color:green;}
-    100% {left:0; top:0;}
+    0%   {left: 0; top: 0;}
+    25%  {left: 0; top:550px;}
+    50%  {left:500px; top:600px;color:gold;}
+    100%  {left:500px; top:600px;color:green;}
 }
-.blob {
+.blobs {
     background: white;
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    transform: rotate(0deg);
-    animation: pulse 10s infinite;
+    transition: transform 0.2s;
+    animation: pulses 10s infinite;
     margin: 5% 10%;
     font-size: 30pt;
-    border: 1px solid blue;
 }
 
-@keyframes pulse {
+.code {
+    font-size: 3em;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+@keyframes pressDown1 {
+    30%,
+    40%,
+    100% {
+        transform: translateY(0);
+    }
+    35% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes pressDown2 {
+    70%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes pressDown3 {
+    30%,
+    40%,
+    100% {
+        transform: translateY(0);
+    }
+    35% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes pressDown4 {
+    40%,
+    50%,
+    100% {
+        transform: translateY(0);
+    }
+    45% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes pressDown5 {
+    20%,
+    30%,
+    100% {
+        transform: translateY(0);
+    }
     25% {
-        transform: rotate(0deg);
+        transform: translateY(10px);
     }
-    50% {
-        transform: rotate(360deg);
-        color: red;
+}
+
+@keyframes pressDown6 {
+    60%,
+    70%,
+    100% {
+        transform: translateY(0);
     }
+    65% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes pressDown7 {
+    10%,
+    20%,
+    100% {
+        transform: translateY(0);
+    }
+    15% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes pressDown8 {
+    35%,
+    45%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(10px);
+    }
+}
+
+
+
+.code:nth-child(1) {
+    animation: pressDown1 2s infinite;
+}
+
+.code:nth-child(2) {
+    animation: pressDown2 3s infinite;
+}
+
+.code:nth-child(3) {
+    animation: pressDown3 4s infinite;
+}
+
+.code:nth-child(4) {
+    animation: pressDown4 2.5s infinite;
+}
+
+.code:nth-child(5) {
+    animation: pressDown5 2.5s infinite;
+}
+
+.code:nth-child(6) {
+    animation: pressDown6 3.5s infinite;
+}
+
+.code:nth-child(7) {
+    animation: pressDown7 2.2s infinite;
+}
+
+.code:nth-child(8) {
+    animation: pressDown8 3.2s infinite;
 }
 
 #container {
-    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    background-color: #000000;
 }
 #container_content {
     margin: auto;
-    width: 45vw;
-    background-color: white;
-    padding: 2%;
+    width: 50vw;
+    color: white;
     font-family: "Doto", sans-serif;
     font-size: 120%;
 }
 #container_content_two{
     margin: auto;
-    width: 55vw;
-    height: 40vh;
-    padding: 2%;
+    width: 40vw;
+    height: 70vh;
     background-image:url("../img/profileimage.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-
+    border: solid black 1px;
+    border-radius: 5% 0 0 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
 }
 .second_image {
     background-image:url("../img/office_raw.jpeg");
-    background-size: contain;
+    background-size: 100% 500px;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 90%;
+}
+.codes {
+    background-image:url("../img/office.jpg");
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
 }
 
 footer{
@@ -233,7 +358,11 @@ footer{
     font-weight: 200;
     font-style: normal;
     font-variation-settings: "MORF" 0;
-                  }
+}
+
+/*  Mobile device setting */
+
+
 @media only screen and (max-width: 1080px) {
     body {
         font-family: "times New Roman", Times, serif;
@@ -300,7 +429,9 @@ footer{
         font-size: 100%;
     }
     #container {
-        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
         padding: 2%;
     }
     #hello {
@@ -331,6 +462,8 @@ footer{
     }
     #container_content_two {
         width: 90%;
+        height: 40vh;
+        border-radius: 2%;
         display: block;
         margin: auto;
     }
@@ -358,49 +491,12 @@ footer{
         font-style: normal;
         text-transform: uppercase;
     }
-    .blob {
-        background: white;
-        border-radius: 50%;
-        height: 30px;
-        width: 100px;
-        box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-        transform: skew(0deg);
-        animation: pulse 8s infinite;
-        margin: auto;
-        font-size: 2em;
-    }
 
     #one, #two, #three, #four, #five{
         font-size: 60%;
         font-weight: 700;
     }
 
-    @keyframes pulses {
-        0% {
-            transform: skew(0);
-            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-        }
-
-        20% {
-            transform: skew(10deg);
-            background: yellow;
-            box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-        }
-
-        40% {
-            transform: skew(25deg);
-            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-            background: green;
-        }
-        60% {
-            background: black;
-            transition: width 6s;
-            width: 20px;
-        }
-        80% {
-            background: gold;
-        }
-    }
     .remove_point {
         font-size: 100%;
         display: block;
