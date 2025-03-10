@@ -352,14 +352,19 @@ footer{
     .name {
         color: red;
     }
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
     #container_content {
-        font-size: 1.1em;
-        text-align: justify;
+        font-size: 1.3em;
+        width: 80%;
 
     }
     #container_content_two {
         padding: 1% 0;
-
+        width: 90%;
+        height: 40vh;
     }
     #navbar {
         display: none;
@@ -369,6 +374,24 @@ footer{
     }
     .first_content {
         width: 45%;
+    }
+    h1 {
+        margin: 0;
+        font-size: 30px;
+        position: relative;
+        top: 490px;
+        left: 380px;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-delay: 2s;
+        animation: example 5s;
+        z-index: 1;
+    }
+    @keyframes example {
+        0%   {left: 0; top:0;}
+        25%  {left: 0; top: 435px;}
+        50%  {left: 460px; top: 440px;color:gold;}
+        75%  {left: 460px; top: 440px;color:green;}
     }
 }
 @media only screen and (max-width: 550px) {
