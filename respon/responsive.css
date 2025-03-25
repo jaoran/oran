@@ -41,7 +41,8 @@ ul  {
     justify-content: space-around;
 }
 #hello {
-    margin: 5% 20%
+    margin: 1% 2%;
+    border: solid black 2px;
 }
 #logo {
     position: absolute;
