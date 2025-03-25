@@ -42,7 +42,7 @@ ul  {
 }
 #hello {
     margin: 1% 2%;
-    border: solid black 2px;
+    border: solid red 2px;
 }
 #logo {
     position: absolute;
