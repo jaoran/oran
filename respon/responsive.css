@@ -41,9 +41,19 @@ ul  {
     justify-content: space-around;
 }
 #hello {
-    margin: 1% 2%;
     border: solid red 2px;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+.career {
+    width: 45%;
+    display: inline-block;
+    background-color: #f1f1f1;
+    border: solid blue 5px;
+}
+
 #logo {
     position: absolute;
     top: 3%;
