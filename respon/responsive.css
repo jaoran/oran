@@ -23,10 +23,8 @@ body {
     padding: .5%;
     height: 7vh;
 }
-ul  {
-    text-align: center;
-
-}
+#menu  {
+    text-align: center;}
 .li{
     display: inline-flex;
     margin-left: 100px;
@@ -414,7 +412,7 @@ footer{
         height: 6vh;
     }
 
-    ul {
+    .menu {
         display: flex;
         height: 1vh;
         justify-content: space-around;
@@ -445,9 +443,15 @@ footer{
         height: 90vh;
         padding: 2%;
     }
+
     #hello {
-        height: 80vh;
+        height: 1100px;
         margin: 0 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .career {
+        width: 80vw;
     }
     .first_content {
         display: block;
