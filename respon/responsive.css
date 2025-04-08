@@ -38,18 +38,22 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+label {
+    display: block;
+    line-height: 2;
+}
 #hello {
-    border: solid red 2px;
-    height: 50%;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .career {
+    padding: 3% 2%;
     width: 45%;
     display: inline-block;
     background-color: #f1f1f1;
-    border: solid blue 5px;
+
 }
 
 #logo {
