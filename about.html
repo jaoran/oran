@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>about</title>
+    <script src="js/responsive.js"></script>
     <link rel="stylesheet" href="respon/responsive.css">
 </head>
 <body>
@@ -153,53 +154,45 @@
         <h2> Survey </h2>
         <form>
             <label for="">
-                <input type="radio" value="" name="change_please">
-                <input type="radio" value="" name="change_please">
-                How would you rate your overall experience on our website?
+                <div> How would you rate your overall experience on our website? </div>
+                <input type="radio" value="yes" name="change_please"> Yes
+                <input type="radio" value="no" name="change_please"> No
             </label>
             <label for="">
-                <input type="radio" value="" name="change_please">
-                <input type="radio" value="" name="change_please">
-                How visually appealing is our website?
+                <div> How visually appealing is our website? </div>
+                <input type="radio" value="yes" name="change_please"> Yes
+                <input type="radio" value="no" name="change_please"> No
             </label>
             <label for="">
-                <input type="radio" value="" name="change_please">
-                <input type="radio" value="" name="change_please">
-                Did you encounter any navigation issues?
+                <div> Did you encounter any navigation issues? </div>
+                <input type="radio" value="" name="change_please"> Yes
+                <input type="radio" value="" name="change_please"> No
             </label>
             <label for="">
-                <input type="radio" value="" name="change_please">
-                <input type="radio" value="" name="change_please">
-                What improvements would you suggest for our website’s layout?
+                <div> What improvements would you suggest for our website’s layout? </div>
+                <input type="radio" value="" name="change_please"> Yes
+                <input type="radio" value="" name="change_please"> No
             </label>
             <label for="">
-                <input type="radio" value="" name="change_please">
-                <input type="radio" value="" name="change_please">
-                Is the information on our website clear and helpful?
+                <div> Is the information on our website clear and helpful? </div>
+                <input type="radio" value="yes" name="change_please"> Yes
+                <input type="radio" value="no" name="change_please"> No
             </label>
             <label for="">
-                <input type="radio" value="" name="change_please">
-                <input type="radio" value="" name="change_please">
-                Did the website load quickly?
+               <div> Did the website load quickly? </div>
+               <input type="radio" value="yes" name="change_please">  Yes
+               <input type="radio" value="no" name="change_please">  No
             </label>
         </form>
         <form>
-            <label for="example">Your Comment/Feedback:</label><br>
-                <textarea id="example" name="example" rows="4" cols="50">
-                    Enter your text here...
-                </textarea><br>
-            <input type="submit" value="Submit">
+            <label for="example">Your Comments:</label><br>
+                <textarea id="example" name="example" rows="7" cols="50">
+                </textarea><br> <br>
+            <input id="input_click" type="submit" value="Submit">
         </form>
 
     </div>
 </div>
-<script>
-    function time() {
-        const d = new Date();
-        const y = d.getFullYear();
-        document.write(y);
-    }
-</script>
 <footer>
         <div class= "remove_point"> Jaoran Studio <span class="glyphicon glyphicon-sunglasses" ></span> &copy; <script> time();</script> </div>
         <div class="remove_point"> Contact me @ 954-232-8857 <br/> Email: <a class="footer_a" href="mailto:orande@me.com?subject=Reaching%20out" target="_top"> orande@me.com </a></div>
