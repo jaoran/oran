@@ -55,7 +55,6 @@ label {
     border-radius: 5px;
 }
 #hello {
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -432,8 +431,9 @@ footer{
     input {
         border: none;
     }
-    #career_left,#career_right {
-
+    #career_left, #career_right {
+        width: 90%;
+        display: block;
     }
     .menu {
         display: flex;
@@ -462,14 +462,14 @@ footer{
     }
     #container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         height: 90vh;
         padding: 2%;
     }
 
     #hello {
-        height: 1100px;
         margin: 0 5%;
+        width: 95%;
         display: flex;
         flex-direction: column;
     }
