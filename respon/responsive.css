@@ -58,6 +58,7 @@ label {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-top: 5%;
 }
 .career {
     padding: 3% 2%;
@@ -556,6 +557,7 @@ footer{
         font-family: "Doto", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
+        font-size: 1em;
         text-transform: uppercase;
     }
 
