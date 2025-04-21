@@ -304,12 +304,13 @@ summary {
 #container {
     display: flex;
     flex-direction: row;
-    height: 90vh;
     background-color: #000000;
+    padding-top: 5%;
+    height: 80vh;
 }
 #container_content {
     margin: auto;
-    width: 50vw;
+    width: 40%;
     color: white;
     font-family: "Doto", sans-serif;
     font-size: 120%;
@@ -317,13 +318,13 @@ summary {
 #container_content_two{
     margin: auto;
     width: 40vw;
-    height: 70vh;
+    height: 60vh;
     background-image:url("../img/profileimage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    border: solid black 1px;
-    border-radius: 5% 0 0 0;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
+    border-radius: 5% 5% 0 0;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.6);
+
 }
 .second_image {
     background-image:url("../img/office_raw.jpeg");
@@ -370,7 +371,7 @@ footer{
         font-family: "times New Roman", Times, serif;
     }
     .main_container {
-        height: 60vh;
+        height: 80vh;
         background-size: cover;
     }
     .name {
@@ -379,16 +380,20 @@ footer{
     #container {
         display: flex;
         flex-direction: column;
+        padding: 5%;
     }
     #container_content {
-        font-size: 1.3em;
-        width: 80%;
-
+        font-size: 1.1em;
+        width: 80vw;
+        padding: 8% 5%;
+        font-weight: bold;
     }
     #container_content_two {
-        padding: 1% 0;
-        width: 90%;
-        height: 40vh;
+        padding: 15% 5%;
+        width: 70%;
+        height: 35vh;
+        border-radius: 15px;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
     }
     #navbar {
         display: none;
