@@ -140,14 +140,16 @@ article {
 h1 {
     margin: 0 10%;
     position: relative;
-    left: 500px;
-    top: 600px;
+    left: 400px;
+    top: 800px;
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-delay: 2s;
-    animation: example 5s;
+    animation: example 10s;
     z-index: 1;
     display: inline-flex;
+    font-size: 3.3em;
+    color: #39FF14;
 }
 h2 {
     text-align: center;
@@ -190,9 +192,9 @@ summary {
 }
 @keyframes example {
     0%   {left: 0; top: 0;}
-    25%  {left: 0; top:550px;}
-    50%  {left:500px; top:600px;color:gold;}
-    100%  {left:500px; top:600px;color:green;}
+    25%  {left: 0; top:450px; color: #39FF14;}
+    50%  {left:400px; top:800px;color:#39FF14;}
+    100%  {left:400px; top:800px;color:#39FF14;}
 }
 .blobs {
     background: white;
