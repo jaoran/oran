@@ -425,7 +425,7 @@ footer{
         75%  {left: 460px; top: 440px;color:green;}
     }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
     body {
         font-size: 14px;
         font-family: "Times New Roman", Times, serif;
