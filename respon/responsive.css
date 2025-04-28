@@ -141,7 +141,7 @@ h1 {
     margin: 0 10%;
     position: relative;
     left: 400px;
-    top: 800px;
+    top: 70%;
     animation-name: example;
     animation-duration: 6s;
     animation-delay: 2s;
@@ -191,10 +191,10 @@ summary {
     padding: 1%;
 }
 @keyframes example {
-    0%   {left: 0; top: 0;}
-    25%  {left: 0; top:450px; color: #39FF14;}
-    50%  {left:400px; top:800px;color:#39FF14;}
-    100%  {left:400px; top:800px;color:#39FF14;}
+    0%   {left: 0; top: 0; color: #000000}
+    25%  {left: 0; top:450px; color: #000000;}
+    50%  {left:400px; top: 70%;color:#000000;}
+    100%  {left:400px; top: 70%;color:#000000;}
 }
 .blobs {
     background: white;
@@ -374,7 +374,7 @@ footer{
     }
     .main_container {
         height: 80vh;
-        background-size: cover;
+        background-size:cover;
     }
     .name {
         color: red;
@@ -425,7 +425,7 @@ footer{
         75%  {left: 460px; top: 440px;color:green;}
     }
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px)  {
     body {
         font-size: 14px;
         font-family: "Times New Roman", Times, serif;
