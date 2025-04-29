@@ -67,6 +67,7 @@ label {
     background-color: #f1f1f1;
 
 }
+
 #logo {
     position: absolute;
     top: 3%;
@@ -308,7 +309,6 @@ summary {
     flex-direction: row;
     background-color: #000000;
     padding-top: 5%;
-    height: 80vh;
 }
 #container_content {
     margin: auto;
@@ -346,6 +346,7 @@ summary {
 footer{
     width: 100vw;
     height: 10vh;
+    padding: 10% 0;
 }
 .remove_point {
     text-align: center;
@@ -397,6 +398,9 @@ footer{
         border-radius: 15px;
         box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
     }
+    .blob {
+        font-size: 0.6em;
+    }
     #navbar {
         display: none;
     }
@@ -406,12 +410,13 @@ footer{
     .first_content {
         width: 45%;
     }
+
     h1 {
         margin: 0;
         font-size: 30px;
         position: relative;
-        top: 490px;
-        left: 380px;
+        top: 65%;
+        left: 350px;
         animation-name: example;
         animation-duration: 4s;
         animation-delay: 2s;
@@ -421,11 +426,11 @@ footer{
     @keyframes example {
         0%   {left: 0; top:0;}
         25%  {left: 0; top: 435px;}
-        50%  {left: 460px; top: 440px;color:gold;}
-        75%  {left: 460px; top: 440px;color:green;}
+        50%  {left: 380px; top: 70%;color:gold;}
+        75%  {left: 380px; top: 70%;color:green;}
     }
 }
-@media (max-width: 600px)  {
+@media (max-width: 600px) {
     body {
         font-size: 14px;
         font-family: "Times New Roman", Times, serif;
@@ -451,8 +456,10 @@ footer{
     }
     .li {
         position: relative;
-        left: -35px;
-        margin-left: 20px;
+        left: -40px;
+        margin-left: 10px;
+        font-size: 0.7em;
+        padding: 0 8%;
     }
     #logo {
         display: none;
@@ -471,7 +478,6 @@ footer{
     #container {
         display: flex;
         flex-direction: column;
-        height: 90vh;
         padding: 2%;
     }
 
@@ -515,10 +521,10 @@ footer{
     }
     h1 {
         margin: 0;
-        font-size: 10px;
+        font-size: 1.0em;
         position: relative;
         top: 160px;
-        left: 170px;
+        left: 130px;
         animation-name: example;
         animation-duration: 4s;
         animation-delay: 2s;
