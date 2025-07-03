@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Layout</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      background-color: #f9fafb;
+    }
+    form {
+      max-width: 400px;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    input, select {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.25rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      margin-top: 1.5rem;
+      padding: 0.75rem 1rem;
+      background-color: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2563eb;
+    }
+    /* Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Main layout */
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    /* Rows and Columns */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .column {
+      flex: 1 1 45%;
+      background-color: #f2f2f2;
+      padding: 1rem;
+      min-height: 150px;
+      border-radius: 8px;
+    }
+    .carousel {
+      width: 100%;
+      max-width: 800px;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .carousel-track {
+      display: flex;
+      animation: scroll 16s linear infinite;
+      width: fit-content;
+    }
+
+    .slide {
+      min-width: 100%;
+      height: 250px;
+      background: linear-gradient(135deg, #6EE7B7, #3B82F6);
+      color: white;
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-100%); }
+      50% { transform: translateX(-200%); }
+      75% { transform: translateX(-300%); }
+      100% { transform: translateX(-400%); }
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+      .column {
+        flex: 1 1 100%;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <h1> Jaoran Studio </h1>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+  <section class="row">
+    <div class="column">
+      <form>
+        <label for="name">What is your name?</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+        <label for="outfit">What are you wearing?</label>
+        <input type="text" id="outfit" name="outfit" placeholder="e.g. jeans and a t-shirt" required />
+
+        <label for="time">What time is it?</label>
+        <input type="time" id="time" name="time" required />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div class="column">Row 1 - Column 2</div>
+  </section>
+  <section class="row">
+    <div class="column">Row 2 - Column 1</div>
+    <div class="column">Row 2 - Column 2</div>
+  </section>
+</main>
+
+<div class="carousel">
+  <div class="carousel-track">
+    <div class="slide">Slide 1</div>
+    <div class="slide">Slide 2</div>
+    <div class="slide">Slide 3</div>
+    <div class="slide">Slide 4</div>
+  </div>
+</div>
+<script>
+  // Wait until the DOM is fully loaded
+  document.addEventListener('DOMContentLoaded', function () {
+    const form = document.querySelector('form');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault(); // Prevent page reload
+
+      const name = document.getElementById('name').value;
+      const outfit = document.getElementById('outfit').value;
+      const time = document.getElementById('time').value;
+
+      console.log("Name:", name);
+      console.log("Outfit:", outfit);
+      console.log("Time:", time);
+
+      // You can also display the info on the page:
+      alert(`Hi ${name}, you're wearing "${outfit}" and it's ${time}.`);
+    });
+  });
+</script>
+</body>
+</html>
