@@ -147,7 +147,7 @@
 <body>
 
 <nav>
-  <h1> Jaoran Studio </h1>
+  <h1> Welcome, Sir </h1>
   <ul>
     <li><a href="#">Home</a></li>
     <li><a href="#">About</a></li>
@@ -159,19 +159,104 @@
   <section class="row">
     <div class="column">
       <form>
-        <label for="name">What is your name?</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+        <label for="name">What is your full name?</label>
+        <input type="text" id="name" name="name" placeholder="Enter your first then last name" required />
 
-        <label for="outfit">What are you wearing?</label>
-        <input type="text" id="outfit" name="outfit" placeholder="e.g. jeans and a t-shirt" required />
+        <label for="top">What color is top/shirt?</label>
+        <input type="text" id="top" name="top" placeholder="e.g. top and a t-shirt" required />
+
+        <label for="bottom">What color is bottom/short?</label>
+        <input type="text" id="bottom" name="bottom" placeholder="e.g. Bottom, jeans and short" required />
 
         <label for="time">What time is it?</label>
         <input type="time" id="time" name="time" required />
 
+        <label for="time_of_day">What time of day is it?</label>
+        <select id="time_of_day" name="time_of_day">
+          <option value="">--Select--</option>
+          <option value="morning">Morning (6 AM – 12 PM)</option>
+          <option value="afternoon">Afternoon (12 PM – 5 PM)</option>
+          <option value="evening">Evening (5 PM – 9 PM)</option>
+          <option value="night">Night (9 PM – 6 AM)</option>
+        </select>
+
         <button type="submit">Submit</button>
       </form>
     </div>
-    <div class="column">Row 1 - Column 2</div>
+    <div class="column">
+      <hr>
+      <p style="text-align: center;"> How was your day </p>
+      <hr>
+      <br>
+      <label for="mood">What time of day is it?</label>
+      <br>
+      <select id="mood" name="mood">
+        <option value="">--Select--</option>
+        <option value="happy"> Happy </option>
+        <option value="sad"> Sad </option>
+        <option value="okay"> Okay </option>
+        <option value="Bad"> Bad </option>
+      </select>
+      <br>
+      <label for="age">What is your age ?</label>
+      <input type="text" id="age" name="age" required />
+
+      <label for="birth-day">What is your birthday?</label>
+      <select id="birth-month" name="birth_month" required>
+        <option value="">Month</option>
+        <option value="01">January</option>
+        <option value="02">February</option>
+        <option value="03">March</option>
+        <option value="04">April</option>
+        <option value="05">May</option>
+        <option value="06">June</option>
+        <option value="07">July</option>
+        <option value="08">August</option>
+        <option value="09">September</option>
+        <option value="10">October</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+      </select>
+
+      <select id="birth-day" name="birth_day" required>
+        <option value="">Day</option>
+        <option value="01">1</option>
+        <option value="02">2</option>
+        <option value="03">3</option>
+        <option value="04">4</option>
+        <option value="05">5</option>
+        <option value="06">6</option>
+        <option value="07">7</option>
+        <option value="08">8</option>
+        <option value="09">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+      </select>
+
+      <label for="birth-year"> Year </label>
+      <input type="text" id="birth-year" name="birth-year" placeholder= "e.g. 1900–2025 options" required />
+    </div>
+
   </section>
   <section class="row">
     <div class="column">Row 2 - Column 1</div>
@@ -196,15 +281,15 @@
       e.preventDefault(); // Prevent page reload
 
       const name = document.getElementById('name').value;
-      const outfit = document.getElementById('outfit').value;
+      const top = document.getElementById('top').value;
+      const bottom = document.getElementById('bottom').value;
       const time = document.getElementById('time').value;
+      const time_of_day = document.getElementById('time_of_day').value;
 
-      console.log("Name:", name);
-      console.log("Outfit:", outfit);
-      console.log("Time:", time);
+
 
       // You can also display the info on the page:
-      alert(`Hi ${name}, you're wearing "${outfit}" and it's ${time}.`);
+      alert(`Hi ${name}, top color is "${top}" , bottom color is "${bottom}" it's ${time} , time of day is ${time_of_day}`);
     });
   });
 </script>
