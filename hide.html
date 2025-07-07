@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hide and Show </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            height: 150vh;
+            padding: 0;
+            margin: 0;
+        }
+        #nav {
+            display: flex;
+            width: 100vw;
+            align-items: center;
+            background-color: black;
+            height: 10vh;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-family: "Poiret One", sans-serif;
+            font-size: 3vh;
+            position: fixed;
+        }
+        #content {
+            padding: 10%;
+            position: fixed;
+        }
+        #display {
+            padding: 10%;
+        }
+        #animate {
+            color: blue;
+        }
+        .second {
+            animation: my_move 9s ease-in-out forwards;
+            color: black;
+        }
+        #name {
+            position: relative;
+        }
+        .hide {
+            visibility: hidden;
+        }
+        .show {
+            animation: re_move 9s ease-in-out forwards;
+        }
+        @keyframes re_move {
+            0% {
+                left: 0;
+                color: purple;
+            }
+            75%{
+                left: 600px;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        @keyframes my_move {
+            0% {
+                left: 600px;
+            }
+            100% {
+                left: 0;
+            }
+        }
+        span {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="nav"> The real world of creating a &nbsp;<span> dream </span> &nbsp; that I am the only one that have seen it </div>
+    <div style="padding: 10%;">
+        <div id="content">
+            <span id="animate" class="shows"> Hello I am back with love </span>
+            <span id="name" class="hide second"> Sadiki Brown </span>
+        </div>
+        <div id="display" style="position: fixed; top: 10px;
+"> </div>
+        <div id="display_one"></div>
+    </div>
+<script>
+
+    // function init() {
+    //
+     document.querySelector('#name').classList.remove('second');
+
+    function handleScroll() {
+        let scrollPosition = window.scrollY;
+        document.querySelector("#display").innerHTML = scrollPosition + " px";
+        const nameElement = document.getElementById('name');
+
+
+
+        if (scrollPosition > 210) {
+            nameElement.classList.remove('hide');
+            nameElement.classList.add('second');
+        }
+        else if (scrollPosition < 200) {
+            nameElement.classList.add('hide');
+        }
+
+    }
+    document.addEventListener('scroll', handleScroll);
+    // }
+    //document.addEventListener('DOMContentLoaded', init);
+
+</script>
+</body>
+</html>
+
