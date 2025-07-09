@@ -12,7 +12,7 @@
       background-color: #f9fafb;
     }
     form {
-      max-width: 400px;
+      max-width: 700px;
       background: white;
       padding: 2rem;
       border-radius: 10px;
@@ -73,7 +73,7 @@
     /* Main layout */
     main {
       padding: 2rem;
-      max-width: 1000px;
+      max-width: 1500px;
       margin: 0 auto;
     }
 
@@ -145,6 +145,7 @@
 </head>
 <body>
 
+
 <nav>
   <h1> Welcome, Sir </h1>
   <ul>
@@ -184,7 +185,7 @@
     </div>
     <div class="column">
       <hr>
-      <p style="text-align: center;font-family: cursive; color: red;"> Let do this </p>
+      <p style="text-align: center;font-family: cursive; color: red; font-size: 2.5em">  Let's do this </p>
       <hr>
       <br>
       <label for="mood">How was your day?</label>
@@ -259,7 +260,23 @@
   </section>
   <section class="row">
     <div class="column"> Result </div>
-    <div class="column"> Free Style </div>
+    <div class="column">
+      <form id="dinnerForm">
+        <h3>Choose Your Dinner</h3>
+        <label>
+          <input type="radio" name="dinner" value="Waffle"> Waffle
+        </label><br>
+        <label>
+          <input type="radio" name="dinner" value="Cheese Pizza"> Cheese Pizza
+        </label><br>
+        <label>
+          <input type="radio" name="dinner" value="Pepperoni Pizza "> Pepperoni Pizza
+        </label><br><br>
+        <button type="submit">Submit</button>
+      </form>
+
+
+    </div>
   </section>
 </main>
 
@@ -285,11 +302,19 @@
       const time = document.getElementById('time').value;
       const time_of_day = document.getElementById('time_of_day').value;
 
-
-
       // You can also display the info on the page:
       alert(`Hi ${name}, top color is "${top}" , bottom color is "${bottom}" it's ${time} , time of day is ${time_of_day}`);
     });
+  });
+
+  document.getElementById("dinnerForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    const selectedDinner = document.querySelector('input[name="dinner"]:checked');
+    if (selectedDinner) {
+      alert("You chose: " + selectedDinner.value);
+    } else {
+      alert("Please select a dinner option.");
+    }
   });
 </script>
 </body>
