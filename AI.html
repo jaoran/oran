@@ -18,12 +18,12 @@
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
-    label {
+    .info {
       display: block;
       margin-top: 1rem;
       font-weight: bold;
     }
-    input, select {
+   .info_section {
       width: 100%;
       padding: 0.5rem;
       margin-top: 0.25rem;
@@ -159,20 +159,20 @@
   <section class="row">
     <div class="column">
       <form>
-        <label for="name">What is your full name?</label>
-        <input type="text" id="name" name="name" placeholder="Enter your first then last name" required />
+        <label class="info" for="name">What is your full name?</label>
+        <input class="info_section" type="text" id="name" name="name" placeholder="Enter your first then last name" required />
 
-        <label for="top">What color is top/shirt?</label>
-        <input type="text" id="top" name="top" placeholder="e.g. top and a t-shirt" required />
+        <label class="info" for="top">What color is top/shirt?</label>
+        <input class="info_section" type="text" id="top" name="top" placeholder="e.g. top and a t-shirt" required />
 
-        <label for="bottom">What color is bottom/short?</label>
-        <input type="text" id="bottom" name="bottom" placeholder="e.g. Bottom, jeans and short" required />
+        <label class="info" for="bottom">What color is bottom/short?</label>
+        <input class="info_section" type="text" id="bottom" name="bottom" placeholder="e.g. Bottom, jeans and short" required />
 
-        <label for="time">What time is it?</label>
-        <input type="time" id="time" name="time" required />
+        <label class="info" for="time">What time is it?</label>
+        <input class="info_section" type="time" id="time" name="time" required />
 
-        <label for="time_of_day">What time of day is it?</label>
-        <select id="time_of_day" name="time_of_day">
+        <label class="info" for="time_of_day">What time of day is it?</label>
+        <select class="info_section" id="time_of_day" name="time_of_day">
           <option value="">--Select--</option>
           <option value="morning">Morning (6 AM – 12 PM)</option>
           <option value="afternoon">Afternoon (12 PM – 5 PM)</option>
@@ -188,9 +188,9 @@
       <p style="text-align: center;font-family: cursive; color: red; font-size: 2.5em">  Let's do this </p>
       <hr>
       <br>
-      <label for="mood">How was your day?</label>
+      <label class="info" for="mood">How was your day?</label>
       <br>
-      <select id="mood" name="mood">
+      <select class="info_section" id="mood" name="mood">
         <option value="">--Select--</option>
         <option value="happy"> Happy </option>
         <option value="sad"> Sad </option>
@@ -198,11 +198,12 @@
         <option value="Bad"> Bad </option>
       </select>
       <br>
-      <label for="age">What is your age ?</label>
-      <input type="text" id="age" name="age" required />
+      <label class="info" for="age">What is your age ?</label>
+      <input class="info_section" type="text" id="age" name="age" required />
 
-      <label for="birth-day">What is your birthday?</label>
-      <select id="birth-month" name="birth_month" required>
+      <label class="info" for="birth-month"> Birthday month?</label>
+      <br>
+      <select class="info_section" id="birth-month" name="birth_month" required>
         <option value="">Month</option>
         <option value="01">January</option>
         <option value="02">February</option>
@@ -217,8 +218,8 @@
         <option value="11">November</option>
         <option value="12">December</option>
       </select>
-
-      <select id="birth-day" name="birth_day" required>
+      <label class="info" for="birth-day"> Birthday day?</label> <br>
+      <select class="info_section" id="birth-day" name="birth_day" required>
         <option value="">Day</option>
         <option value="01">1</option>
         <option value="02">2</option>
@@ -253,8 +254,8 @@
         <option value="31">31</option>
       </select>
 
-      <label for="birth-year"> Year </label>
-      <input type="text" id="birth-year" name="birth-year" placeholder= "e.g. 1900–2025 options" required />
+      <label class="info" for="birth-year"> Birthday year </label> <br>
+      <input class="info_section" type="text" id="birth-year" name="birth-year" placeholder= "e.g. 1900–2025 options" required />
     </div>
 
   </section>
@@ -264,18 +265,19 @@
       <form id="dinnerForm">
         <h3>Choose Your Dinner</h3>
         <label>
+          <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" class="avatar" width="100" height="100" /> <br>
           <input type="radio" name="dinner" value="Waffle"> Waffle
         </label><br>
         <label>
+          <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" class="avatar" width="100" height="100" /> <br>
           <input type="radio" name="dinner" value="Cheese Pizza"> Cheese Pizza
         </label><br>
         <label>
-          <input type="radio" name="dinner" value="Pepperoni Pizza "> Pepperoni Pizza
+          <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" class="avatar" width="100" height="100" /> <br>
+           <input type="radio" name="dinner" value="Pepperoni Pizza "> Pepperoni Pizza
         </label><br><br>
         <button type="submit">Submit</button>
       </form>
-
-
     </div>
   </section>
 </main>
