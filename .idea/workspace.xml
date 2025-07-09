@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="Making correct to the display of column Two">
+    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="add image to the site">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AI.html" beforeDir="false" afterPath="$PROJECT_DIR$/AI.html" afterDir="false" />
     </list>
@@ -122,7 +122,8 @@
       <workItem from="1744235916946" duration="34430000" />
       <workItem from="1745362135315" duration="21747000" />
       <workItem from="1751330613216" duration="100000" />
-      <workItem from="1751330947462" duration="10333000" />
+      <workItem from="1751330947462" duration="12919000" />
+      <workItem from="1752015608322" duration="8597000" />
     </task>
     <task id="LOCAL-00001" summary="adding a new html">
       <option name="closed" value="true" />
@@ -444,7 +445,47 @@
       <option name="project" value="LOCAL" />
       <updated>1751678772230</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="add image to the site">
+      <option name="closed" value="true" />
+      <created>1751680928947</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1751680928947</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add image to the site">
+      <option name="closed" value="true" />
+      <created>1751847282301</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1751847282301</updated>
+    </task>
+    <task id="LOCAL-00043" summary="add image to the site">
+      <option name="closed" value="true" />
+      <created>1751847293498</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1751847293498</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add image to the site">
+      <option name="closed" value="true" />
+      <created>1752019527122</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1752019527122</updated>
+    </task>
+    <task id="LOCAL-00045" summary="add image to the site">
+      <option name="closed" value="true" />
+      <created>1752025165651</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1752025165651</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,6 +526,7 @@
     <MESSAGE value="updating the file" />
     <MESSAGE value="updating both files" />
     <MESSAGE value="Making correct to the display of column Two" />
-    <option name="LAST_COMMIT_MESSAGE" value="Making correct to the display of column Two" />
+    <MESSAGE value="add image to the site" />
+    <option name="LAST_COMMIT_MESSAGE" value="add image to the site" />
   </component>
 </project>
