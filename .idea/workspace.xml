@@ -123,7 +123,7 @@
       <workItem from="1745362135315" duration="21747000" />
       <workItem from="1751330613216" duration="100000" />
       <workItem from="1751330947462" duration="12919000" />
-      <workItem from="1752015608322" duration="12179000" />
+      <workItem from="1752015608322" duration="13301000" />
     </task>
     <task id="LOCAL-00001" summary="adding a new html">
       <option name="closed" value="true" />
@@ -493,7 +493,31 @@
       <option name="project" value="LOCAL" />
       <updated>1752026219872</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="add image to the site">
+      <option name="closed" value="true" />
+      <created>1752187343934</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1752187343934</updated>
+    </task>
+    <task id="LOCAL-00048" summary="add image to the site">
+      <option name="closed" value="true" />
+      <created>1752187459391</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1752187459392</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add image to the site">
+      <option name="closed" value="true" />
+      <created>1752187509494</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1752187509494</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
