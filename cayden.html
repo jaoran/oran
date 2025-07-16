@@ -24,6 +24,66 @@
       max-width: 1000px;
       margin: auto;
     }
+    .section {
+      background: white;
+      padding: 20px;
+      margin: 20px;
+      width: 90%;
+      max-width: 700px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      text-align: center;
+    }
+    .shapes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .shape {
+      width: 100px;
+      height: 100px;
+      margin: auto;
+    }
+    .circle { border-radius: 50%; background: dodgerblue; }
+    .square { background: mediumseagreen; }
+    .triangle {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid tomato;
+    }
+    .rectangle { width: 100px; height: 60px; background: gold; }
+    .diamond {
+      transform: rotate(45deg);
+      background: violet;
+    }
+    .pentagon {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 50px 86.6px 50px;
+      border-color: transparent transparent teal transparent;
+    }
+    input {
+      margin-top: 10px;
+      padding: 8px;
+      width: 80%;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .chart, .alphabet {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    .alphabet { grid-template-columns: repeat(7, 1fr); }
+    .missing { background: #ffdddd; padding: 5px; border-radius: 4px; }
 
     .top {
       background-color: white;
@@ -64,7 +124,7 @@
       border-radius: 8px;
     }
 
-    input[type="text"], input[type="number"], select {
+    .input[type="text"], input[type="number"], select {
       width: 100%;
       padding: 10px;
       margin-top: 5px;
@@ -102,10 +162,10 @@
     <div class="form-section">
       <form>
         <label for="name">What is your name?</label>
-        <input type="text" id="name" name="name" required>
+        <input class="input" type="text" id="name" name="name" required>
 
         <label for="age">What is your age?</label>
-        <input type="number" id="age" name="age" required>
+        <input class="input" type="number" id="age" name="age" required>
 
         <label for="month">What is your birth month?</label>
         <select id="month" name="month" required>
@@ -125,19 +185,69 @@
         </select>
       </form>
     </div>
-
     <div class="images-container">
       <div class="image-box">
         <img src="img/toyota.png" alt="Car Image">
         <label for="carAnswer">What is the image above?</label>
-        <input type="text" id="carAnswer" name="carAnswer">
+        <input class="input" type="text" id="carAnswer" name="carAnswer">
       </div>
       <div class="image-box">
         <img src="img/Building.png" alt="Building Block Image">
         <label for="blockAnswer">What is the image above?</label>
-        <input type="text" id="blockAnswer" name="blockAnswer">
+        <input class="input" type="text" id="blockAnswer" name="blockAnswer">
       </div>
     </div>
+  </div>
+</div>
+<div class="section">
+  <h2>🎨 Identify the Shape!</h2>
+  <div class="shapes">
+    <div>
+      <div class="shape circle"></div>
+      <input type="text" placeholder="Name this shape" />
+    </div>
+    <div>
+      <div class="shape square"></div>
+      <input type="text" placeholder="Name this shape" />
+    </div>
+    <div>
+      <div class="shape triangle"></div>
+      <input type="text" placeholder="Name this shape" />
+    </div>
+    <div>
+      <div class="shape rectangle"></div>
+      <input type="text" placeholder="Name this shape" />
+    </div>
+    <div>
+      <div class="shape diamond"></div>
+      <input type="text" placeholder="Name this shape" />
+    </div>
+    <div>
+      <div class="shape pentagon"></div>
+      <input type="text" placeholder="Name this shape" />
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>📊 Count from 1 to 20</h2>
+  <div class="chart">
+    <script>
+      for (let i = 1; i <= 20; i++) {
+        document.write(`<div>${i}</div>`);
+      }
+    </script>
+  </div>
+</div>
+
+<div class="section">
+  <h2>🔤 Alphabet with Missing Letters</h2>
+  <div class="alphabet">
+    A B C <div class="missing">__</div> E F G
+    H I <div class="missing">__</div> K L M
+    N <div class="missing">__</div> P Q R
+    S T <div class="missing">__</div> V W
+    X Y Z
   </div>
 </div>
 </body>

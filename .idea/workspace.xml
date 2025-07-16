@@ -7,6 +7,7 @@
     <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="add image to the site">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AI.html" beforeDir="false" afterPath="$PROJECT_DIR$/AI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cayden.html" beforeDir="false" afterPath="$PROJECT_DIR$/cayden.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,15 +124,7 @@
       <workItem from="1745362135315" duration="21747000" />
       <workItem from="1751330613216" duration="100000" />
       <workItem from="1751330947462" duration="12919000" />
-      <workItem from="1752015608322" duration="13301000" />
-    </task>
-    <task id="LOCAL-00001" summary="adding a new html">
-      <option name="closed" value="true" />
-      <created>1734822256380</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1734822256380</updated>
+      <workItem from="1752015608322" duration="19105000" />
     </task>
     <task id="LOCAL-00002" summary="Made changes to the second nav to grid">
       <option name="closed" value="true" />
@@ -517,7 +510,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752187509494</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="add image to the site">
+      <option name="closed" value="true" />
+      <created>1752200263664</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1752200263664</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
