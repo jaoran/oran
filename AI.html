@@ -18,6 +18,19 @@
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
+    .btn-schedule {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: #005EB8;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+    }
+    .btn-schedule:hover {
+      background-color: #004080;
+    }
+
     .info {
       display: block;
       margin-top: 1rem;
@@ -143,6 +156,32 @@
       margin-top: 0.75rem;
       color: #2a7;
     }
+    /* Color Learning Section */
+    #color-learning {
+      padding: 2rem;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    #color-learning h2 {
+      margin-bottom: 1rem;
+    }
+
+    .swatches {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .swatch {
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      border-radius: 8px;
+      color: #fff;
+      font-weight: bold;
+    }
 
     @keyframes scroll {
       0% { transform: translateX(0); }
@@ -176,9 +215,9 @@
 <nav>
   <h1> Welcome, Sir </h1>
   <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="schedule.html">View Daily Schedule</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="#" class="btn-schedule">Home</a></li>
+    <li><a href="schedule.html" class="btn-schedule">View Daily Schedule</a></li>
+    <li><a href="#" class="btn-schedule">Contact</a></li>
   </ul>
 </nav>
 
@@ -291,7 +330,23 @@
 
   </section>
   <section class="row">
-    <div class="column"> Result </div>
+    <div class="column">
+      <section id="color-learning">
+        <h2> Colors </h2>
+        <div class="swatches">
+          <div class="swatch" style="background-color: #FF0000;">Red</div>
+          <div class="swatch" style="background-color: #00FF00;">Green</div>
+          <div class="swatch" style="background-color: #0000FF;">Blue</div>
+          <div class="swatch" style="background-color: #FFFF00; color: #000;">Yellow</div>
+          <div class="swatch" style="background-color: #FFA500;">Orange</div>
+          <div class="swatch" style="background-color: #800080;">Purple</div>
+          <div class="swatch" style="background-color: #FFFFFF; color: #000;">White</div>
+          <div class="swatch" style="background-color: #000000;">Black</div>
+          <div class="swatch" style="background-color: #808080;">Gray</div>
+          <div class="swatch" style="background-color: #F5CBCB;">Pink</div>
+        </div>
+      </section>
+    </div>
     <div class="column">
       <form id="dinnerForm">
         <h3>Choose Your Dinner</h3>

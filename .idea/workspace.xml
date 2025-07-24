@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="edit Css">
+    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="adding schedule.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AI.html" beforeDir="false" afterPath="$PROJECT_DIR$/AI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +46,12 @@
     }
   ]
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jaoran/oran.git&quot;,
-    &quot;accountId&quot;: &quot;b3aeb2d5-e0ee-4504-9aa0-7ad259b7bfdf&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jaoran/oran.git",
+    "accountId": "0d4db5e0-6c19-4627-ac91-e8612caea283"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/about.html" root0="SKIP_INSPECTION" />
   </component>
@@ -125,15 +126,7 @@
       <workItem from="1751330947462" duration="12919000" />
       <workItem from="1752015608322" duration="19715000" />
       <workItem from="1753135793024" duration="684000" />
-      <workItem from="1753396352359" duration="1207000" />
-    </task>
-    <task id="LOCAL-00003" summary="Missing viewport for mobile ability">
-      <option name="closed" value="true" />
-      <created>1734873413589</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1734873413589</updated>
+      <workItem from="1753396352359" duration="3942000" />
     </task>
     <task id="LOCAL-00004" summary="Missing viewport for mobile ability">
       <option name="closed" value="true" />
@@ -519,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752628752706</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="adding schedule.html">
+      <option name="closed" value="true" />
+      <created>1753398019256</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1753398019256</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding a new html" />
     <MESSAGE value="Made changes to the second nav to grid" />
     <MESSAGE value="Missing viewport for mobile ability" />
     <MESSAGE value="Changes by orandebrown" />
@@ -562,6 +562,7 @@
     <MESSAGE value="Making correct to the display of column Two" />
     <MESSAGE value="add image to the site" />
     <MESSAGE value="edit Css" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit Css" />
+    <MESSAGE value="adding schedule.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding schedule.html" />
   </component>
 </project>
