@@ -116,6 +116,33 @@
       align-items: center;
       justify-content: center;
     }
+    .mood-widget {
+      max-width: 300px;
+      margin: 1em auto;
+      text-align: center;
+      font-family: sans-serif;
+    }
+
+    .mood-widget .faces span {
+      font-size: 2rem;
+      margin: 0 0.25rem;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .mood-widget .faces span:hover {
+      transform: scale(1.2);
+    }
+
+    .mood-widget .faces span.selected {
+      transform: scale(1.4);
+      filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+    }
+
+    .mood-widget .thank-you {
+      margin-top: 0.75rem;
+      color: #2a7;
+    }
 
     @keyframes scroll {
       0% { transform: translateX(0); }
@@ -150,7 +177,7 @@
   <h1> Welcome, Sir </h1>
   <ul>
     <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
+    <li><a href="schedule.html">View Daily Schedule</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
 </nav>
@@ -188,15 +215,19 @@
       <p style="text-align: center;font-family: cursive; color: red; font-size: 2.5em">  Let's do this </p>
       <hr>
       <br>
-      <label class="info" for="mood">How was your day?</label>
-      <br>
-      <select class="info_section" id="mood" name="mood">
-        <option value="">--Select--</option>
-        <option value="happy"> Happy </option>
-        <option value="sad"> Sad </option>
-        <option value="okay"> Okay </option>
-        <option value="Bad"> Bad </option>
-      </select>
+      <div class="mood-widget">
+        <h3>How was your day?</h3>
+        <div class="faces">
+          <span data-mood="very-happy">😁</span>
+          <span data-mood="happy">🙂</span>
+          <span data-mood="neutral">😐</span>
+          <span data-mood="sad">🙁</span>
+          <span data-mood="very-sad">😢</span>
+        </div>
+        <div class="thank-you" hidden>
+          Thanks for sharing! Have a great evening.
+        </div>
+      </div>
       <br>
       <label class="info" for="age">What is your age ?</label>
       <input class="info_section" type="text" id="age" name="age" required />
@@ -294,6 +325,25 @@
   </div>
 </div>
 <script>
+  document.querySelectorAll('.mood-widget .faces span')
+          .forEach(face => {
+            face.addEventListener('click', () => {
+              // 1. Highlight the clicked face
+              document.querySelectorAll('.mood-widget .faces span')
+                      .forEach(f => f.classList.remove('selected'));
+              face.classList.add('selected');
+
+              // 2. (Optional) Send mood to your backend:
+              // fetch('/api/record-mood', {
+              //   method: 'POST',
+              //   headers: { 'Content-Type': 'application/json' },
+              //   body: JSON.stringify({ mood: face.dataset.mood })
+              // });
+
+              // 3. Show thank-you message
+              document.querySelector('.mood-widget .thank-you').hidden = false;
+            });
+          });
   // Wait until the DOM is fully loaded
   document.addEventListener('DOMContentLoaded', function () {
     const form = document.querySelector('form');
