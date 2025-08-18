@@ -1,0 +1,142 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"92629446-73b0-40f8-8d9d-2c9b5dc8bfb3\" name=\"Changes\" comment=\"update both html and css version one\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;jaoran&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/jaoran/oran.git&quot;,\r\n    &quot;accountId&quot;: &quot;2e23365f-058e-464d-a37d-20cbcd07f46b&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2qXvrI9OC9qoX8iBoC8bA9UbMIU\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"reference.settings.ide.settings.web.browsers\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"92629446-73b0-40f8-8d9d-2c9b5dc8bfb3\" name=\"Changes\" comment=\"\" />\r\n      <created>1734821932064</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1734821932064</updated>\r\n      <workItem from=\"1734821933303\" duration=\"98000\" />\r\n      <workItem from=\"1734822049880\" duration=\"21659000\" />\r\n      <workItem from=\"1734920387945\" duration=\"17822000\" />\r\n      <workItem from=\"1735613749987\" duration=\"46927000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"adding a new html\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734822256380</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734822256380</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Made changes to the second nav to grid\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734870404346</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734870404346</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Missing viewport for mobile ability\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734873413589</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734873413589</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Missing viewport for mobile ability\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734875661723</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734875661723</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Changes by orandebrown\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734905276112</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734905276112</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734906866266</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734906866266</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734912439297</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734912439297</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734912617681</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734912617681</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Testing mobile\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734921623858</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734921623858</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Testing mobile 340\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734922073523</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734922073523</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Testing mobile 340\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734922929392</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734922929392</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"update media query\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735005783066</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735005783066</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Working on the mobile and desktop\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735613295248</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735613295248</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Working on the mobile and desktop\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735613486397</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735613486397</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"merging doc\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735615557273</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735615557273</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"merging doc\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735616225757</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735616225757</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"Error with image seven\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735616753472</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735616753472</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"update both html and css\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1736595498263</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1736595498263</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"update both html and css version one\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1736597436029</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1736597436029</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"update both html and css version one\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1736597594082</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1736597594082</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"21\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"adding a new html\" />\r\n    <MESSAGE value=\"Made changes to the second nav to grid\" />\r\n    <MESSAGE value=\"Missing viewport for mobile ability\" />\r\n    <MESSAGE value=\"Changes by orandebrown\" />\r\n    <MESSAGE value=\"update\" />\r\n    <MESSAGE value=\"Testing mobile\" />\r\n    <MESSAGE value=\"Testing mobile 340\" />\r\n    <MESSAGE value=\"update media query\" />\r\n    <MESSAGE value=\"Working on the mobile and desktop\" />\r\n    <MESSAGE value=\"merging doc\" />\r\n    <MESSAGE value=\"Error with image seven\" />\r\n    <MESSAGE value=\"update both html and css\" />\r\n    <MESSAGE value=\"update both html and css version one\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"update both html and css version one\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 191a33ecff88a522ff6d2909ec45cae75dadc4a7)
++++ b/.idea/workspace.xml	(date 1741643641587)
+@@ -4,7 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="update both html and css version one" />
++    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="update css">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -18,20 +20,42 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PUSH_AUTO_UPDATE" value="true" />
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="GitHubPullRequestSearchHistory">{
+-  &quot;lastFilter&quot;: {
+-    &quot;state&quot;: &quot;OPEN&quot;,
+-    &quot;assignee&quot;: &quot;jaoran&quot;
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "history": [
++    {
++      "state": "MERGED",
++      "author": "jaoran"
++    }
++  ],
++  "lastFilter": {
++    "state": "MERGED",
++    "author": "jaoran"
+   }
+-}</component>
+-  <component name="GithubPullRequestsUISettings">{
+-  &quot;selectedUrlAndAccountId&quot;: {
+-    &quot;url&quot;: &quot;https://github.com/jaoran/oran.git&quot;,
+-    &quot;accountId&quot;: &quot;2e23365f-058e-464d-a37d-20cbcd07f46b&quot;
++}]]></component>
++  <component name="GitHubPullRequestState"><![CDATA[{
++  "prStates": [
++    {
++      "id": {
++        "id": "PR_kwDOM-mVJc6C7wjt",
++        "number": 2
++      },
++      "lastSeen": 1741643570041
++    }
++  ]
++}]]></component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/jaoran/oran.git",
++    "accountId": "b3aeb2d5-e0ee-4504-9aa0-7ad259b7bfdf"
+   }
+-}</component>
++}]]></component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/css/sidebarlayout.css" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/respon/responsive.css" root0="FORCE_HIGHLIGHTING" />
++  </component>
+   <component name="ProblemsViewState">
+     <option name="selectedTabId" value="CurrentFile" />
+   </component>
+@@ -48,6 +72,7 @@
+     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "DefaultHtmlFileTemplate": "HTML File",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "git-widget-placeholder": "main",
+     "ignore.virus.scanning.warn.message": "true",
+@@ -63,7 +88,7 @@
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
++        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -79,6 +104,7 @@
+       <workItem from="1734822049880" duration="21659000" />
+       <workItem from="1734920387945" duration="17822000" />
+       <workItem from="1735613749987" duration="46927000" />
++      <workItem from="1741643211161" duration="425000" />
+     </task>
+     <task id="LOCAL-00001" summary="adding a new html">
+       <option name="closed" value="true" />
+@@ -240,7 +266,31 @@
+       <option name="project" value="LOCAL" />
+       <updated>1736597594082</updated>
+     </task>
+-    <option name="localTasksCounter" value="21" />
++    <task id="LOCAL-00021" summary="update css">
++      <option name="closed" value="true" />
++      <created>1741569026055</created>
++      <option name="number" value="00021" />
++      <option name="presentableId" value="LOCAL-00021" />
++      <option name="project" value="LOCAL" />
++      <updated>1741569026055</updated>
++    </task>
++    <task id="LOCAL-00022" summary="update css">
++      <option name="closed" value="true" />
++      <created>1741569100863</created>
++      <option name="number" value="00022" />
++      <option name="presentableId" value="LOCAL-00022" />
++      <option name="project" value="LOCAL" />
++      <updated>1741569100863</updated>
++    </task>
++    <task id="LOCAL-00023" summary="update css">
++      <option name="closed" value="true" />
++      <created>1741569185757</created>
++      <option name="number" value="00023" />
++      <option name="presentableId" value="LOCAL-00023" />
++      <option name="project" value="LOCAL" />
++      <updated>1741569185757</updated>
++    </task>
++    <option name="localTasksCounter" value="24" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -271,6 +321,7 @@
+     <MESSAGE value="Error with image seven" />
+     <MESSAGE value="update both html and css" />
+     <MESSAGE value="update both html and css version one" />
+-    <option name="LAST_COMMIT_MESSAGE" value="update both html and css version one" />
++    <MESSAGE value="update css" />
++    <option name="LAST_COMMIT_MESSAGE" value="update css" />
+   </component>
+ </project>
+\ No newline at end of file

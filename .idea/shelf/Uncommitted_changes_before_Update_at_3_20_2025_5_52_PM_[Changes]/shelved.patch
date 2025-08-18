@@ -1,0 +1,240 @@
+Index: respon/responsive.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@charset \"UTF-8\";\r\n@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');\r\n@import url('https://fonts.googleapis.com/css2?family=Agu+Display&display=swap');\r\nbody {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n.main_container {\r\n    background-image: url(\"../img/tech_background.jpg\");\r\n    height: 100vh;\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    text-shadow: 2px 2px 4px #000000;\r\n    opacity: 0.7;\r\n}\r\n#second_bar {\r\n    width: 100vw;\r\n    height: 7vh;\r\n    background-color: #363636;\r\n    color: #ffffff;\r\n}\r\n#center_nav{\r\n    padding: .5%;\r\n    height: 7vh;\r\n}\r\nul  {\r\n    text-align: center;\r\n\r\n}\r\n.li{\r\n    display: inline-flex;\r\n    margin-left: 100px;\r\n    align-items: end;\r\n    height: 3vh;\r\n\r\n}\r\n.c {\r\n    height: 50%;\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: space-around;\r\n}\r\n#hello {\r\n    margin: 5% 20%\r\n}\r\n#logo {\r\n    position: absolute;\r\n    top: 3%;\r\n    left: 20px;\r\n    font-size: 14px;\r\n    line-height: 2;\r\n    font-weight: 200;\r\n    color: #03DAC6;\r\n    text-shadow: 1px 1px 1px rgba(187, 134, 252, 0.9);\r\n    font-family: \"Brush Script MT\", cursive;\r\n}\r\n.nav_a {\r\n    text-decoration: none;\r\n    color: #fff;\r\n}\r\n\r\n.second_name {\r\n    display: inline-block;\r\n    border: solid blue 3px;\r\n    height: 7vh;\r\n    float: right;\r\n    align-content: center;\r\n    text-align: center;\r\n    font-size: 120%;\r\n    font-weight: bold;\r\n    width: 20vh;\r\n    color: #ffffff;\r\n    font-family: \"Times New Roman\", Times, serif;\r\n}\r\narticle {\r\n    width: 100vw;\r\n    height: 80vh;\r\n}\r\n\r\n#disappear {\r\n    visibility: hidden;\r\n}\r\n\r\n#one {\r\n    animation: hide 2s;\r\n    position: relative;\r\n    animation-delay: 1s;\r\n    border: solid red 2px;\r\n}\r\n#two {\r\n    position: relative;\r\n    animation: hide 4s;\r\n}\r\n#three  {\r\n    position: relative;\r\n    animation: hide 5s;\r\n\r\n}\r\n#four {\r\n    position: relative;\r\n    animation: hide 6s;\r\n}\r\n#five {\r\n    position: relative;\r\n    animation: hide 7s;\r\n}\r\n\r\n@keyframes hide {\r\n    0% {\r\n        left: -300px;\r\n    }\r\n    100% {\r\n        left: 0;\r\n    }\r\n    }\r\nh1 {\r\n    margin: 0 10%;\r\n    position: relative;\r\n    left: 500px;\r\n    top: 600px;\r\n    animation-name: example;\r\n    animation-duration: 4s;\r\n    animation-delay: 2s;\r\n    animation: example 5s;\r\n    z-index: 1;\r\n    display: inline-flex;\r\n}\r\nh2 {\r\n    text-align: center;\r\n    font-family: cursive;\r\n}\r\np {\r\n    text-align: justify;\r\n    font-family: \"Doto\", sans-serif;\r\n    font-weight: 900;\r\n}\r\n\r\n#label {\r\n    font-family: \"Doto\", sans-serif;\r\n    font-size: 150%;\r\n}\r\n\r\nsummary {\r\n    font-family: \"Doto\", sans-serif;\r\n    font-size: 100%;\r\n    font-weight: 900;\r\n}\r\n/*span {\r\n    width: 30vw;\r\n    text-align: center;\r\n    display: block;\r\n    font-size: 17pt;\r\n    padding: 3%;\r\n    font-family: cursive;\r\n}*/\r\n\r\n.first_content {\r\n    padding:1%;\r\n    font-size: 90%;\r\n    width: 30%;\r\n    display: inline-block;\r\n}\r\n#content_left {\r\n    background: aqua;\r\n    padding: 1%;\r\n}\r\n@keyframes example {\r\n    0%   {left: 0; top: 0;}\r\n    25%  {left: 0; top:550px;}\r\n    50%  {left:500px; top:600px;color:gold;}\r\n    100%  {left:500px; top:600px;color:green;}\r\n}\r\n.blobs {\r\n    background: white;\r\n    border-radius: 50%;\r\n    height: 50px;\r\n    width: 50px;\r\n    transition: transform 0.2s;\r\n    animation: pulses 10s infinite;\r\n    margin: 5% 10%;\r\n    font-size: 30pt;\r\n}\r\n\r\n.code {\r\n    font-size: 3em;\r\n    display: inline-block;\r\n    transition: transform 0.2s;\r\n}\r\n\r\n@keyframes pressDown1 {\r\n    30%,\r\n    40%,\r\n    100% {\r\n        transform: translateY(0);\r\n    }\r\n    35% {\r\n        transform: translateY(10px);\r\n    }\r\n}\r\n\r\n@keyframes pressDown2 {\r\n    70%,\r\n    80%,\r\n    100% {\r\n        transform: translateY(0);\r\n    }\r\n    75% {\r\n        transform: translateY(10px);\r\n    }\r\n}\r\n\r\n@keyframes pressDown3 {\r\n    30%,\r\n    40%,\r\n    100% {\r\n        transform: translateY(0);\r\n    }\r\n    35% {\r\n        transform: translateY(10px);\r\n    }\r\n}\r\n\r\n@keyframes pressDown4 {\r\n    40%,\r\n    50%,\r\n    100% {\r\n        transform: translateY(0);\r\n    }\r\n    45% {\r\n        transform: translateY(10px);\r\n    }\r\n}\r\n\r\n@keyframes pressDown5 {\r\n    20%,\r\n    30%,\r\n    100% {\r\n        transform: translateY(0);\r\n    }\r\n    25% {\r\n        transform: translateY(10px);\r\n    }\r\n}\r\n\r\n@keyframes pressDown6 {\r\n    60%,\r\n    70%,\r\n    100% {\r\n        transform: translateY(0);\r\n    }\r\n    65% {\r\n        transform: translateY(10px);\r\n    }\r\n}\r\n\r\n.code:nth-child(1) {\r\n    animation: pressDown1 2s infinite;\r\n}\r\n\r\n.code:nth-child(2) {\r\n    animation: pressDown2 3s infinite;\r\n}\r\n\r\n.code:nth-child(3) {\r\n    animation: pressDown3 4s infinite;\r\n}\r\n\r\n.code:nth-child(4) {\r\n    animation: pressDown4 2.5s infinite;\r\n}\r\n\r\n.code:nth-child(5) {\r\n    animation: pressDown5 2.5s infinite;\r\n}\r\n\r\n.code:nth-child(6) {\r\n    animation: pressDown6 3.5s infinite;\r\n}\r\n\r\n#container {\r\n    display: flex;\r\n    flex-direction: row;\r\n    height: 90vh;\r\n    background-color: #000000;\r\n}\r\n#container_content {\r\n    margin: auto;\r\n    width: 50vw;\r\n    color: white;\r\n    font-family: \"Doto\", sans-serif;\r\n    font-size: 120%;\r\n}\r\n#container_content_two{\r\n    margin: auto;\r\n    width: 40vw;\r\n    height: 70vh;\r\n    background-image:url(\"../img/profileimage.jpg\");\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    border: solid black 1px;\r\n    border-radius: 5% 0 0 0;\r\n    box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;\r\n}\r\n.second_image {\r\n    background-image:url(\"../img/office_raw.jpeg\");\r\n    background-size: 100% 500px;\r\n    background-repeat: no-repeat;\r\n    width: 45%;\r\n    height: 500px;\r\n}\r\n.codes {\r\n    background-image:url(\"../img/office.jpg\");\r\n    background-size: 100% 500px;\r\n    background-repeat: no-repeat;\r\n    width: 45%;\r\n    height: 500px;\r\n}\r\n\r\nfooter{\r\n    width: 100vw;\r\n    height: 10vh;\r\n}\r\n.remove_point {\r\n    text-align: center;\r\n    align-content: center;\r\n}\r\n.footer_a {\r\n    text-decoration: none;\r\n    color:#000;\r\n}\r\n\r\n.remove_point {\r\n    font-family: \"Agu Display\", serif;\r\n    font-size: 100%;\r\n    font-optical-sizing: auto;\r\n    font-weight: 200;\r\n    font-style: normal;\r\n    font-variation-settings: \"MORF\" 0;\r\n}\r\n\r\n/*  Mobile device setting */\r\n\r\n\r\n@media only screen and (max-width: 1080px) {\r\n    body {\r\n        font-family: \"times New Roman\", Times, serif;\r\n    }\r\n    .main_container {\r\n        height: 60vh;\r\n        background-size: cover;\r\n    }\r\n    .name {\r\n        color: red;\r\n    }\r\n    #container {\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n    #container_content {\r\n        font-size: 1.3em;\r\n        width: 80%;\r\n\r\n    }\r\n    #container_content_two {\r\n        padding: 1% 0;\r\n        width: 90%;\r\n        height: 40vh;\r\n    }\r\n    #navbar {\r\n        display: none;\r\n    }\r\n    #second_bar {\r\n        align-items: center;\r\n    }\r\n    .first_content {\r\n        width: 45%;\r\n    }\r\n    h1 {\r\n        margin: 0;\r\n        font-size: 30px;\r\n        position: relative;\r\n        top: 490px;\r\n        left: 380px;\r\n        animation-name: example;\r\n        animation-duration: 4s;\r\n        animation-delay: 2s;\r\n        animation: example 5s;\r\n        z-index: 1;\r\n    }\r\n    @keyframes example {\r\n        0%   {left: 0; top:0;}\r\n        25%  {left: 0; top: 435px;}\r\n        50%  {left: 460px; top: 440px;color:gold;}\r\n        75%  {left: 460px; top: 440px;color:green;}\r\n    }\r\n}\r\n@media only screen and (max-width: 550px) {\r\n    body {\r\n        font-size: 14px;\r\n        font-family: \"Times New Roman\", Times, serif;\r\n    }\r\n    #second_bar {\r\n        height: 6vh;\r\n    }\r\n\r\n    ul {\r\n        display: flex;\r\n        height: 1vh;\r\n        justify-content: space-around;\r\n        align-items: center;\r\n    }\r\n    .li {\r\n        position: relative;\r\n        left: -35px;\r\n        margin-left: 20px;\r\n    }\r\n    #logo {\r\n        display: none;\r\n    }\r\n    .second_name {\r\n        width: 20vw;\r\n        height: 5vh;\r\n    }\r\n    #container_content {\r\n        padding: 10% 0;\r\n        line-height: 1;\r\n        width: 90%;\r\n        font-weight: bold;\r\n        font-size: 100%;\r\n    }\r\n    #container {\r\n        display: flex;\r\n        flex-direction: column;\r\n        height: 90vh;\r\n        padding: 2%;\r\n    }\r\n    #hello {\r\n        height: 80vh;\r\n        margin: 0 5%;\r\n    }\r\n    .first_content {\r\n        display: block;\r\n        border-radius: 10px;\r\n        padding: 2%;\r\n        width: 80%;\r\n        margin: auto;\r\n        font-size: 1.2em;\r\n        font-family: \"Doto\", sans-serif;\r\n        font-optical-sizing: auto;\r\n        font-style: normal;\r\n        font-weight: bold;\r\n        color: #000;\r\n        border: green dot-dash 2px;\r\n        background-color: rgba( 255, 255, 255, 1);\r\n        text-align: center;\r\n    }\r\n    .main_container {\r\n        background-image: url(\"../img/tech_background.jpg\");\r\n        background-size: cover;\r\n        background-repeat: no-repeat;\r\n        height: 40vh;\r\n    }\r\n    #container_content_two {\r\n        width: 90%;\r\n        height: 40vh;\r\n        border-radius: 2%;\r\n        display: block;\r\n        margin: auto;\r\n    }\r\n    h1 {\r\n        margin: 0;\r\n        font-size: 10px;\r\n        position: relative;\r\n        top: 160px;\r\n        left: 170px;\r\n        animation-name: example;\r\n        animation-duration: 4s;\r\n        animation-delay: 2s;\r\n        animation: example 5s;\r\n        z-index: 1;\r\n    }\r\n\r\n    .blob { text-align: center}\r\n\r\n    .code {\r\n        font-size: 1.2em;\r\n    }\r\n\r\n\r\n    @keyframes example {\r\n        0%   {left: 0; top:0;}\r\n        25%  {left: 0; top: 155px;}\r\n        50%  {left: 170px; top: 160px;color:gold;}\r\n        75%  {left: 170px; top: 160px;color:green;}\r\n    }\r\n\r\n    .c {\r\n        flex-direction: column;\r\n        border: solid black 1px;\r\n    }\r\n    .second_image {\r\n        background-image:url(\"../img/office_raw.jpeg\");\r\n        background-size: 100% 300px;\r\n        background-repeat: no-repeat;\r\n        height: 350px;\r\n        width: 100%;\r\n\r\n    }\r\n    .codes {\r\n        background-image:url(\"../img/office.jpg\");\r\n        background-size: 100% 300px;\r\n        background-repeat: no-repeat;\r\n        width: 100%;\r\n        height: 350px;\r\n    }\r\n    h2 {\r\n        text-align: center;\r\n        font-family: \"Doto\", sans-serif;\r\n        font-optical-sizing: auto;\r\n        font-style: normal;\r\n        text-transform: uppercase;\r\n    }\r\n\r\n\r\n    #one, #two, #three, #four, #five{\r\n        font-size: 60%;\r\n        font-weight: 700;\r\n    }\r\n\r\n    .remove_point {\r\n        font-size: 80%;\r\n        display: block;\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/respon/responsive.css b/respon/responsive.css
+--- a/respon/responsive.css	(revision 191a33ecff88a522ff6d2909ec45cae75dadc4a7)
++++ b/respon/responsive.css	(date 1741652915895)
+@@ -32,7 +32,6 @@
+     margin-left: 100px;
+     align-items: end;
+     height: 3vh;
+-
+ }
+ .c {
+     height: 50%;
+Index: about.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Title</title>\r\n    <link rel=\"stylesheet\" href=\"respon/responsive.css\">\r\n</head>\r\n<body>\r\n<nav id=\"second_bar\">\r\n    <div id=\"center_nav\">\r\n        <div id=\"logo\"> Jaoran Studio </div>\r\n        <ul>\r\n            <li class=\"li\"> Home </li>\r\n            <li class=\"li\"> <a class=\"nav_a\" href=\"hex.html\"> Project One </a></li>\r\n            <li class=\"li\"> <a class=\"nav_a\" href=\"accor.html\">Project Two </a></li>\r\n        </ul>\r\n    </div>\r\n</nav>\r\n<div class=\"main_container\">\r\n    <h1> Welcome to My Portfolio </h1>\r\n</div>\r\n<div id=\"container\">\r\n        <div id=\"container_content\" > A soft wind stirred the golden fields as I stood at the edge of the road.\r\n            I was young, eager, and full of dreams, staring at the winding path before I. This was my journey—one\r\n            I had long awaited, though I did not yet know where it would lead. With a deep breath, I took my first\r\n            step. The road was smooth at first, the sun warm on my skin, and the world felt open, limitless. Along the\r\n            way, I met others—some who walked beside me for miles, sharing laughter and lessons, and some who only\r\n            passed briefly, leaving behind a word of wisdom or a fleeting smile. As the seasons changed, so did the road.\r\n            What was once an easy path turned rugged and steep. There were days when the rain poured so hard that I\r\n            couldn’t see my next step. I stumbled, lost my way, and at times, questioned why I continued. But in the\r\n            darkest moments, I found hidden strength sometimes in the form of a kind stranger, sometimes in the quiet\r\n            whisper of my own heart telling me to keep going.\r\n        </div>\r\n        <div id=\"container_content_two\"></div>\r\n</div>\r\n<div style=\"padding: 2%;\">\r\n    <div class=\"blob\" id=\"demo\">\r\n        <span class=\"code\"> C </span>\r\n        <span class=\"code\"> o </span>\r\n        <span class=\"code\"> d </span>\r\n        <span class=\"code\"> i </span>\r\n        <span class=\"code\"> n </span>\r\n        <span class=\"code\"> g </span>\r\n    </div>\r\n</div>\r\n<div class=\"c\"> <!-- The is the coding section -->\r\n\r\n    <div class=\"codes\">\r\n        <ol id=\"disappear\">\r\n            <li id=\"one\"> HTML </li>\r\n            <li id=\"two\"> CSS </li>\r\n            <li id=\"three\"> JavaScript </li>\r\n            <li id=\"four\"> PHP </li>\r\n            <li id=\"five\"> Python </li>\r\n        </ol>\r\n    </div>\r\n    <div class=\"second_image\"></div>\r\n</div>\r\n<div id=\"hello\">\r\n    <h2> Career </h2>\r\n    <details>\r\n        <summary> Home Depot </summary>\r\n        <h3> Receiving Manager </h3>\r\n        <ol>\r\n            <li>\r\n                <span style=\"font-weight: bold\">  Supervising Staff: </span>\r\n                leading a team of receiving staff, training new employees, and\r\n                creating work schedules.\r\n            </li>\r\n            <li>\r\n                <span style=\"font-weight: bold\"> Inventory Management: </span>\r\n                Updating inventory databases and managing the efficient receipt of all deliveries\r\n            </li>\r\n            <li> </li>\r\n        </ol>\r\n    </details>\r\n    <details>\r\n        <summary> Fedex  </summary>\r\n        <p> </p>\r\n    </details>\r\n\r\n</div>\r\n<script>\r\n    function time() {\r\n        const d = new Date();\r\n        const y = d.getFullYear();\r\n        document.write(y);\r\n    }\r\n</script>\r\n<footer>\r\n        <div class= \"remove_point\"> Jaoran Studio <span class=\"glyphicon glyphicon-sunglasses\" ></span> &copy; <script> time();</script> </div>\r\n        <div class=\"remove_point\"> Contact me @ 954-232-8857 <br/> Email: <a class=\"footer_a\" href=\"mailto:orande@me.com?subject=Reaching%20out\" target=\"_top\"> orande@me.com </a></div>\r\n</footer>S\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/about.html b/about.html
+--- a/about.html	(revision 191a33ecff88a522ff6d2909ec45cae75dadc4a7)
++++ b/about.html	(date 1742432068159)
+@@ -3,7 +3,7 @@
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Title</title>
++    <title> About </title>
+     <link rel="stylesheet" href="respon/responsive.css">
+ </head>
+ <body>
+@@ -64,20 +64,81 @@
+         <h3> Receiving Manager </h3>
+         <ol>
+             <li>
+-                <span style="font-weight: bold">  Supervising Staff: </span>
+-                leading a team of receiving staff, training new employees, and
++                <span style="font-weight: bold">  Supervising Receiving Associates </span>
++            </li>
++
++            <li style="list-style: inside">
++                leading, guiding, training new employees, and
+                 creating work schedules.
+             </li>
++            <li style="list-style: inside">
++                Oversee the unloading, inspection, and verification of incoming shipments.
++            </li>
++            <li style="list-style: inside">
++                Assign tasks and ensure the seam works efficiently.
++            </li>
++            <li>
++                <span style="font-weight: bold">  Inventory Control & Accuracy </span>
++            </li>
++            <li style="list-style: inside">
++                Maintain accurate records of received goods using inventory management systems.
++            </li>
++            <li style="list-style: inside">
++                Report damaged or missing inventory to store leadership.
++            </li>
++            <li style="list-style: inside">
++                Conduct regular cycle counts and audit to prevent stock discrepancies.
++            </li>
+             <li>
+-                <span style="font-weight: bold"> Inventory Management: </span>
+-                Updating inventory databases and managing the efficient receipt of all deliveries
++                <span style="font-weight: bold">  Collaboration with Other Departments </span>
++            </li>
++            <li style="list-style: inside">
++                Communicate with vendors regarding delivery schedules and issues.
++            </li>
++            <li style="list-style: inside">
++                Work closely with store management, sales, and replenishment teams to meet inventory needs.
+             </li>
+-            <li> </li>
++            <li style="list-style: inside">
++                Support store operations by ensuring timely stocking of high demand products.
++            </li>
++
+         </ol>
+     </details>
+     <details>
+         <summary> Fedex  </summary>
+-        <p> </p>
++        <h3> Fedex Courier </h3>
++        <ol style="list-style-type: disc;">
++            <li>
++                <span style="font-weight: bold">  Pickup & Delivery </span>
++                    <ol style="list-style-type: circle;">
++                        <li> Collect and deliver packages from/to businesses, residences, and FedEx shipping hub. </li>
++                        <li> Follow the assigned route while ensuring timely deliveries. </li>
++                    </ol>
++            </li>
++            <li>
++                <span style="font-weight: bold"> Route Planning & Navigation </span>
++                <ol style="list-style-type: circle;">
++                    <li> Use GPS and FedEx delivery systems to plan the most efficient routes. </li>
++                    <li> Adjust routes based on traffic, weather, School zone, or package volume. </li>
++                </ol>
++            </li>
++            <li>
++                <span style="font-weight: bold"> Customer interaction </span>
++                <ol style="list-style-type: circle;">
++                    <li> Provide friendly and professional service when interacting with customers. </li>
++                    <li> Obtain delivery signatures and handle special instructions when needed. </li>
++                </ol>
++            </li>
++            <li>
++                <span style="font-weight: bold"> Compliance & Regulations </span>
++                <ol style="list-style-type: circle;">
++                    <li> Adhere to FedEx policies, DOT regulation, delivery procedures. </li>
++                    <li> Handle hazardous materials shipments when application. </li>
++                </ol>
++            </li>
++
++
++        </ol>
+     </details>
+ 
+ </div>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"92629446-73b0-40f8-8d9d-2c9b5dc8bfb3\" name=\"Changes\" comment=\"update both html and css version one\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;jaoran&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/jaoran/oran.git&quot;,\r\n    &quot;accountId&quot;: &quot;2e23365f-058e-464d-a37d-20cbcd07f46b&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2qXvrI9OC9qoX8iBoC8bA9UbMIU\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"reference.settings.ide.settings.web.browsers\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"92629446-73b0-40f8-8d9d-2c9b5dc8bfb3\" name=\"Changes\" comment=\"\" />\r\n      <created>1734821932064</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1734821932064</updated>\r\n      <workItem from=\"1734821933303\" duration=\"98000\" />\r\n      <workItem from=\"1734822049880\" duration=\"21659000\" />\r\n      <workItem from=\"1734920387945\" duration=\"17822000\" />\r\n      <workItem from=\"1735613749987\" duration=\"46927000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"adding a new html\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734822256380</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734822256380</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Made changes to the second nav to grid\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734870404346</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734870404346</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Missing viewport for mobile ability\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734873413589</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734873413589</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Missing viewport for mobile ability\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734875661723</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734875661723</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Changes by orandebrown\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734905276112</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734905276112</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734906866266</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734906866266</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734912439297</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734912439297</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734912617681</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734912617681</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Testing mobile\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734921623858</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734921623858</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Testing mobile 340\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734922073523</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734922073523</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Testing mobile 340\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734922929392</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734922929392</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"update media query\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735005783066</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735005783066</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Working on the mobile and desktop\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735613295248</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735613295248</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Working on the mobile and desktop\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735613486397</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735613486397</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"merging doc\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735615557273</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735615557273</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"merging doc\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735616225757</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735616225757</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"Error with image seven\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735616753472</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735616753472</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"update both html and css\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1736595498263</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1736595498263</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"update both html and css version one\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1736597436029</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1736597436029</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"update both html and css version one\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1736597594082</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1736597594082</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"21\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"adding a new html\" />\r\n    <MESSAGE value=\"Made changes to the second nav to grid\" />\r\n    <MESSAGE value=\"Missing viewport for mobile ability\" />\r\n    <MESSAGE value=\"Changes by orandebrown\" />\r\n    <MESSAGE value=\"update\" />\r\n    <MESSAGE value=\"Testing mobile\" />\r\n    <MESSAGE value=\"Testing mobile 340\" />\r\n    <MESSAGE value=\"update media query\" />\r\n    <MESSAGE value=\"Working on the mobile and desktop\" />\r\n    <MESSAGE value=\"merging doc\" />\r\n    <MESSAGE value=\"Error with image seven\" />\r\n    <MESSAGE value=\"update both html and css\" />\r\n    <MESSAGE value=\"update both html and css version one\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"update both html and css version one\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 191a33ecff88a522ff6d2909ec45cae75dadc4a7)
++++ b/.idea/workspace.xml	(date 1742507352408)
+@@ -4,7 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="update both html and css version one" />
++    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="update css">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/respon/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/respon/responsive.css" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -18,6 +22,7 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PUSH_AUTO_UPDATE" value="true" />
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+@@ -29,7 +34,7 @@
+   <component name="GithubPullRequestsUISettings">{
+   &quot;selectedUrlAndAccountId&quot;: {
+     &quot;url&quot;: &quot;https://github.com/jaoran/oran.git&quot;,
+-    &quot;accountId&quot;: &quot;2e23365f-058e-464d-a37d-20cbcd07f46b&quot;
++    &quot;accountId&quot;: &quot;b3aeb2d5-e0ee-4504-9aa0-7ad259b7bfdf&quot;
+   }
+ }</component>
+   <component name="ProblemsViewState">
+@@ -39,31 +44,35 @@
+   &quot;associatedIndex&quot;: 3
+ }</component>
+   <component name="ProjectId" id="2qXvrI9OC9qoX8iBoC8bA9UbMIU" />
++  <component name="ProjectLevelVcsManager">
++    <OptionsSetting value="false" id="Update" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "DefaultHtmlFileTemplate": "HTML File",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "main",
+-    "ignore.virus.scanning.warn.message": "true",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
++        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -79,6 +88,11 @@
+       <workItem from="1734822049880" duration="21659000" />
+       <workItem from="1734920387945" duration="17822000" />
+       <workItem from="1735613749987" duration="46927000" />
++      <workItem from="1741643857969" duration="14586000" />
++      <workItem from="1741826648826" duration="1834000" />
++      <workItem from="1741903524309" duration="3986000" />
++      <workItem from="1741914384193" duration="614000" />
++      <workItem from="1741946055062" duration="23432000" />
+     </task>
+     <task id="LOCAL-00001" summary="adding a new html">
+       <option name="closed" value="true" />
+@@ -271,6 +285,7 @@
+     <MESSAGE value="Error with image seven" />
+     <MESSAGE value="update both html and css" />
+     <MESSAGE value="update both html and css version one" />
+-    <option name="LAST_COMMIT_MESSAGE" value="update both html and css version one" />
++    <MESSAGE value="update css" />
++    <option name="LAST_COMMIT_MESSAGE" value="update css" />
+   </component>
+ </project>
+\ No newline at end of file

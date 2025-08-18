@@ -1,0 +1,378 @@
+Index: accor.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"utf-8\">\r\n<head>\r\n\t<meta content=\"width=device-width,initial-scale=1.0\" name=\"viewport\">\r\n<!--force all devices to report their true width-->\r\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\r\n<script src=\"acc.js\"></script>\r\n\t<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n\t<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n\t<link href=\"https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap\" rel=\"stylesheet\">\r\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"acc.css\">\r\n\t<title> Accordion </title>\r\n</head>\r\n<body>\r\n\t<div id=\"container\">\r\n\t<header class=\"background\">\r\n\t\t<h1> accordion </h1>\r\n\t</header>\r\n\r\n <div id=\"accordion\">\r\n<!-- Nav -->\r\n\t <div id=\"title\"  data=\"content\" class=\"tab\">\r\n\t\t <img src=\"Images/thumb.png\" alt=\"tri\">\r\n\t\t Home\r\n\t </div>\r\n\t <div id=\"content\" class=\"panel test\">\r\n\t\t <div class=\"container_nav\">\r\n\t\t\t <div> <a class=\"b\" href=\"index.html\"> Home </a> </div>\r\n\t\t\t <div> <a class=\"b\" href=\"hex.html\"> Project One </a> </div>\r\n\t\t\t <div> <a class=\"b\" href=\"accor.html\"> Project Two </a></div>\r\n\t\t </div>\r\n\t </div>\r\n <!--start 1-->\r\n<div id=\"title1\"  data=\"content1\" class=\"tab\">\r\n\t<img src=\"Images/thumb.png\" alt=\"tri\">\r\n\tCompany\r\n\t </div>\r\n<div id=\"content1\" class=\"panel\">\r\n<h2> A little about Our Company</h2>\r\n\t<img src=\"Images/berlin.jpg\" class=\"single\" alt=\"img\"/>\r\n<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lacus in nunc laoreet eleifend vel eu metus. Morbi vel nisl odio. Cras imperdiet est at eros aliquet, a malesuada odio rhoncus. Proin auctor erat id pharetra sodales. Vivamus leo sapien, rutrum vel leo id, pharetra maximus tellus. Vestibulum fringilla feugiat nunc nec ultrices. Quisque accumsan, augue aliquam maximus rutrum, odio quam pretium sapien, ut pretium nunc magna nec ante. Nullam efficitur justo ac lorem placerat, et venenatis ante luctus. Morbi consectetur tellus mi, vulputate condimentum neque venenatis vel. Fusce vehicula tincidunt metus non gravida.</p>\r\n\t\r\n\t<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lacus in nunc laoreet eleifend vel eu metus. Morbi vel nisl odio. Cras imperdiet est at eros aliquet, a malesuada odio rhoncus. Proin auctor erat id pharetra sodales. Vivamus leo sapien, rutrum vel leo id, pharetra maximus tellus. Vestibulum fringilla feugiat nunc nec ultrices. Quisque accumsan, augue aliquam maximus rutrum, odio quam pretium sapien, ut pretium nunc magna nec ante. Nullam efficitur justo ac lorem placerat, et venenatis ante luctus. Morbi consectetur tellus mi, vulputate condimentum neque venenatis vel. Fusce vehicula tincidunt metus non gravida.</p>\r\n\t<div class=\"myclear\"></div>\r\n</div>\r\n<!--end 1-->\r\n\r\n <!--start 2-->\r\n<div id=\"title2\" data=\"content2\" class=\"tab\">\r\n\t<img src=\"Images/thumb.png\" alt=\"tri\">\r\n\tCities\r\n\t \r\n\t </div>\r\n<div id=\"content2\" class=\"panel\">\r\n<h2>Cities</h2>\r\n\t<img src=\"Images/berlin.jpg\" class=\"gal\" alt=\"img\"/>\r\n\t<img src=\"Images/ny.jpg\" class=\"gal\" alt=\"img\"/>\r\n\t<img src=\"Images/rome.jpg\" class=\"gal\" alt=\"img\"/>\r\n\t<img src=\"Images/paris.jpg\" class=\"gal\" alt=\"img\"/>\r\n\t<div class=\"myclear\"></div>\r\n<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lacus in nunc laoreet eleifend vel eu metus. Morbi vel nisl odio. Cras imperdiet est at eros aliquet, a malesuada odio rhoncus. Proin auctor erat id pharetra sodales. Vivamus leo sapien, rutrum vel leo id, pharetra maximus tellus. Vestibulum fringilla feugiat nunc nec ultrices. Quisque accumsan, augue aliquam maximus rutrum, odio quam pretium sapien, ut pretium nunc magna nec ante. Nullam efficitur justo ac lorem placerat, et venenatis ante luctus. Morbi consectetur tellus mi, vulputate condimentum neque venenatis vel. Fusce vehicula tincidunt metus non gravida.</p>\r\n</div>\r\n<!--end 2-->\r\n\r\n <!--start 3-->\r\n<div id=\"title3\" data=\"content3\" class=\"tab\">\r\n\t<img src=\"Images/thumb.png\" alt=\"tri\">\r\n\tOur History\r\n\t </div>\r\n<div id=\"content3\" class=\"panel\">\r\n<h2>Our History</h2>\r\n<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lacus in nunc laoreet eleifend vel eu metus. Morbi vel nisl odio. Cras imperdiet est at eros aliquet, a malesuada odio rhoncus. Proin auctor erat id pharetra sodales. Vivamus leo sapien, rutrum vel leo id, pharetra maximus tellus. Vestibulum fringilla feugiat nunc nec ultrices. Quisque accumsan, augue aliquam maximus rutrum, odio quam pretium sapien, ut pretium nunc magna nec ante. Nullam efficitur justo ac lorem placerat, et venenatis ante luctus. Morbi consectetur tellus mi, vulputate condimentum neque venenatis vel. Fusce vehicula tincidunt metus non gravida.</p>\r\n\t<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lacus in nunc laoreet eleifend vel eu metus. Morbi vel nisl odio. Cras imperdiet est at eros aliquet, a malesuada odio rhoncus. Proin auctor erat id pharetra sodales. Vivamus leo sapien, rutrum vel leo id, pharetra maximus tellus. Vestibulum fringilla feugiat nunc nec ultrices. Quisque accumsan, augue aliquam maximus rutrum, odio quam pretium sapien, ut pretium nunc magna nec ante. Nullam efficitur justo ac lorem placerat, et venenatis ante luctus. Morbi consectetur tellus mi, vulputate condimentum neque venenatis vel. Fusce vehicula tincidunt metus non gravida.</p>\r\n\t<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lacus in nunc laoreet eleifend vel eu metus. Morbi vel nisl odio. Cras imperdiet est at eros aliquet, a malesuada odio rhoncus. Proin auctor erat id pharetra sodales. Vivamus leo sapien, rutrum vel leo id, pharetra maximus tellus. Vestibulum fringilla feugiat nunc nec ultrices. Quisque accumsan, augue aliquam maximus rutrum, odio quam pretium sapien, ut pretium nunc magna nec ante. Nullam efficitur justo ac lorem placerat, et venenatis ante luctus. Morbi consectetur tellus mi, vulputate condimentum neque venenatis vel. Fusce vehicula tincidunt metus non gravida.</p>\r\n</div>\r\n<!--end 3-->\r\n\r\n <!--start 4-->\r\n<div id=\"title4\"  data=\"content4\" class=\"tab\">\r\n\t<img src=\"Images/thumb.png\" alt=\"tri\">\r\n\tSection Four\r\n\t </div>\r\n<div id=\"content4\" class=\"panel\">\r\n<h2>new</h2>\r\n<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit.\r\n\tVivamus quis lacus in nunc laoreet eleifend vel eu metus.\r\n\tMorbi vel nisl odio. Cras imperdiet est at eros aliquet,\r\n\ta malesuada odio rhoncus. Proin auctor erat id pharetra\r\n\tsodales. Vivamus leo sapien, rutrum vel leo id, pharetra\r\n\tmaximus tellus. Vestibulum fringilla feugiat nunc nec\r\n\tultrices. Quisque accumsan, augue aliquam maximus rutrum,\r\n\todio quam pretium sapien, ut pretium nunc magna nec ante.\r\n\tNullam efficitur justo ac lorem placerat, et venenatis ante\r\n\tluctus. Morbi consectetur tellus mi, vulputate condimentum\r\n\tneque venenatis vel. Fusce vehicula tincidunt metus non gravida.</p>\r\n</div>\r\n\r\n\t <div id=\"title5\"  data=\"content5\" class=\"tab\">\r\n\t\t <img src=\"Images/thumb.png\" alt=\"tri\">\r\n\t\t Miami\r\n\t </div>\r\n\t <div id=\"content5\" class=\"panel\">\r\n\t\t <h2 style=\"text-align: center; font-family: 'Permanent Marker', cursive; font-size: 30px; color: #0000ff\"> Miami </h2>\r\n\t\t <img src=\"Images/fifth1.jpg\" class=\"D_size\" alt=\"img\"/>\r\n\t\t <img src=\"Images/fifth2.jpg\" class=\"D_size\" alt=\"img\"/>\r\n\t\t <img src=\"Images/fifth3.jpg\" class=\"D_size\" alt=\"img\"/>\r\n\t\t <div class=\"myclear\"></div>\r\n\t\t <p style=\"font-size: 20px; text-align: justify; padding: 20px;\">  Miami Beach is a south Florida island city, connected by bridges\r\n\t\t\t to mainland Miami. Wide beaches stretch from North Shore Open Space Park, past palm-lined Lummus Park to South Pointe Park. The\r\n\t\t\t southern end, South Beach, is known for its international cachet with models and celebrities, and its early-20th-century architecture\r\n\t\t\t in the Art Deco Historic district with pastel-colored buildings, especially on Ocean Drive.<span style=\"font-style: italic; color: #00008b; display: block;\"> Miami Beach is a city in Miami-Dade\r\n\t\t\t\t County, Florida It's part of Miami Beach the southern tip, to be exact. South Beach runs from South Pointe Park in the south\r\n\t\t\t\t to Dade Boulevard in the north and is generally the place you see on TV during sporting events.</span></p>\r\n\r\n\t </div>\r\n<!--end 4-->\r\n\r\n\r\n</div>\r\n<!--end accordion-->\r\n\t\t\r\n\t</div>\r\n<!--end container-->\r\n\t<script>\r\n\t\tfunction time() {\r\n\t\t\tconst d = new Date();\r\n\t\t\tconst y = d.getFullYear();\r\n\t\t\tdocument.write(y);\r\n\t\t}\r\n\t</script>\r\n\t<footer>\r\n\t\t<p id = \"footer\"> Jaoran Studio <span class=\"glyphicon glyphicon-sunglasses\" ></span><span id=\"footer_2\"> &copy; <script> time();</script> </span> </p>\r\n\t\t<p id = \"footer_1\"> Contact me @ 954-232-8857 <br/> Email: <a href=\"mailto:orande@me.com?subject=Reaching%20out\" target=\"_top\"> orande@me.com </a></p>\r\n\t</footer>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/accor.html b/accor.html
+--- a/accor.html	(revision 98eebb73021a02224eb06410879f0d5d654daeae)
++++ b/accor.html	(date 1738797933265)
+@@ -3,7 +3,7 @@
+ <head>
+ 	<meta content="width=device-width,initial-scale=1.0" name="viewport">
+ <!--force all devices to report their true width-->
+-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
++<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <script src="acc.js"></script>
+ 	<link rel="preconnect" href="https://fonts.googleapis.com">
+ 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n\t<meta charset=\"UTF-8\"> \r\n\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\r\n\t<title>Sidebar interface</title>\r\n\t<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js\"></script><!--link to CDN hosted lib-->\r\n\t<script src=\"js/sidebar_functions.js\"></script>\r\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/sidebarlayout.css\">\r\n</head>\r\n\r\n<body>\r\n<div id=\"mega-wrapper\" class=\"sb_hidden\">\r\n<div id=\"menu-trigger\" ></div>\r\n\t<div id=\"sidebar\">\r\n\t\t<nav id=\"mainnav\">\r\n\t\t\t<div id=\"nav_title\">\r\n\t\t\t\t<h2> Table Of Contents </h2>\r\n\t\t\t</div>\r\n\t\t\t<!--end nav title-->\r\n\t\t\t<ul>\r\n\t\t\t\t<li><a href=\"#\" class=\"myactive\">Rome: Background</a></li>\r\n\t\t\t\t<li><a href=\"#\"> Welcome to the Journey </a></li>\r\n\t\t\t\t<li><a href=\"hex.html\"> Project One </a></li>\r\n\t\t\t\t<li><a href=\"accor.html\"> Project Two </a></li>\r\n\t\t\t\t<!-- <li><a href=\"#\">Roman Culture</a></li>\r\n\t\t\t\t<li><a href=\"#\">The First Emperors</a></li>\r\n\t\t\t\t<li><a href=\"#\">Rome At Its Peak</a></li> -->\r\n\t\t\t</ul>\r\n\t\t</nav>\r\n\t\t<!--end nav--> \r\n\t\t\r\n\t</div>\r\n\t<!--end sidebar-->\r\n\t\r\n\t<div id=\"page\">\r\n\t\t\r\n\t\t<!--the button to close and open-->\r\n\t\t<header id=\"myheader\">\r\n\t\t\t<h1>A Brief History of Ancient Rome</h1>\r\n\t\t\t<h2>Rome: Background</h2>\r\n\t\t</header>\r\n\t\t<div id=\"container\">\r\n\t\t\t<main id=\"content\">\r\n\t\t\t\t<h2>Some Background About Rome And Its History</h2>\r\n\t\t\t\t<article class=\"article_1\">\r\n\t\t\t\t<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus lacus non risus molestie, fringilla aliquet ante euismod. Sed eget purus lacus. Aenean tempus vitae augue vel dapibus. \r\n\t\t\t\t<img class=\"article_img\" src=\"sidebar_images/emperor1.jpg\" alt=\"emperor\">\r\n\t\t\t\t Pellentesque pellentesque tincidunt dignissim. Praesent vehicula est turpis. Lorem ipsum dolor sit amet. consectetur adipiscing elit. Vivamus luctus lacus non risus molestie, fringilla aliquet ante euismod. Sed eget purus lacus. Aenean tempus vitae augue vel dapibus. Pellentesque pellentesque tincidunt dignissim. Praesent vehicula est turpis.</p>\r\n \r\n\t\t\t\t\t<p>Borem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus lacus non risus molestie, fringilla aliquet ante euismod. Sed eget purus lacus. Aenean tempus vitae augue vel dapibus. Pellentesque pellentesque tincidunt dignissim. Praesent vehicula est turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus lacus non risus molestie, fringilla aliquet ante euismod. Sed eget purus lacus. Aenean tempus vitae augue vel dapibus. Pellentesque pellentesque tincidunt dignissim. Praesent vehicula est turpis.</p>\r\n\t\t\t\t\t<p>Quorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus lacus non risus molestie, fringilla aliquet ante euismod. Sed eget purus lacus. Aenean tempus vitae augue vel dapibus. Pellentesque pellentesque tincidunt dignissim. Praesent vehicula est turpis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus lacus non risus molestie, fringilla aliquet ante euismod. Sed eget purus lacus. Aenean tempus vitae augue vel dapibus. Pellentesque pellentesque tincidunt dignissim. Praesent vehicula est turpis.</p>\r\n\t\t\t\t\t<p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus lacus non risus molestie, fringilla aliquet ante euismod. Sed eget purus lacus. Aenean tempus vitae augue vel dapibus. Pellentesque pellentesque tincidunt dignissim. Praesent vehicula est turpis. </p>\r\n\t\t\t\t\t\r\n\t\t\t\t\t<p>Borem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus lacus non risus molestie, fringilla aliquet ante euismod. Sed eget purus lacus. Aenean tempus vitae augue vel dapibus. Pellentesque pellentesque tincidunt dignissim. Praesent vehicula est turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus lacus non risus molestie, fringilla aliquet ante euismod. Sed eget purus lacus. Aenean tempus vitae augue vel dapibus. Pellentesque pellentesque tincidunt dignissim. Praesent vehicula est turpis.</p>\r\n\t\t\t\t\t<p>Quorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus lacus non risus molestie, fringilla aliquet ante euismod. Sed eget purus lacus. Aenean tempus vitae augue vel dapibus. Pellentesque pellentesque tincidunt dignissim. Praesent vehicula est turpis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus lacus non risus molestie, fringilla aliquet ante euismod. Sed eget purus lacus. Aenean tempus vitae augue vel dapibus. Pellentesque pellentesque tincidunt dignissim. Praesent vehicula est turpis.</p>\r\n\t\t\t\t\t<p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus lacus non risus molestie, fringilla aliquet ante euismod. Sed eget purus lacus. Aenean tempus vitae augue vel dapibus. Pellentesque pellentesque tincidunt dignissim. Praesent vehicula est turpis. </p>\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t<div class=\"myclear\"></div>\r\n\t\t\t\t</article>\r\n\t\t\t\t<!--end article 1--> \r\n\t\t\t\t\r\n\t\t\t</main>\r\n\t\t\t<!--end  main content--> \r\n\t\t\t</div>\r\n\t\t<!--end container--> \t\r\n\t\t\t<footer>\r\n\t\t<h2>A list of the Roman Emperors</h2>\r\n\t\t<article>\r\n\t\tJulius<br>\r\nAugustus<br>\r\nTiberius<br>\r\nCaligula<br>\r\nClaudius<br>\r\nNero<br>\r\nGalba<br>\r\nOtho<br>\r\nVitellius<br>\r\nVespasian<br>\r\nTitus<br>\r\nDomitian<br>\r\nNerva<br>\r\nTrajan<br>\r\nHadrian<br>\r\nAntoninus Pius\r\n\t\t</article>\r\n\t\t\r\n\t\t</footer>\r\n\t\r\n\t\t\r\n\t</div>\r\n\t<!--end page-->\r\n\t\r\n</div>\r\n<!--end mega-wrapper-->\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 98eebb73021a02224eb06410879f0d5d654daeae)
++++ b/index.html	(date 1738796493850)
+@@ -23,9 +23,9 @@
+ 				<li><a href="#"> Welcome to the Journey </a></li>
+ 				<li><a href="hex.html"> Project One </a></li>
+ 				<li><a href="accor.html"> Project Two </a></li>
+-				<!-- <li><a href="#">Roman Culture</a></li>
+-				<li><a href="#">The First Emperors</a></li>
+-				<li><a href="#">Rome At Its Peak</a></li> -->
++				<!-- <li><a href="#"></a></li>
++				<li><a href="#"></a></li>
++				<li><a href="#"></a></li> -->
+ 			</ul>
+ 		</nav>
+ 		<!--end nav--> 
+Index: hex.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"en-us\">\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <title>Hexagon</title>\r\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"css/hexagonstyle.css\">\r\n  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>\r\n  <script   src=\"https://code.jquery.com/jquery-3.7.1.min.js\"   integrity=\"sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\"   crossorigin=\"anonymous\"></script><!--needed for jquery mobile-->\r\n  <script type=\"text/javascript\">$(document).bind(\"mobileinit\", function(){$.extend(  $.mobile , {autoInitializePage: false})});</script>\r\n  <!--needed for jquery mobile-->\r\n\r\n  <script src=\"js/hexagon_code.js\"></script>\r\n  <!--link to lightbox styles-->\r\n\r\n</head>\r\n\r\n<body>\r\n<div id=\"container\">\r\n  <header>\r\n    <div class=\"nav a\"> <a href=\"index.html\"> Home </a> </div>\r\n    <div class=\"nav\"> <a href=\"hex.html\"> Project One </a> </div>\r\n    <div class=\"nav\"> <a href=\"accor.html\">  Project Two  </a> </div>\r\n  </header>\r\n  <div id=\"parent_of_myhex\">\r\n    <div id=\"left_arrow\"></div>\r\n    <div id=\"right_arrow\"></div>\r\n    <div id=\"myhex\">\r\n\r\n      <div class=\"side sixth\"> </div>\r\n      <div class=\"side fifth\"></div>\r\n      <div class=\"side fourth\"> </div>\r\n      <div class=\"side third\"></div>\r\n      <div class=\"side second\"></div>\r\n      <div class=\"side first\"></div>\r\n\r\n      <p class=\"side sixthText\"> Life  <br>\r\n        <a href=\"Images/seven.jpeg\" data-lightbox=\"myart\" data-title=\"night life\"></a></p>\r\n      <p class=\"side fifthText\"> Of <br>\r\n        <a href=\"Images/six.jpeg\" data-lightbox=\"myart\" data-title=\"Snowy night\"></a></p>\r\n      <p class=\"side fourthText\"> Mysteries <br>\r\n        <a href=\"Images/eight.jpeg\" data-lightbox=\"myart\" data-title=\"Day dream\"></a></p>\r\n      <p class=\"side thirdText\"> And  <br>\r\n        <a href=\"Images/four.jpeg\" data-lightbox=\"myart\" data-title=\"Rainy night\"></a></p>\r\n      <p class=\"side secondText\"> Season  <br>\r\n        <a href=\"Images/five.jpeg\" data-lightbox=\"myart\" data-title=\"City rain\"></a></p>\r\n      <p class=\"side firstText\"> The <br>\r\n        <a href=\"Images/two.jpeg\" data-lightbox=\"myart\" data-title=\"Beauty of life \"></a></p>\r\n\r\n    </div>\r\n    <!--end myhex-->\r\n  </div>\r\n  <!--end parent myhex-->\r\n\r\n  <footer>\r\n    <p></p>\r\n  </footer>\r\n</div>\r\n<!--end container-->\r\n<script>\r\n  function time() {\r\n    const d = new Date();\r\n    const y = d.getFullYear();\r\n    document.write(y);\r\n  }\r\n</script>\r\n<footer>\r\n  <p id = \"footer\"> Jaoran Studio <span class=\"glyphicon glyphicon-sunglasses\" ></span><span id=\"footer_2\"> &copy; <script> time();</script> </span> </p>\r\n  <p id = \"footer_1\"> Contact me @ 954-232-8857 <br/> Email: <a href=\"mailto:orande@me.com?subject=Reaching%20out\" target=\"_top\"> orande@me.com </a></p>\r\n</footer>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/hex.html b/hex.html
+--- a/hex.html	(revision 98eebb73021a02224eb06410879f0d5d654daeae)
++++ b/hex.html	(date 1738797933286)
+@@ -7,7 +7,9 @@
+   <link rel="stylesheet" type="text/css" href="css/hexagonstyle.css">
+   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+   <script   src="https://code.jquery.com/jquery-3.7.1.min.js"   integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="   crossorigin="anonymous"></script><!--needed for jquery mobile-->
+-  <script type="text/javascript">$(document).bind("mobileinit", function(){$.extend(  $.mobile , {autoInitializePage: false})});</script>
++  <script type="text/javascript">
++    $(document).bind("mobileinit", function(){
++      $.extend(  $.mobile , {autoInitializePage: false})});</script>
+   <!--needed for jquery mobile-->
+ 
+   <script src="js/hexagon_code.js"></script>
+Index: css/sidebarlayout.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@charset \"UTF-8\";\r\n/* CSS Document */\r\n\r\n@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Gloria+Hallelujah&display=swap');\r\n/*\r\nfont-family: 'Cinzel', serif;\r\nfont-family: 'Poiret One', cursive;\r\n*/\r\n\r\n/*resets*/\r\n* {\r\n\tpadding: 0;\r\n\tmargin: 0;\r\n\tbox-sizing: border-box;\r\n\t-webkit-overflow-scrolling: touch;\r\n}\r\n.myclear {\r\n\tclear: both;\r\n}\r\nbody {\r\n\tfont-family: 'Cinzel', serif;\r\n\tbackground-color: #919191;\r\n}\r\n#mega-wrapper {\r\n\tposition: fixed;\r\n\ttop: 0;\r\n\tright: 0;\r\n\twidth: 100%;\r\n\tmin-height: 100%;\r\n}\r\n/*moving parts********************************************************************************/\r\n#sidebar {\r\n\r\n\twidth: 300px;\r\n\theight: 100%;\r\n\toverflow-x: hidden;\r\n\toverflow-y: hidden;\r\n\tz-index: 3;\r\n\tperspective:100px;\r\n\ttransition: transform 1.5s ease-in-out;\r\n\ttransform: translateX(10px);\r\n}\r\n.sb_hidden #sidebar {\r\n\ttransform: translate3d(-300px, 0, 0);\r\n}\r\n.sb_showing #sidebar {\r\n\ttransform: translate3d(0px, 0, 0);\r\n}\r\n#page {\r\n\twidth: 100vw;\r\n\tposition: fixed;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\toverflow-x: hidden;\r\n\toverflow-y: scroll;\r\n\tbackground-color: #fff;\r\n\theight: 100vh;\r\n\tz-index: 3;\r\ntransition: transform 0.5s ease-in-out;\r\n}\r\n.sb_hidden #page {\r\n\ttransform: translate3d(0px, 0, 0);\r\n}\r\n.sb_showing #page {\r\n\ttransform: translate3d(300px, 0, 0) ;\r\n}\r\n/*the menu button itself*/\r\n#menu-trigger {\r\n\tposition: absolute;\r\n\ttop: 3px;\r\n\tleft: 0;\r\n\twidth: 53px;\r\n\theight: 50px;\r\n\tcursor: pointer;\r\n\tbackground-image: url(../sidebar_images/menu_iconS.png);\r\n\tbackground-repeat: no-repeat;\r\n\tz-index: 999;\r\n\ttransition: right 1.5s ease-in-out, transform 1.5s ease-in-out;\r\n}\r\n.sb_hidden #menu-trigger {\r\n\tright: 0;\r\n\ttransform: rotate(180deg);\r\n}\r\n.sb_showing #menu-trigger {\r\n\tright: 303px;\r\n\ttransform: rotate(-90deg);\r\n}\r\n/*NAV styles*/\r\n\r\n\r\n\r\n#mainnav {\r\n\tmin-height: 100%;\r\n\ttransform-origin: 100% 50%;\r\n\ttransition: transform 0.5s ease-in-out;\r\n}\r\n.sb_hidden #mainnavs {\r\n\ttransform: rotateY(0deg);\r\n\r\n}\r\n.sb_showing #mainnavs {\r\n\ttransform: rotateY(0deg);\r\n}\r\n#mainnav #nav_title {\r\n\theight: 200px;\r\n\tbackground-image: url(../sidebar_images/mosaic.jpg);\r\n\ttext-align: center;\r\n\tpadding: 15px 25px;\r\n\tborder-bottom-width: 2px;\r\n\tborder-bottom-style: solid;\r\n\tborder-bottom-color: rgba(255,217,104,1.00);\r\n}\r\n#mainnav #nav_title h2 {\r\n\tcolor: #fff;\r\n\tfont-size: 20px;\r\n\tfont-weight: 100;\r\n\ttext-shadow: 3px 3px 5px #000;\r\n}\r\n#mainnav ul {\r\n\tlist-style-type: none;\r\n\r\n}\r\n#mainnav ul li {\r\n\tdisplay: block;\r\n}\r\n#mainnav ul li a {\r\n\tdisplay: block;\r\n\tpadding: 10px 25px;\r\n\tfont-size: 16px;\r\n\tfont-weight: 100;\r\n\tcolor: rgba(255,217,104,1.00);\r\n\ttext-decoration: none;\r\n\tborder-bottom-width: 2px;\r\n\tborder-bottom-style: solid;\r\n\tborder-bottom-color: rgba(255,217,104,1.00);\r\n\tbackground-image: none;\r\n\tbackground-repeat: no-repeat;\r\n\tbackground-position: 225px center;\r\n\ttransition: all 0.5s;\r\n}\r\n#mainnav ul li a:hover {\r\n\tcolor: rgba(255,255,255,1.00);\r\n\tbackgrounds-color: #fff;\r\n\tbackgrounds-image: url(../sidebar_images/arrow.png);\r\n}\r\n#mainnav ul li a.myactive {\r\n\tbackgrounds-image: url(../sidebar_images/arrow_active.png);\r\n\tbackground-color: rgba(255,217,104,.7);\r\n\tcolor: #222;\r\n}\r\n\r\n\r\n\r\n/*content parts*********************************/\r\n\r\n\r\n#myheader {\r\n\tmin-height: 410px;\r\n\tpadding: 10px;\r\n\tbackground-color: #000;\r\n\tbackground-image: url(../sidebar_images/header_bgB.jpg);\r\n\tbackground-repeat: no-repeat;\r\n\tbackground-position: top center;\r\n}\r\n#myheader h1 {\r\n\tposition: relative;\r\n\ttop: 50px;\r\n\ttext-align: center;\r\n\tfont-weight: 100;\r\n\tcolor: rgba(255,217,104,1.00);\r\n\tfont-size: 55px;\r\n\ttext-shadow: 3px 3px 5px #000;\r\n}\r\n#myheader h2 {\r\n\tposition: relative;\r\n\ttop: 65px;\r\n\ttext-align: center;\r\n\tfont-weight: 100;\r\n\tcolor: #fff;\r\n\tfont-size: 35px;\r\n\tletter-spacing: 4px;\r\n\ttext-shadow: 3px 3px 5px #000;\r\n\tfont-family: 'Poiret One', cursive;\r\n}\r\n#container {\r\nmax-width: 1100px;\r\n\tmargin: 0 auto;\r\n}\r\n#content {\r\n\tpadding-bottom: 50px;\r\n}\r\n#content h2 {\r\n\tfont-family: 'Dancing Script', cursive;\r\n\tpadding-top: 30px;\r\n\tpadding-bottom: 10px;\r\n\tmargin-bottom: 20px;\r\n\tfont-size: 26px;\r\n\tfont-weight: 100;\r\n\tcolor: #222;\r\n\ttext-align: center;\r\n\tborder-bottom-width: 2px;\r\n\tborder-bottom-style: solid;\r\n\tborder-bottom-color: rgba(255,217,104,1.00);\r\n}\r\n#content .article_1 {\r\n\tcolumn-count: 3;\r\n\tcolumn-gap: 20px;\r\n}\r\n#content .article_1 p {\r\n\tfont-family: 'Gloria Hallelujah', cursive;\r\n\tcolor: #333;\r\n\tfont-size: 17px;\r\n\tfont-weight: 100;\r\n\tpadding: 0 0 10px 0;\r\n\tline-height: 21px !important;\r\n}\r\n#content .article_1 p::first-letter {\r\n\tfont-size: 26px;\r\n\tfont-family: 'Cinzel', serif;\r\n\tfont-weight: 200;\r\n}\r\n#content .article_1 p img.article_img {\r\n\tfloat: right;\r\n\tmargin: 4px;\r\n}\r\nfooter {\r\n\tbackground-color: #000;\r\n\tpadding: 20px 0 120px 0;\r\n}\r\nfooter h2 {\r\n\ttext-align: center;\r\n\tfont-weight: 100;\r\n\tcolor: #fff;\r\n\tletter-spacing: 4px;\r\n\tfont-family: 'Poiret One', cursive;\r\n\tpadding-bottom: 10px;\r\n\tmargin: 0 auto;\r\n\tmargin-bottom: 20px;\r\n\tfont-size: 26px;\r\n\tborder-bottom-width: 2px;\r\n\tborder-bottom-style: solid;\r\n\tborder-bottom-color: rgba(255,217,104,1.00);\r\n\twidth: 950px;\r\n}\r\nfooter article {\r\n\twidth: 960px;\r\n\tdisplay: block;\r\n\tmargin: 0 auto;\r\n\ttext-align: center;\r\n\tcolumn-count: 4;\r\n\tcolumn-gap: 40px;\r\n\tcolor: rgba(255,217,104,1.00);\r\n}\r\n\r\n/* tablets (landscape) ----------- */\r\n@media only screen and (min-width : 700px) and (max-width : 1100px) and (orientation : landscape) {\r\n#mainnav #nav_title {\r\n\theight: 65px;\r\n}\r\n#myheader {\r\n\tmin-height: 210px;\r\n\tbackground-size: contain;\r\n}\r\n#myheader h1 {\r\n\tfont-size: 30px;\r\n}\r\n#myheader h2 {\r\n\tfont-size: 20px;\r\n}\r\n#container {\r\n\twidth: 95%;\r\n}\r\n#content {\r\n\tpadding-bottom: 20px;\r\n}\r\n#content h2 {\r\n\tfont-size: 20px;\r\n}\r\n#content .article_1 {\r\n\tcolumn-count: 2;\r\n\tcolumn-gap: 10px;\r\n}\r\n#content .article_1 p {\r\n\tfont-size: 16px;\r\n\tline-height: 18px !important;\r\n}\r\n#content .article_1 p::first-letter {\r\n\tfont-size: 19px;\r\n}\r\n#content .article_1 p img.article_img {\r\n\tmargin: 2px;\r\n}\r\nfooter {\r\n\tpadding: 20px 0 60px 0;\r\n}\r\nfooter h2 {\r\n\tfont-size: 20px;\r\n\twidth: 95%;\r\n}\r\nfooter article {\r\n\twidth: 95%;\r\n\tcolumn-count: 3;\r\n\tcolumn-gap: 20px;\r\n}\r\n}\r\n\r\n/* iPads (portrait) ----------- */\r\n@media only screen and (min-width : 700px) and (max-width : 1100px) and (orientation : portrait) {\r\n/* Styles */\r\n#mainnav #nav_title {\r\n\theight: 65px;\r\n}\r\n#myheader {\r\n\tmin-height: 210px;\r\n\tbackground-size: contain;\r\n}\r\n#myheader h1 {\r\n\tfont-size: 30px;\r\n}\r\n#myheader h2 {\r\n\tfont-size: 20px;\r\n}\r\n#container {\r\n\twidth: 95%;\r\n}\r\n#content {\r\n\tpadding-bottom: 20px;\r\n}\r\n#content h2 {\r\n\tfont-size: 20px;\r\n}\r\n#content .article_1 {\r\n\tcolumn-count: 2;\r\n\tcolumn-gap: 10px;\r\n}\r\n#content .article_1 p {\r\n\tfont-size: 16px;\r\n\tline-height: 18px !important;\r\n}\r\n#content .article_1 p::first-letter {\r\n\tfont-size: 19px;\r\n}\r\n#content .article_1 p img.article_img {\r\n\tmargin: 2px;\r\n}\r\nfooter {\r\n\tpadding: 20px 0 60px 0;\r\n}\r\nfooter h2 {\r\n\tfont-size: 20px;\r\n\twidth: 95%;\r\n}\r\nfooter article {\r\n\twidth: 95%;\r\n\tcolumn-count: 3;\r\n\tcolumn-gap: 20px;\r\n}\r\n}\r\n\r\n/* Smartphones (portrait and landscape) ----------- */\r\n@media only screen and (max-width : 699px) {\r\n/* Styles */\r\n\r\n.sb_showing #menu-trigger {\r\n\tleft: 245px;\r\n}\r\n#mainnav {\r\n}\r\n.sb_hidden #mainnav {\r\n}\r\n.sb_showing #mainnav {\r\n}\r\n#mainnav #nav_title {\r\n\theight: 65px;\r\n\ttext-align: left;\r\n}\r\n#myheader {\r\n\tmin-height: 210px;\r\n\tbackground-size: contain;\r\n}\r\n#myheader h1 {\r\n\tfont-size: 30px;\r\n}\r\n#myheader h2 {\r\n\tfont-size: 22px;\r\n}\r\n#container {\r\n\twidth: 95%;\r\n}\r\n#content {\r\n\tpadding-bottom: 20px;\r\n}\r\n#content h2 {\r\n\tfont-size: 22px;\r\n}\r\n#content .article_1 {\r\n\tcolumn-count: 1;\r\n\tcolumn-gap: 10px;\r\n}\r\n#content .article_1 p {\r\n\tfont-size: 18px;\r\n\tline-height: 20px !important;\r\n}\r\n#content .article_1 p::first-letter {\r\n\tfont-size: 19px;\r\n}\r\n#content .article_1 p img.article_img {\r\n\tmargin: 2px;\r\n}\r\nfooter {\r\n\tpadding: 20px 0 60px 0;\r\n}\r\nfooter h2 {\r\n\tfont-size: 20px;\r\n\twidth: 95%;\r\n}\r\nfooter article {\r\n\twidth: 95%;\r\n\tcolumn-count: 2;\r\n\tcolumn-gap: 10px;\r\n}\r\n}/*end media query*/\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/sidebarlayout.css b/css/sidebarlayout.css
+--- a/css/sidebarlayout.css	(revision 98eebb73021a02224eb06410879f0d5d654daeae)
++++ b/css/sidebarlayout.css	(date 1738797933240)
+@@ -94,13 +94,6 @@
+ 	transform-origin: 100% 50%;
+ 	transition: transform 0.5s ease-in-out;
+ }
+-.sb_hidden #mainnavs {
+-	transform: rotateY(0deg);
+-
+-}
+-.sb_showing #mainnavs {
+-	transform: rotateY(0deg);
+-}
+ #mainnav #nav_title {
+ 	height: 200px;
+ 	background-image: url(../sidebar_images/mosaic.jpg);
+@@ -140,11 +133,8 @@
+ }
+ #mainnav ul li a:hover {
+ 	color: rgba(255,255,255,1.00);
+-	backgrounds-color: #fff;
+-	backgrounds-image: url(../sidebar_images/arrow.png);
+ }
+ #mainnav ul li a.myactive {
+-	backgrounds-image: url(../sidebar_images/arrow_active.png);
+ 	background-color: rgba(255,217,104,.7);
+ 	color: #222;
+ }
+@@ -234,8 +224,7 @@
+ 	letter-spacing: 4px;
+ 	font-family: 'Poiret One', cursive;
+ 	padding-bottom: 10px;
+-	margin: 0 auto;
+-	margin-bottom: 20px;
++	margin: 0 auto 20px;
+ 	font-size: 26px;
+ 	border-bottom-width: 2px;
+ 	border-bottom-style: solid;
+@@ -253,7 +242,8 @@
+ }
+ 
+ /* tablets (landscape) ----------- */
+-@media only screen and (min-width : 700px) and (max-width : 1100px) and (orientation : landscape) {
++@media only screen and (min-width : 700px) and (max-width : 1100px) and (orientation : landscape)
++{
+ #mainnav #nav_title {
+ 	height: 65px;
+ }
+@@ -366,10 +356,7 @@
+ }
+ #mainnav {
+ }
+-.sb_hidden #mainnav {
+-}
+-.sb_showing #mainnav {
+-}
++
+ #mainnav #nav_title {
+ 	height: 65px;
+ 	text-align: left;
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"92629446-73b0-40f8-8d9d-2c9b5dc8bfb3\" name=\"Changes\" comment=\"update both html and css version one\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;jaoran&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/jaoran/oran.git&quot;,\r\n    &quot;accountId&quot;: &quot;2e23365f-058e-464d-a37d-20cbcd07f46b&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2qXvrI9OC9qoX8iBoC8bA9UbMIU\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"reference.settings.ide.settings.web.browsers\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"92629446-73b0-40f8-8d9d-2c9b5dc8bfb3\" name=\"Changes\" comment=\"\" />\r\n      <created>1734821932064</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1734821932064</updated>\r\n      <workItem from=\"1734821933303\" duration=\"98000\" />\r\n      <workItem from=\"1734822049880\" duration=\"21659000\" />\r\n      <workItem from=\"1734920387945\" duration=\"17822000\" />\r\n      <workItem from=\"1735613749987\" duration=\"46927000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"adding a new html\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734822256380</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734822256380</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Made changes to the second nav to grid\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734870404346</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734870404346</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Missing viewport for mobile ability\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734873413589</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734873413589</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Missing viewport for mobile ability\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734875661723</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734875661723</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Changes by orandebrown\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734905276112</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734905276112</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734906866266</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734906866266</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734912439297</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734912439297</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734912617681</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734912617681</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Testing mobile\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734921623858</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734921623858</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Testing mobile 340\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734922073523</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734922073523</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Testing mobile 340\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734922929392</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734922929392</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"update media query\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735005783066</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735005783066</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Working on the mobile and desktop\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735613295248</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735613295248</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Working on the mobile and desktop\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735613486397</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735613486397</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"merging doc\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735615557273</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735615557273</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"merging doc\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735616225757</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735616225757</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"Error with image seven\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1735616753472</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1735616753472</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"update both html and css\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1736595498263</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1736595498263</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"update both html and css version one\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1736597436029</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1736597436029</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"update both html and css version one\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1736597594082</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1736597594082</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"21\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"adding a new html\" />\r\n    <MESSAGE value=\"Made changes to the second nav to grid\" />\r\n    <MESSAGE value=\"Missing viewport for mobile ability\" />\r\n    <MESSAGE value=\"Changes by orandebrown\" />\r\n    <MESSAGE value=\"update\" />\r\n    <MESSAGE value=\"Testing mobile\" />\r\n    <MESSAGE value=\"Testing mobile 340\" />\r\n    <MESSAGE value=\"update media query\" />\r\n    <MESSAGE value=\"Working on the mobile and desktop\" />\r\n    <MESSAGE value=\"merging doc\" />\r\n    <MESSAGE value=\"Error with image seven\" />\r\n    <MESSAGE value=\"update both html and css\" />\r\n    <MESSAGE value=\"update both html and css version one\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"update both html and css version one\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 98eebb73021a02224eb06410879f0d5d654daeae)
++++ b/.idea/workspace.xml	(date 1741568734784)
+@@ -4,7 +4,14 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="update both html and css version one" />
++    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="updating both files adding or using a dif animation">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/accor.html" beforeDir="false" afterPath="$PROJECT_DIR$/accor.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/css/sidebarlayout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sidebarlayout.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/hex.html" beforeDir="false" afterPath="$PROJECT_DIR$/hex.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/respon/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/respon/responsive.css" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -29,9 +36,12 @@
+   <component name="GithubPullRequestsUISettings">{
+   &quot;selectedUrlAndAccountId&quot;: {
+     &quot;url&quot;: &quot;https://github.com/jaoran/oran.git&quot;,
+-    &quot;accountId&quot;: &quot;2e23365f-058e-464d-a37d-20cbcd07f46b&quot;
++    &quot;accountId&quot;: &quot;b3aeb2d5-e0ee-4504-9aa0-7ad259b7bfdf&quot;
+   }
+ }</component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/css/sidebarlayout.css" root0="FORCE_HIGHLIGHTING" />
++  </component>
+   <component name="ProblemsViewState">
+     <option name="selectedTabId" value="CurrentFile" />
+   </component>
+@@ -43,27 +53,53 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "DefaultHtmlFileTemplate": "HTML File",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "main",
+-    "ignore.virus.scanning.warn.message": "true",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+-    "vue.rearranger.settings.migration": "true"
+-  }
+-}]]></component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/jaora/WebstormProjects/oran/img&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;liveEdit&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  }
++}</component>
++  <component name="QodanaCloudProjectLink">
++    <option name="lastReportId" value="QWnJ4" />
++    <option name="linkedProjectId" value="p0MGl" />
++    <option name="linkedProjectName" value="My first project" />
++    <option name="organizationId" value="3jvKX" />
++    <option name="userId" value="Q6nN9" />
++  </component>
++  <component name="QodanaHighlightedReportService">
++    <option name="cloudReportPersistedInfo">
++      <CloudReportPersistedInfo>
++        <option name="projectId" value="p0MGl" />
++        <option name="reportId" value="QWnJ4" />
++      </CloudReportPersistedInfo>
++    </option>
++  </component>
++  <component name="QodanaIsSelectedPersistenceService">
++    <option name="selectedOrLoading" value="true" />
++  </component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\jaora\WebstormProjects\oran\img" />
++    </key>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
++        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -79,6 +115,23 @@
+       <workItem from="1734822049880" duration="21659000" />
+       <workItem from="1734920387945" duration="17822000" />
+       <workItem from="1735613749987" duration="46927000" />
++      <workItem from="1737426653278" duration="8319000" />
++      <workItem from="1737676621429" duration="21955000" />
++      <workItem from="1738320000614" duration="3699000" />
++      <workItem from="1738543840504" duration="1263000" />
++      <workItem from="1738548521697" duration="24051000" />
++      <workItem from="1738887423693" duration="10837000" />
++      <workItem from="1739327443354" duration="9428000" />
++      <workItem from="1740013854559" duration="2079000" />
++      <workItem from="1740016138135" duration="11363000" />
++      <workItem from="1740178060246" duration="18604000" />
++      <workItem from="1740438284102" duration="208000" />
++      <workItem from="1740438894933" duration="8332000" />
++      <workItem from="1740711934637" duration="788000" />
++      <workItem from="1740740066895" duration="1058000" />
++      <workItem from="1740911386786" duration="10068000" />
++      <workItem from="1741554589741" duration="419000" />
++      <workItem from="1741555028891" duration="8912000" />
+     </task>
+     <task id="LOCAL-00001" summary="adding a new html">
+       <option name="closed" value="true" />
+@@ -240,7 +293,95 @@
+       <option name="project" value="LOCAL" />
+       <updated>1736597594082</updated>
+     </task>
+-    <option name="localTasksCounter" value="21" />
++    <task id="LOCAL-00021" summary="update information on both files">
++      <option name="closed" value="true" />
++      <created>1737427829530</created>
++      <option name="number" value="00021" />
++      <option name="presentableId" value="LOCAL-00021" />
++      <option name="project" value="LOCAL" />
++      <updated>1737427829530</updated>
++    </task>
++    <task id="LOCAL-00022" summary="update information on both files">
++      <option name="closed" value="true" />
++      <created>1737675009962</created>
++      <option name="number" value="00022" />
++      <option name="presentableId" value="LOCAL-00022" />
++      <option name="project" value="LOCAL" />
++      <updated>1737675009962</updated>
++    </task>
++    <task id="LOCAL-00023" summary="update information on both files">
++      <option name="closed" value="true" />
++      <created>1738635221115</created>
++      <option name="number" value="00023" />
++      <option name="presentableId" value="LOCAL-00023" />
++      <option name="project" value="LOCAL" />
++      <updated>1738635221115</updated>
++    </task>
++    <task id="LOCAL-00024" summary="update information on both files">
++      <option name="closed" value="true" />
++      <created>1738635791473</created>
++      <option name="number" value="00024" />
++      <option name="presentableId" value="LOCAL-00024" />
++      <option name="project" value="LOCAL" />
++      <updated>1738635791473</updated>
++    </task>
++    <task id="LOCAL-00025" summary="update information on both files">
++      <option name="closed" value="true" />
++      <created>1738635861745</created>
++      <option name="number" value="00025" />
++      <option name="presentableId" value="LOCAL-00025" />
++      <option name="project" value="LOCAL" />
++      <updated>1738635861745</updated>
++    </task>
++    <task id="LOCAL-00026" summary="update information on both files">
++      <option name="closed" value="true" />
++      <created>1738635909832</created>
++      <option name="number" value="00026" />
++      <option name="presentableId" value="LOCAL-00026" />
++      <option name="project" value="LOCAL" />
++      <updated>1738635909832</updated>
++    </task>
++    <task id="LOCAL-00027" summary="update side bar layout">
++      <option name="closed" value="true" />
++      <created>1738752419499</created>
++      <option name="number" value="00027" />
++      <option name="presentableId" value="LOCAL-00027" />
++      <option name="project" value="LOCAL" />
++      <updated>1738752419499</updated>
++    </task>
++    <task id="LOCAL-00028" summary="updating jquery cdn">
++      <option name="closed" value="true" />
++      <created>1738752777423</created>
++      <option name="number" value="00028" />
++      <option name="presentableId" value="LOCAL-00028" />
++      <option name="project" value="LOCAL" />
++      <updated>1738752777423</updated>
++    </task>
++    <task id="LOCAL-00029" summary="updating both files adding or using a dif animation">
++      <option name="closed" value="true" />
++      <created>1740364159550</created>
++      <option name="number" value="00029" />
++      <option name="presentableId" value="LOCAL-00029" />
++      <option name="project" value="LOCAL" />
++      <updated>1740364159550</updated>
++    </task>
++    <task id="LOCAL-00030" summary="updating both files adding or using a dif animation">
++      <option name="closed" value="true" />
++      <created>1740440454345</created>
++      <option name="number" value="00030" />
++      <option name="presentableId" value="LOCAL-00030" />
++      <option name="project" value="LOCAL" />
++      <updated>1740440454345</updated>
++    </task>
++    <task id="LOCAL-00031" summary="updating both files adding or using a dif animation">
++      <option name="closed" value="true" />
++      <created>1740450285413</created>
++      <option name="number" value="00031" />
++      <option name="presentableId" value="LOCAL-00031" />
++      <option name="project" value="LOCAL" />
++      <updated>1740450285413</updated>
++    </task>
++    <option name="localTasksCounter" value="32" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -271,6 +412,11 @@
+     <MESSAGE value="Error with image seven" />
+     <MESSAGE value="update both html and css" />
+     <MESSAGE value="update both html and css version one" />
+-    <option name="LAST_COMMIT_MESSAGE" value="update both html and css version one" />
++    <MESSAGE value="update css" />
++    <MESSAGE value="update information on both files" />
++    <MESSAGE value="update side bar layout" />
++    <MESSAGE value="updating jquery cdn" />
++    <MESSAGE value="updating both files adding or using a dif animation" />
++    <option name="LAST_COMMIT_MESSAGE" value="updating both files adding or using a dif animation" />
+   </component>
+ </project>
+\ No newline at end of file

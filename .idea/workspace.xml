@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="adding schedule.html">
+    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="add colors and schedule">
+      <change afterPath="$PROJECT_DIR$/dinner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AI.html" beforeDir="false" afterPath="$PROJECT_DIR$/AI.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Waffle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pepperoni.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/pepperoni.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hexagon_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hexagon_code.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +49,12 @@
     }
   ]
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jaoran/oran.git",
-    "accountId": "0d4db5e0-6c19-4627-ac91-e8612caea283"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jaoran/oran.git&quot;,
+    &quot;accountId&quot;: &quot;0d4db5e0-6c19-4627-ac91-e8612caea283&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/about.html" root0="SKIP_INSPECTION" />
   </component>
@@ -126,15 +129,9 @@
       <workItem from="1751330947462" duration="12919000" />
       <workItem from="1752015608322" duration="19715000" />
       <workItem from="1753135793024" duration="684000" />
-      <workItem from="1753396352359" duration="3942000" />
-    </task>
-    <task id="LOCAL-00004" summary="Missing viewport for mobile ability">
-      <option name="closed" value="true" />
-      <created>1734875661723</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1734875661723</updated>
+      <workItem from="1753396352359" duration="6508000" />
+      <workItem from="1754424047541" duration="7505000" />
+      <workItem from="1755452582998" duration="10260000" />
     </task>
     <task id="LOCAL-00005" summary="Changes by orandebrown">
       <option name="closed" value="true" />
@@ -520,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753398019256</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="add colors and schedule">
+      <option name="closed" value="true" />
+      <created>1753400408292</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1753400408292</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Made changes to the second nav to grid" />
     <MESSAGE value="Missing viewport for mobile ability" />
     <MESSAGE value="Changes by orandebrown" />
     <MESSAGE value="update" />
@@ -563,6 +567,7 @@
     <MESSAGE value="add image to the site" />
     <MESSAGE value="edit Css" />
     <MESSAGE value="adding schedule.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding schedule.html" />
+    <MESSAGE value="add colors and schedule" />
+    <option name="LAST_COMMIT_MESSAGE" value="add colors and schedule" />
   </component>
 </project>
