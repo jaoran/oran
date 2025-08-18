@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="add colors and schedule">
-      <change afterPath="$PROJECT_DIR$/dinner.html" afterDir="false" />
+    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="add pic and edit voice prompt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI.html" beforeDir="false" afterPath="$PROJECT_DIR$/AI.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Waffle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pepperoni.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/pepperoni.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hexagon_code.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hexagon_code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dinner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dinner.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,23 +127,7 @@
       <workItem from="1753135793024" duration="684000" />
       <workItem from="1753396352359" duration="6508000" />
       <workItem from="1754424047541" duration="7505000" />
-      <workItem from="1755452582998" duration="10260000" />
-    </task>
-    <task id="LOCAL-00005" summary="Changes by orandebrown">
-      <option name="closed" value="true" />
-      <created>1734905276112</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1734905276112</updated>
-    </task>
-    <task id="LOCAL-00006" summary="update">
-      <option name="closed" value="true" />
-      <created>1734906866266</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1734906866266</updated>
+      <workItem from="1755452582998" duration="14829000" />
     </task>
     <task id="LOCAL-00007" summary="update">
       <option name="closed" value="true" />
@@ -525,7 +505,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753400408292</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add pic and edit voice prompt">
+      <option name="closed" value="true" />
+      <created>1755480324254</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1755480324254</updated>
+    </task>
+    <task id="LOCAL-00055" summary="add pic and edit voice prompt">
+      <option name="closed" value="true" />
+      <created>1755480425379</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1755480425379</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Missing viewport for mobile ability" />
     <MESSAGE value="Changes by orandebrown" />
     <MESSAGE value="update" />
     <MESSAGE value="Testing mobile" />
@@ -568,6 +563,7 @@
     <MESSAGE value="edit Css" />
     <MESSAGE value="adding schedule.html" />
     <MESSAGE value="add colors and schedule" />
-    <option name="LAST_COMMIT_MESSAGE" value="add colors and schedule" />
+    <MESSAGE value="add pic and edit voice prompt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pic and edit voice prompt" />
   </component>
 </project>

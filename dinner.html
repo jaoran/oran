@@ -6,12 +6,27 @@
     <style>
         body {
             font-family: sans-serif;
-            padding: 20px;
             margin: 0;
             background: #f9f9f9;
         }
+        #content {
+            padding: 10px;
+        }
+        #header {
+            padding: 50px;
+        }
         h2 {
             text-align: center;
+            z-index: 1;
+            font-size: 3rem;
+            font-weight: bold;
+            color: #bbb86b;
+            text-shadow:
+                    5px 5px 3px #255313,   /* Red */
+                    -3px -3px 0 #008199, /* Blue */
+                    3px -3px 0 #908eeb,  /* Yellow */
+                    -4px 4px 3px #fba76a;  /* Green */
+            font-family: 'Arial', sans-serif;
         }
         .grid {
             display: flex;
@@ -51,11 +66,78 @@
             font-size: 1.2em;
             color: green;
         }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: black;
+            color: white;
+            width: 100%;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+                background-color: #007BFF; /* Mobile blue */
+            }
+
+            .nav-links {
+                flex-direction: column;
+                width: 100%;
+                margin-top: 1rem;
+            }
+
+            .nav-links a {
+                padding: 0.5rem 0;
+            }
+        }
+
     </style>
 </head>
 <body>
-
-<h2>Choose Your Dinner</h2>
+<nav>
+    <div class="logo">
+        <img src="Images/logo.png" alt="JAORAN Logo" />
+    </div>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">View Daily Schedule</a>
+        <a href="#">Dinner</a>
+    </div>
+</nav>
+<div id="content">
+    <div id="header">
+        <h2>Choose Your Dinner</h2>
+    </div>
 <div class="grid" id="dinnerGrid">
     <!-- Cards will be inserted here -->
 </div>
@@ -69,9 +151,9 @@
         { name: "Pepperoni", img: "img/pepperoni.png" },
         { name: "Hungry Howie", img: "img/hungry.png" },
         { name: "Fries", img: "img/fries.png" },
-        { name: "Tacos", img: "tacos.jpg" },
-        { name: "Salad", img: "salad.jpg" },
-        { name: "Soup", img: "soup.jpg" }
+        { name: "Tacos", img: "img/tacos.png" },
+        { name: "Snacks", img: "img/snacks.png" },
+        { name: "Drink", img: "img/drinks.png" }
     ];
 
     const grid = document.getElementById('dinnerGrid');
@@ -91,6 +173,6 @@
         grid.appendChild(card);
     });
 </script>
-
+</div>
 </body>
 </html>
