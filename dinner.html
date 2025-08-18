@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dinner Picker</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+            margin: 0;
+            background: #f9f9f9;
+        }
+        h2 {
+            text-align: center;
+        }
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            width: 300px;
+            height: 300px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+            text-align: center;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            border-color: #4CAF50;
+        }
+        .card img {
+            width: 100%;
+            height: 80%;
+            object-fit: cover;
+        }
+        .card p {
+            margin: 0;
+            padding: 10px;
+            font-weight: bold;
+        }
+        .result {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 1.2em;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Choose Your Dinner</h2>
+<div class="grid" id="dinnerGrid">
+    <!-- Cards will be inserted here -->
+</div>
+
+<div class="result" id="resultDisplay"></div>
+
+<script>
+    const dinners = [
+        { name: "Waffle", img: "img/removebackground.png" },
+        { name: "Cheese pizza", img: "img/cheese.png" },
+        { name: "Pepperoni", img: "img/pepperoni.png" },
+        { name: "Hungry Howie", img: "img/hungry.png" },
+        { name: "Fries", img: "img/fries.png" },
+        { name: "Tacos", img: "tacos.jpg" },
+        { name: "Salad", img: "salad.jpg" },
+        { name: "Soup", img: "soup.jpg" }
+    ];
+
+    const grid = document.getElementById('dinnerGrid');
+    const result = document.getElementById('resultDisplay');
+
+    dinners.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+        <img src="${item.img}" alt="${item.name}">
+        <p>${item.name}</p>`;
+        card.addEventListener('click', () => {
+            result.textContent = `${item.name}`;
+            const utterance = new SpeechSynthesisUtterance(`${item.name}`);
+            speechSynthesis.speak(utterance);
+        });
+        grid.appendChild(card);
+    });
+</script>
+
+</body>
+</html>
