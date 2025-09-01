@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="Finish adding pic and working on the design">
+    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="AI remove the dinner content">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AI.html" beforeDir="false" afterPath="$PROJECT_DIR$/AI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dinner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dinner.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,23 +128,9 @@
       <workItem from="1753135793024" duration="684000" />
       <workItem from="1753396352359" duration="6508000" />
       <workItem from="1754424047541" duration="7505000" />
-      <workItem from="1755452582998" duration="14927000" />
-    </task>
-    <task id="LOCAL-00008" summary="update">
-      <option name="closed" value="true" />
-      <created>1734912617681</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1734912617681</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Testing mobile">
-      <option name="closed" value="true" />
-      <created>1734921623858</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1734921623858</updated>
+      <workItem from="1755452582998" duration="18401000" />
+      <workItem from="1755647489066" duration="4467000" />
+      <workItem from="1756762823827" duration="3441000" />
     </task>
     <task id="LOCAL-00010" summary="Testing mobile 340">
       <option name="closed" value="true" />
@@ -520,7 +508,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755559199701</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="AI remove the dinner content">
+      <option name="closed" value="true" />
+      <created>1755559575059</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1755559575059</updated>
+    </task>
+    <task id="LOCAL-00058" summary="AI remove the dinner content">
+      <option name="closed" value="true" />
+      <created>1755594338276</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1755594338276</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +542,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
     <MESSAGE value="Testing mobile" />
     <MESSAGE value="Testing mobile 340" />
     <MESSAGE value="update media query" />
@@ -563,6 +566,7 @@
     <MESSAGE value="add colors and schedule" />
     <MESSAGE value="add pic and edit voice prompt" />
     <MESSAGE value="Finish adding pic and working on the design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish adding pic and working on the design" />
+    <MESSAGE value="AI remove the dinner content" />
+    <option name="LAST_COMMIT_MESSAGE" value="AI remove the dinner content" />
   </component>
 </project>
