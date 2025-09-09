@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="AI remove the dinner content">
+    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="Adding content to AI and Dinner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AI.html" beforeDir="false" afterPath="$PROJECT_DIR$/AI.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dinner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dinner.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,23 +129,7 @@
       <workItem from="1754424047541" duration="7505000" />
       <workItem from="1755452582998" duration="18401000" />
       <workItem from="1755647489066" duration="4467000" />
-      <workItem from="1756762823827" duration="3441000" />
-    </task>
-    <task id="LOCAL-00010" summary="Testing mobile 340">
-      <option name="closed" value="true" />
-      <created>1734922073523</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1734922073523</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Testing mobile 340">
-      <option name="closed" value="true" />
-      <created>1734922929392</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1734922929392</updated>
+      <workItem from="1756762823827" duration="6455000" />
     </task>
     <task id="LOCAL-00012" summary="update media query">
       <option name="closed" value="true" />
@@ -524,7 +507,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755594338276</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Adding content to AI and Dinner">
+      <option name="closed" value="true" />
+      <created>1756767491700</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1756767491700</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Adding content to AI and Dinner">
+      <option name="closed" value="true" />
+      <created>1756767615068</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1756767615068</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testing mobile" />
     <MESSAGE value="Testing mobile 340" />
     <MESSAGE value="update media query" />
     <MESSAGE value="Working on the mobile and desktop" />
@@ -567,6 +565,7 @@
     <MESSAGE value="add pic and edit voice prompt" />
     <MESSAGE value="Finish adding pic and working on the design" />
     <MESSAGE value="AI remove the dinner content" />
-    <option name="LAST_COMMIT_MESSAGE" value="AI remove the dinner content" />
+    <MESSAGE value="Adding content to AI and Dinner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding content to AI and Dinner" />
   </component>
 </project>
