@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>U.S. State Labeling Tool</title>
+  <style>
+    body { font-family: Arial; display: flex; flex-direction: column; align-items: center; margin-top: 20px; }
+    #main { display: flex; gap: 20px; }
+    #map-container { position: relative; }
+    #map { max-width: 800px; border: 1px solid #ccc; }
+    .label {
+      position: absolute;
+      background: rgba(255,255,255,0.9);
+      padding: 2px 5px;
+      border: 1px solid #333;
+      font-size: 12px;
+      cursor: move;
+    }
+    .state-name {
+      margin: 5px;
+      padding: 5px;
+      background: #f0f0f0;
+      border: 1px solid #999;
+      cursor: grab;
+    }
+    #state-list { max-height: 600px; overflow-y: auto; width: 200px; }
+    button { margin-top: 20px; padding: 10px 20px; font-size: 14px; }
+  </style>
+</head>
+<body>
+
+<h1>Drag and Drop State Names</h1>
+<div id="main">
+  <!-- State name list -->
+  <div id="state-list">
+    <!-- All 50 states -->
+    <div class="state-name" draggable="true">Alabama</div>
+    <div class="state-name" draggable="true">Alaska</div>
+    <div class="state-name" draggable="true">Arizona</div>
+    <div class="state-name" draggable="true">Arkansas</div>
+    <div class="state-name" draggable="true">California</div>
+    <div class="state-name" draggable="true">Colorado</div>
+    <div class="state-name" draggable="true">Connecticut</div>
+    <div class="state-name" draggable="true">Delaware</div>
+    <div class="state-name" draggable="true">Florida</div>
+    <div class="state-name" draggable="true">Georgia</div>
+    <div class="state-name" draggable="true">Hawaii</div>
+    <div class="state-name" draggable="true">Idaho</div>
+    <div class="state-name" draggable="true">Illinois</div>
+    <div class="state-name" draggable="true">Indiana</div>
+    <div class="state-name" draggable="true">Iowa</div>
+    <div class="state-name" draggable="true">Kansas</div>
+    <div class="state-name" draggable="true">Kentucky</div>
+    <div class="state-name" draggable="true">Louisiana</div>
+    <div class="state-name" draggable="true">Maine</div>
+    <div class="state-name" draggable="true">Maryland</div>
+    <div class="state-name" draggable="true">Massachusetts</div>
+    <div class="state-name" draggable="true">Michigan</div>
+    <div class="state-name" draggable="true">Minnesota</div>
+    <div class="state-name" draggable="true">Mississippi</div>
+    <div class="state-name" draggable="true">Missouri</div>
+    <div class="state-name" draggable="true">Montana</div>
+    <div class="state-name" draggable="true">Nebraska</div>
+    <div class="state-name" draggable="true">Nevada</div>
+    <div class="state-name" draggable="true">New Hampshire</div>
+    <div class="state-name" draggable="true">New Jersey</div>
+    <div class="state-name" draggable="true">New Mexico</div>
+    <div class="state-name" draggable="true">New York</div>
+    <div class="state-name" draggable="true">North Carolina</div>
+    <div class="state-name" draggable="true">North Dakota</div>
+    <div class="state-name" draggable="true">Ohio</div>
+    <div class="state-name" draggable="true">Oklahoma</div>
+    <div class="state-name" draggable="true">Oregon</div>
+    <div class="state-name" draggable="true">Pennsylvania</div>
+    <div class="state-name" draggable="true">Rhode Island</div>
+    <div class="state-name" draggable="true">South Carolina</div>
+    <div class="state-name" draggable="true">South Dakota</div>
+    <div class="state-name" draggable="true">Tennessee</div>
+    <div class="state-name" draggable="true">Texas</div>
+    <div class="state-name" draggable="true">Utah</div>
+    <div class="state-name" draggable="true">Vermont</div>
+    <div class="state-name" draggable="true">Virginia</div>
+    <div class="state-name" draggable="true">Washington</div>
+    <div class="state-name" draggable="true">West Virginia</div>
+    <div class="state-name" draggable="true">Wisconsin</div>
+    <div class="state-name" draggable="true">Wyoming</div>
+  </div>
+
+  <!-- Map container -->
+  <div id="map-container">
+    <img id="map" src="img/number_map.png" alt="US Map">
+  </div>
+</div>
+
+<button onclick="resetLabels()">Reset Map</button>
+
+<script>
+  const mapContainer = document.getElementById('map-container');
+
+  document.querySelectorAll('.state-name').forEach(item => {
+    item.addEventListener('dragstart', (e) => {
+      e.dataTransfer.setData('text/plain', e.target.innerText);
+    });
+  });
+
+  mapContainer.addEventListener('dragover', (e) => {
+    e.preventDefault();
+  });
+
+  mapContainer.addEventListener('drop', (e) => {
+    e.preventDefault();
+    const name = e.dataTransfer.getData('text/plain');
+    const x = e.offsetX;
+    const y = e.offsetY;
+
+    const label = document.createElement('div');
+    label.className = 'label';
+    label.style.left = x + 'px';
+    label.style.top = y + 'px';
+    label.innerText = name;
+    label.setAttribute('draggable', 'true');
+
+    label.addEventListener('dragstart', (e) => {
+      e.dataTransfer.setData('text/plain', name);
+      e.dataTransfer.setData('offsetX', e.offsetX);
+      e.dataTransfer.setData('offsetY', e.offsetY);
+      label.remove(); // Remove old label before repositioning
+    });
+
+    mapContainer.appendChild(label);
+
+    // Optional: Validation logic (example only)
+    // You can define a lookup table like: { 1: "California", 2: "Texas", ... }
+    // Then check if the label is dropped near the correct number
+  });
+
+  function resetLabels() {
+    document.querySelectorAll('.label').forEach(label => label.remove());
+  }
+</script>
+
+</body>
+</html>
