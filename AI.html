@@ -3,27 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Responsive Layout</title>
+  <title> play Awareness </title>
   <link rel="stylesheet" href="styles.css" />
   <style>
     body {
       font-family: sans-serif;
-      padding: 2rem;
       background-color: #f9fafb;
     }
     form {
-      max-width: 400px;
+      max-width: 700px;
       background: white;
       padding: 2rem;
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
-    label {
+    .btn-schedule {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+    }
+    .btn-schedule:hover {
+      background-color: #004080;
+      opacity: 0.5;
+      border-radius: 15px;
+    }
+    h2 {
+      text-align: center;
+      font-family: cursive;
+      padding: 3% 0;
+    }
+    .info {
       display: block;
       margin-top: 1rem;
       font-weight: bold;
     }
-    input, select {
+   .info_section {
       width: 100%;
       padding: 0.5rem;
       margin-top: 0.25rem;
@@ -33,8 +50,7 @@
     button {
       margin-top: 1.5rem;
       padding: 0.75rem 1rem;
-      background-color: #3b82f6;
-      color: white;
+      color: #0000FF;
       border: none;
       border-radius: 6px;
       cursor: pointer;
@@ -73,7 +89,7 @@
     /* Main layout */
     main {
       padding: 2rem;
-      max-width: 1000px;
+      max-width: 1500px;
       margin: 0 auto;
     }
 
@@ -99,23 +115,75 @@
       overflow: hidden;
       border-radius: 12px;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      background-color: #000;
     }
 
     .carousel-track {
       display: flex;
-      animation: scroll 16s linear infinite;
+      animation: scroll 32s linear infinite;
       width: fit-content;
     }
 
     .slide {
       min-width: 100%;
-      height: 250px;
-      background: linear-gradient(135deg, #6EE7B7, #3B82F6);
-      color: white;
+      height: 400px;
       font-size: 2rem;
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+    .mood-widget {
+      max-width: 300px;
+      margin: 1em auto;
+      text-align: center;
+      font-family: sans-serif;
+    }
+
+    .mood-widget .faces span {
+      font-size: 2rem;
+      margin: 0 0.25rem;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .mood-widget .faces span:hover {
+      transform: scale(1.2);
+    }
+
+    .mood-widget .faces span.selected {
+      transform: scale(1.4);
+      filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+    }
+
+    .mood-widget .thank-you {
+      margin-top: 0.75rem;
+      color: #2a7;
+    }
+    /* Color Learning Section */
+    #color-learning {
+      padding: 2rem;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    #color-learning h2 {
+      margin-bottom: 1rem;
+    }
+
+    .swatches {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .swatch {
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      border-radius: 8px;
+      color: #fff;
+      font-weight: bold;
     }
 
     @keyframes scroll {
@@ -128,7 +196,7 @@
     /* Responsive */
     @media (max-width: 768px) {
       .column {
-        flex: 1 1 100%;
+        flex: 0 0 100%;
       }
 
       nav {
@@ -146,12 +214,13 @@
 </head>
 <body>
 
+
 <nav>
-  <h1> Jaoran Studio </h1>
+  <h1> Welcome, Sir </h1>
   <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="#" class="btn-schedule">Home</a></li>
+    <li><a href="schedule.html" class="btn-schedule">View Daily Schedule</a></li>
+    <li><a href="dinner.html" class="btn-schedule"> Dinner </a></li>
   </ul>
 </nav>
 
@@ -159,35 +228,167 @@
   <section class="row">
     <div class="column">
       <form>
-        <label for="name">What is your name?</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+        <label class="info" for="name">What is your full name?</label>
+        <input class="info_section" type="text" id="name" name="name" placeholder="Enter your first then last name" required />
 
-        <label for="outfit">What are you wearing?</label>
-        <input type="text" id="outfit" name="outfit" placeholder="e.g. jeans and a t-shirt" required />
+        <label class="info" for="top">What color is top/shirt?</label>
+        <input class="info_section" type="text" id="top" name="top" placeholder="e.g. top and a t-shirt" required />
 
-        <label for="time">What time is it?</label>
-        <input type="time" id="time" name="time" required />
+        <label class="info" for="bottom">What color is bottom/short?</label>
+        <input class="info_section" type="text" id="bottom" name="bottom" placeholder="e.g. Bottom, jeans and short" required />
+
+        <label class="info" for="time">What time is it?</label>
+        <input class="info_section" type="time" id="time" name="time" required />
+
+        <label class="info" for="time_of_day">What time of day is it?</label>
+        <select class="info_section" id="time_of_day" name="time_of_day">
+          <option value="">--Select--</option>
+          <option value="morning">Morning (6 AM – 12 PM)</option>
+          <option value="afternoon">Afternoon (12 PM – 5 PM)</option>
+          <option value="evening">Evening (5 PM – 9 PM)</option>
+          <option value="night">Night (9 PM – 6 AM)</option>
+        </select>
 
         <button type="submit">Submit</button>
       </form>
     </div>
-    <div class="column">Row 1 - Column 2</div>
+    <div class="column">
+      <h2> Colors </h2>
+      <div class="swatches" id="color-learning">
+        <div class="swatch" style="background-color: #FF0000;">Red</div>
+        <div class="swatch" style="background-color: #00FF00;">Green</div>
+        <div class="swatch" style="background-color: #0000FF;">Blue</div>
+        <div class="swatch" style="background-color: #FFFF00; color: #000;">Yellow</div>
+        <div class="swatch" style="background-color: #FFA500;">Orange</div>
+        <div class="swatch" style="background-color: #800080;">Purple</div>
+        <div class="swatch" style="background-color: #FFFFFF; color: #000;">White</div>
+        <div class="swatch" style="background-color: #000000;">Black</div>
+        <div class="swatch" style="background-color: #808080;">Gray</div>
+        <div class="swatch" style="background-color: #F5CBCB;">Pink</div>
+        <div class="swatch" style="background-color: #cdad85;">Sand</div>
+        <div class="swatch" style="background-color: #b68036;">Copper</div>
+        <div class="swatch" style="background-color: #9c9e80;">Sage</div>
+        <div class="swatch" style="background-color: #fff6eb; color:#ff0000;">Linen</div>
+        <div class="swatch" style="background-color: #d7c2b0;">Bisque</div>
+      </div>
+    </div>
   </section>
   <section class="row">
-    <div class="column">Row 2 - Column 1</div>
-    <div class="column">Row 2 - Column 2</div>
+    <div class="column">
+      <section >
+
+      </section>
+    </div>
+      <div class="column">
+        <hr>
+        <p style="text-align: center;font-family: cursive; color: red; font-size: 2.5em">  Let's do this </p>
+        <hr>
+        <br>
+        <div class="mood-widget">
+          <h3>How was your day?</h3>
+          <div class="faces">
+            <span data-mood="very-happy">😁</span>
+            <span data-mood="happy">🙂</span>
+            <span data-mood="neutral">😐</span>
+            <span data-mood="sad">🙁</span>
+            <span data-mood="very-sad">😢</span>
+          </div>
+          <div class="thank-you" hidden>
+            Thanks for sharing! Have a great evening.
+          </div>
+        </div>
+        <br>
+        <label class="info" for="age">What day is it </label>
+        <input class="info_section" type="text" id="age" name="age" required />
+
+        <label class="info" for="birth-month"> Current month?</label>
+        <br>
+        <select class="info_section" id="birth-month" name="birth_month" required>
+          <option value="">Month</option>
+          <option value="01">January</option>
+          <option value="02">February</option>
+          <option value="03">March</option>
+          <option value="04">April</option>
+          <option value="05">May</option>
+          <option value="06">June</option>
+          <option value="07">July</option>
+          <option value="08">August</option>
+          <option value="09">September</option>
+          <option value="10">October</option>
+          <option value="11">November</option>
+          <option value="12">December</option>
+        </select>
+        <label class="info" for="birth-day"> Current day?</label> <br>
+        <select class="info_section" id="birth-day" name="birth_day" required>
+          <option value="">Day</option>
+          <option value="01">1</option>
+          <option value="02">2</option>
+          <option value="03">3</option>
+          <option value="04">4</option>
+          <option value="05">5</option>
+          <option value="06">6</option>
+          <option value="07">7</option>
+          <option value="08">8</option>
+          <option value="09">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+
+        <label class="info" for="birth-year"> Current year </label> <br>
+        <input class="info_section" type="text" id="birth-year" name="birth-year" placeholder= "e.g. 1900–2025 options" required />
+      </div>
   </section>
 </main>
 
 <div class="carousel">
   <div class="carousel-track">
-    <div class="slide">Slide 1</div>
-    <div class="slide">Slide 2</div>
-    <div class="slide">Slide 3</div>
-    <div class="slide">Slide 4</div>
+    <div class="slide"><img src="Images/paris.jpg" alt="autism" style="width: 100%; height: 100%; object-fit: contain;"></div>
+    <div class="slide"><img src="Images/ny.jpg" alt="blind" style="width: 100%; height: 100%; object-fit: contain;"></div>
+    <div class="slide"><img src="Images/berlin.jpg" alt="blind" style="width: 100%; height: 100%; object-fit: contain;"></div>
+    <div class="slide"><img src="Images/rome.jpg" alt="blind" style="width: 100%; height: 100%; object-fit: contain;"></div>
   </div>
 </div>
+<footer style="padding: 10%;"></footer>
 <script>
+  document.querySelectorAll('.mood-widget .faces span')
+          .forEach(face => {
+            face.addEventListener('click', () => {
+              // 1. Highlight the clicked face
+              document.querySelectorAll('.mood-widget .faces span')
+                      .forEach(f => f.classList.remove('selected'));
+              face.classList.add('selected');
+
+              // 2. (Optional) Send mood to your backend:
+              // fetch('/api/record-mood', {
+              //   method: 'POST',
+              //   headers: { 'Content-Type': 'application/json' },
+              //   body: JSON.stringify({ mood: face.dataset.mood })
+              // });
+
+              // 3. Show thank-you message
+              document.querySelector('.mood-widget .thank-you').hidden = false;
+            });
+          });
   // Wait until the DOM is fully loaded
   document.addEventListener('DOMContentLoaded', function () {
     const form = document.querySelector('form');
@@ -196,16 +397,24 @@
       e.preventDefault(); // Prevent page reload
 
       const name = document.getElementById('name').value;
-      const outfit = document.getElementById('outfit').value;
+      const top = document.getElementById('top').value;
+      const bottom = document.getElementById('bottom').value;
       const time = document.getElementById('time').value;
-
-      console.log("Name:", name);
-      console.log("Outfit:", outfit);
-      console.log("Time:", time);
+      const time_of_day = document.getElementById('time_of_day').value;
 
       // You can also display the info on the page:
-      alert(`Hi ${name}, you're wearing "${outfit}" and it's ${time}.`);
+      alert(`Hi ${name}, top color is "${top}" , bottom color is "${bottom}" it's ${time} , time of day is ${time_of_day}`);
     });
+  });
+
+  document.getElementById("dinnerForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    const selectedDinner = document.querySelector('input[name="dinner"]:checked');
+    if (selectedDinner) {
+      alert("You chose: " + selectedDinner.value);
+    } else {
+      alert("Please select a dinner option.");
+    }
   });
 </script>
 </body>

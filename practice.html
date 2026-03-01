@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Credit Card Interest Calculator</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
+        h1 { color: #333; }
+        label { display: block; margin-top: 1em; }
+        input { padding: 0.5em; width: 200px; }
+        button { margin-top: 1em; padding: 0.5em 1em; }
+        table { margin-top: 2em; border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ccc; padding: 0.5em; text-align: right; }
+        th { background: #eee; }
+
+    </style>
+</head>
+<body>
+<h1>Credit Card Interest Calculator</h1>
+<label>Balance ($): <input type="number" id="balance" /></label>
+<label>APR (%): <input type="number" id="apr" step="0.01" /></label>
+<label>Monthly Payment ($): <input type="number" id="payment" /></label>
+<button onclick="runScenario()">Run Scenario</button>
+
+<div id="summary"></div>
+<table id="results"></table>
+<div style="padding: 5%">
+    <h1 style="text-align: center; color: red"> Fibonacci </h1>
+    <h1>Fibonacci Calculator</h1>
+    <label>High: <input type="number" id="high" step="0.01"></label>
+    <label>Low: <input type="number" id="low" step="0.01"></label>
+    <button onclick="calculateFib()">Calculate</button>
+
+    <h2>Retracement Levels</h2>
+    <table id="retracementTable" style="display:none;">
+        <thead><tr><th>Level</th><th>Price</th></tr></thead>
+        <tbody id="retracementBody"></tbody>
+    </table>
+
+    <h2>Extension Levels</h2>
+    <table id="extensionTable" style="display:none;">
+        <thead><tr><th>Level</th><th>Price</th></tr></thead>
+        <tbody id="extensionBody"></tbody>
+    </table>
+</div>
+
+<script>
+    function runScenario() {
+        const balanceInput = parseFloat(document.getElementById('balance').value);
+        const aprInput = parseFloat(document.getElementById('apr').value);
+        const paymentInput = parseFloat(document.getElementById('payment').value);
+
+        const monthlyRate = aprInput / 100 / 12;
+        let balance = balanceInput;
+        let month = 0;
+        let totalInterest = 0;
+        const rows = [];
+
+        while (balance > 0 && month < 600) {
+            const interest = balance * monthlyRate;
+            const principal = Math.max(0, paymentInput - interest);
+            balance = Math.max(0, balance - principal);
+            totalInterest += interest;
+
+            rows.push(`<tr>
+          <td>${month + 1}</td>
+          <td>$${interest.toFixed(2)}</td>
+          <td>$${principal.toFixed(2)}</td>
+          <td>$${balance.toFixed(2)}</td>
+        </tr>`);
+
+            if (principal === 0) break;
+            month++;
+        }
+
+        document.getElementById('summary').innerHTML = `
+        <h2>Summary</h2>
+        <p>Total Interest Paid: <strong>$${totalInterest.toFixed(2)}</strong></p>
+        <p>Months to Pay Off: <strong>${month}</strong></p>
+      `;
+
+        document.getElementById('results').innerHTML = `
+        <thead>
+          <tr><th>Month</th><th>Interest</th><th>Principal</th><th>Balance</th></tr>
+        </thead>
+        <tbody>${rows.join('')}</tbody>
+      `;
+    }
+    function calculateFib() {
+        const high = parseFloat(document.getElementById('high').value);
+        const low = parseFloat(document.getElementById('low').value);
+        if (isNaN(high) || isNaN(low) || high <= low) {
+            alert("Enter valid high and low values (high > low)");
+            return;
+        }
+
+        const diff = high - low;
+
+        const retracements = {
+            "0.0%": high,
+            "23.6%": high - 0.236 * diff,
+            "38.2%": high - 0.382 * diff,
+            "50.0%": high - 0.5 * diff,
+            "61.8%": high - 0.618 * diff,
+            "78.6%": high - 0.786 * diff,
+            "100.0%": low
+        };
+
+        const extensions = {
+            "123.6%": high + 0.236 * diff,
+            "138.2%": high + 0.382 * diff,
+            "150.0%": high + 0.5 * diff,
+            "161.8%": high + 0.618 * diff,
+            "200.0%": high + diff,
+            "261.8%": high + 1.618 * diff
+        };
+
+        const retracementBody = document.getElementById('retracementBody');
+        retracementBody.innerHTML = '';
+        for (let level in retracements) {
+            retracementBody.innerHTML += `<tr><td>${level}</td><td>${retracements[level].toFixed(2)}</td></tr>`;
+        }
+        document.getElementById('retracementTable').style.display = 'table';
+
+        const extensionBody = document.getElementById('extensionBody');
+        extensionBody.innerHTML = '';
+        for (let level in extensions) {
+            extensionBody.innerHTML += `<tr><td>${level}</td><td>${extensions[level].toFixed(2)}</td></tr>`;
+        }
+        document.getElementById('extensionTable').style.display = 'table';
+    }
+</script>
+</body>
+</html>

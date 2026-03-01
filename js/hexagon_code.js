@@ -1,6 +1,6 @@
 // JavaScript Document
 $(document).ready(function () {
-	var Yrotate = 0;
+	let Yrotate = 0;
 
 	///left arrow click
 	$('#left_arrow').click(function () {
