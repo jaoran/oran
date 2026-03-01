@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>March Health Tracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2c3e50;
+      --accent: #27ae60;
+      --bg: #f4f7f6;
+    }
+    body {
+      font-family: 'Lobster Two', cursive;
+      background-color: var(--bg);
+      color: var(--primary);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .header { text-align: center; margin-bottom: 20px; }
+    .quote { font-style: italic; color: #7f8c8d; margin-bottom: 20px; }
+
+    .user-selector {
+      margin-bottom: 30px;
+      font-size: 1.5rem;
+    }
+    select {
+      font-family: 'Lobster Two', cursive;
+      padding: 5px 15px;
+      border-radius: 5px;
+      border: 2px solid var(--primary);
+    }
+
+    .calendar-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 15px;
+      width: 100%;
+      max-width: 1200px;
+    }
+    .day-card {
+      background: white;
+      border: 2px solid var(--primary);
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+    }
+    .day-number { font-size: 1.2rem; font-weight: bold; margin-bottom: 10px; border-bottom: 2px solid var(--bg); }
+
+    .input-group {
+      margin-bottom: 8px;
+      display: flex;
+      flex-direction: column;
+    }
+    label { font-size: 0.9rem; margin-bottom: 2px; }
+    input {
+      font-family: 'Arial', sans-serif; /* Cleaner font for numbers */
+      padding: 4px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 90%;
+    }
+    input:focus { border-color: var(--accent); outline: none; background: #f0fff4; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>March Health & Results</h1>
+  <p class="quote">"It does not matter how slowly you go as long as you do not stop."</p>
+
+  <div class="user-selector">
+    Tracking for:
+    <select id="userSelect" onchange="loadUserResults()">
+      <option value="User1"> Jan </option>
+      <option value="User2"> Oran </option>
+      <option value="User3"> Nad </option>
+      <option value="User4"> Shan </option>
+    </select>
+  </div>
+</div>
+
+<div class="calendar-grid" id="calendar"></div>
+
+<script>
+  const exercises = ["Planks (sec)", "Squats (reps)", "Pushups (reps)"];
+  const calendar = document.getElementById('calendar');
+  const userSelect = document.getElementById('userSelect');
+
+  function renderCalendar() {
+    calendar.innerHTML = '';
+    const currentUser = userSelect.value;
+
+    for (let i = 1; i <= 31; i++) {
+      const card = document.createElement('div');
+      card.className = 'day-card';
+
+      let html = `<div class="day-number">March ${i}</div>`;
+
+      exercises.forEach(ex => {
+        const storageKey = `${currentUser}-day-${i}-${ex}`;
+        const savedValue = localStorage.getItem(storageKey) || '';
+
+        html += `
+                        <div class="input-group">
+                            <label>${ex}</label>
+                            <input type="text"
+                                   placeholder="Enter result..."
+                                   value="${savedValue}"
+                                   oninput="saveResult('${storageKey}', this.value)">
+                        </div>
+                    `;
+      });
+
+      card.innerHTML = html;
+      calendar.appendChild(card);
+    }
+  }
+
+  function saveResult(key, value) {
+    localStorage.setItem(key, value);
+  }
+
+  function loadUserResults() {
+    renderCalendar();
+  }
+
+  // Initial Build
+  renderCalendar();
+</script>
+</body>
+</html>

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="Fixing an error in the mobile code">
+    <list default="true" id="92629446-73b0-40f8-8d9d-2c9b5dc8bfb3" name="Changes" comment="adding two files">
+      <change afterPath="$PROJECT_DIR$/March.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/respon/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/respon/responsive.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/jaoran/oran.git&quot;,
-    &quot;accountId&quot;: &quot;b3aeb2d5-e0ee-4504-9aa0-7ad259b7bfdf&quot;
+    &quot;accountId&quot;: &quot;0d4db5e0-6c19-4627-ac91-e8612caea283&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -65,28 +65,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.28293.44" />
       </set>
     </attachedChunks>
   </component>
@@ -110,6 +114,19 @@
       <workItem from="1743352358928" duration="7988000" />
       <workItem from="1744106606689" duration="3036000" />
       <workItem from="1744235916946" duration="29938000" />
+      <workItem from="1747693149825" duration="2921000" />
+      <workItem from="1747780996003" duration="14567000" />
+      <workItem from="1750984781054" duration="355000" />
+      <workItem from="1750985164876" duration="26245000" />
+      <workItem from="1753146301542" duration="9303000" />
+      <workItem from="1754515376293" duration="8437000" />
+      <workItem from="1756033558392" duration="4708000" />
+      <workItem from="1757374297535" duration="7798000" />
+      <workItem from="1759054758586" duration="566000" />
+      <workItem from="1759055702024" duration="2272000" />
+      <workItem from="1759063363492" duration="3849000" />
+      <workItem from="1759354683108" duration="8111000" />
+      <workItem from="1772392372538" duration="1092000" />
     </task>
     <task id="LOCAL-00001" summary="adding a new html">
       <option name="closed" value="true" />
@@ -375,7 +392,31 @@
       <option name="project" value="LOCAL" />
       <updated>1745158913238</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="adding two files">
+      <option name="closed" value="true" />
+      <created>1751507696444</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1751507696444</updated>
+    </task>
+    <task id="LOCAL-00035" summary="adding two files">
+      <option name="closed" value="true" />
+      <created>1751509134079</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1751509134079</updated>
+    </task>
+    <task id="LOCAL-00036" summary="adding two files">
+      <option name="closed" value="true" />
+      <created>1751509156518</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1751509156518</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,6 +452,7 @@
     <MESSAGE value="minor changes" />
     <MESSAGE value="Separating the javaScript from internal to external" />
     <MESSAGE value="Fixing an error in the mobile code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing an error in the mobile code" />
+    <MESSAGE value="adding two files" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding two files" />
   </component>
 </project>
